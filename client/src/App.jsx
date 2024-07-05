@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home'
-import TouristSite from './pages/TouristSite'
+import SitePage from './pages/SitePage'
 import SiteDetails from './pages/SiteDetails'
 import WelcomePage from './pages/WelcomePage'
 
@@ -12,7 +12,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/tourist-site",
-    element: <TouristSite />,
+    element: <SitePage />,
   },
   {
     path: "/site-details",

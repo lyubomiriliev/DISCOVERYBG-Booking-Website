@@ -1,4 +1,4 @@
-const TouristSite = () => {
+const SitePage = () => {
     return (
         <div>
             <h1>Tourist Site:</h1>
@@ -6,4 +6,4 @@ const TouristSite = () => {
     )
 }
 
-export default TouristSite
+export default SitePage
