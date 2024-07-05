@@ -1,27 +1,52 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, Outlet, RouterProvider, ScrollRestoration } from 'react-router-dom'
 import Home from './pages/Home'
 import SitePage from './pages/SitePage'
 import SiteDetails from './pages/SiteDetails'
 import WelcomePage from './pages/WelcomePage'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Location from './pages/Location'
+
+const Layout = () => {
+  return (
+    <div>
+      <Header />
+      <ScrollRestoration />
+      <Outlet />
+      <Footer />
+    </div>
+  )
+}
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/tourist-site",
-    element: <SitePage />,
-  },
-  {
-    path: "/site-details",
-    element: <SiteDetails />,
-  },
-  {
-    path: "/get-started",
-    element: <WelcomePage />,
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/tourist-site",
+        element: <SitePage />,
+      },
+      {
+        path: "/site-details",
+        element: <SiteDetails />,
+      },
+      {
+        path: "/get-started",
+        element: <WelcomePage />,
+      },
+      {
+        path: "/location-name",
+        element: <Location />
+      }
+    ]
   }
+
 ])
 
 function App() {

@@ -1,7 +1,9 @@
+import TouristSites from "../components/TouristSites"
+
 const SitePage = () => {
     return (
         <div>
-            <h1>Tourist Site:</h1>
+            <TouristSites />
         </div>
     )
 }

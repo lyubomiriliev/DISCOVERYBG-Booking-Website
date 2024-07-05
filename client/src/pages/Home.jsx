@@ -6,10 +6,8 @@ import TouristSites from "../components/TouristSites"
 const Home = () => {
     return (
         <div>
-            <Header />
             <HeroSection />
             <TouristSites />
-            <Footer />
         </div>
     )
 }
