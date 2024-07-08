@@ -1,9 +1,13 @@
+import { useParams } from "react-router-dom"
 import { girlImg, manImg } from "../assets"
 
 const SiteDetails = () => {
+
+    const { site } = useParams();
+
     return (
         <div className="w-full flex flex-col mt-32 items-center relative">
-            <h1 className="text-heading text-4xl uppercase font-bold">The place</h1>
+            <h1 className="text-heading text-4xl uppercase font-bold">{site.replace('-', ' ')}</h1>
             <div className="w-2/5 h-96 justify-center items-center bg-gray-500 mt-10"></div>
             <div className="w-2/5 flex justify-between items-center px-4 mt-2">
                 <h3 className="font-heading uppercase font-light">Google Maps</h3>

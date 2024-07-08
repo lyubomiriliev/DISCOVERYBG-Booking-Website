@@ -1,0 +1,17 @@
+{
+    "header": {
+        "home": "Home",
+        "touristSites": "Tourist Sites",
+        "booking" : "Booking"
+    },
+    "touristSites": "Tourist Sites",
+    "provadiya": "Provadiya",
+    "primorsko": "Primorsko",
+    "nessebar": "Nessebar",
+    "seeMore": "See more...",
+    "description": "Description",
+    "location": "Location",
+    "googleMaps": "Google Maps",
+    "restaurants": "Restaurants",
+    "airbnb": "Airbnb"
+  }

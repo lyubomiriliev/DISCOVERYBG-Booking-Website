@@ -1,0 +1,18 @@
+{
+    "header": {
+        "home": "Начало",
+        "touristSites": "Туристически обекти",
+        "booking" : "Запазване"
+    },
+    "touristSites": "Туристически обекти",
+    "provadiya": "Провадия",
+    "primorsko": "Приморско",
+    "nessebar": "Несебър",
+    "seeMore": "Вижте повече...",
+    "description": "Описание",
+    "location": "Местоположение",
+    "googleMaps": "Google Maps",
+    "booking": "Booking",
+    "restaurants": "Ресторанти",
+    "airbnb": "Airbnb"
+  }

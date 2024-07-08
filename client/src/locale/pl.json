@@ -1,0 +1,18 @@
+{
+    "header": {
+        "home": "początek",
+        "touristSites": "Miejsca turystyczne",
+        "booking" : "Ratować"
+    },
+    "touristSites": "Miejsca turystyczne",
+    "provadiya": "provadiya",
+    "primorsko": "Primorsko",
+    "nessebar": "Nesebyr",
+    "seeMore": "Zobacz więcej...",
+    "description": "Opis",
+    "location": "Miejsce",
+    "googleMaps": "Mapy Google",
+    "booking": "Rezerwacja",
+    "restaurants": "restauracje",
+    "airbnb": "Airbnb"
+  }

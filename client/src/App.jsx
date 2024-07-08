@@ -33,7 +33,7 @@ const router = createBrowserRouter([
         element: <SitePage />,
       },
       {
-        path: "/site-details",
+        path: "/site-details/:location/:site",
         element: <SiteDetails />,
       },
       {
@@ -41,7 +41,7 @@ const router = createBrowserRouter([
         element: <WelcomePage />,
       },
       {
-        path: "/location-name",
+        path: "/location/:name",
         element: <Location />
       }
     ]
