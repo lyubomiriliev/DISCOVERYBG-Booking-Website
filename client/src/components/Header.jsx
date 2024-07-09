@@ -41,18 +41,18 @@ const Header = () => {
         <div className="w-full h-20 bg-white shadow-md fixed top-0 left-0 z-50 flex justify-around items-center px-4">
             <div className="w-1/2 flex justify-around items-center">
                 <Link to="/">
-                    <h2 className="font-heading uppercase text-primary font-bold">{t('header.home')}</h2>
+                    <h2 className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold">{t('header.home')}</h2>
                 </Link>
                 <Link to="/tourist-site">
-                    <h2 className="font-heading uppercase text-primary font-bold">{t('header.touristSites')}</h2>
+                    <h2 className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold">{t('header.touristSites')}</h2>
                 </Link>
                 <Link to="/">
-                    <img className="w-20" src={siteLogo} alt="Logo" />
+                    <img className="w-60" src={siteLogo} alt="Logo" />
                 </Link>
-                <h2 className="font-heading uppercase text-primary font-bold">{t('header.booking')}</h2>
+                <h2 className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold">{t('header.booking')}</h2>
                 <div className="relative">
                     <button
-                        className="font-heading uppercase text-primary font-bold"
+                        className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold"
                         onClick={toggleLanguageMenu}
                     >
                         {changeLanguageText}
