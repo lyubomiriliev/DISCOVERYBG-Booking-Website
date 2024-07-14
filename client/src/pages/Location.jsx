@@ -14,19 +14,7 @@ const Location = () => {
         return <div>Location not found</div>
     }
 
-
-    const displayPhoto = site.places.map(place => {
-        switch (place.photos[0]) {
-            case 'ovech1':
-                return ovech1;
-            case 'pametnik1':
-                return pametnik1;
-            default:
-                return null;
-        }
-    })
-
-
+    console.log(site.places[0].displayPhoto)
 
     return (
         <div className='w-2/3 flex flex-col mt-32 mx-auto relative'>
@@ -37,12 +25,12 @@ const Location = () => {
                 {site.places.map((place, index) => (
                     <Link key={index} to={`/site-details/${name}/${place.id}`}>
                         <div className='flex flex-col items-center'>
-                            <h2>{place.name[i18n.language]}</h2>
-                            <div className='w-64 h-32'>
-                                <img src={displayPhoto[index]} className='w-full h-full object-cover mb-2' />
+                            <h2 className='font-heading mb-2 w-60 justify-center items-center text-center'>{place.name[i18n.language]}</h2>
+                            <div className='flex w-60 h-40 justify-center gap-5 mb-2'>
+                                <img src={place.displayPhoto} alt="" className='w-full object-cover' />
                             </div>
-                            <div className='w-full mt-1 flex justify-end'>
-                                <p className='text-sm text-gray-600'>See more...</p>
+                            <div className='w-full mt-1 flex justify-end mb-5'>
+                                <p className='text-sm text-gray-600'>{t('seeMore')}</p>
                             </div>
                         </div>
                     </Link>
