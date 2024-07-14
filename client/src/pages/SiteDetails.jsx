@@ -73,13 +73,13 @@ const SiteDetails = () => {
                 ))}
             </div>
             <div className="w-2/5 flex justify-between items-center px-4 mt-6">
-                <h3 className="font-heading uppercase font-light">Google Maps</h3>
+                <a href={placeData.googleMapsLink} target="_blank" rel="noopener noreferrer" className="font-heading uppercase font-light">Google Maps</a>
                 <div className="w-[1px] h-6 bg-black mt-1"></div>
-                <h3 className="font-heading uppercase font-light">Booking</h3>
+                <a href={placeData.bookingLink} target="_blank" rel="noopener noreferrer" className="font-heading uppercase font-light">Booking</a>
                 <div className="w-[1px] h-6 bg-black mt-1"></div>
-                <h3 className="font-heading uppercase font-light">Restaurants</h3>
+                <a href={placeData.restaurantsLink} target="_blank" rel="noopener noreferrer" className="font-heading uppercase font-light">Restaurants</a>
                 <div className="w-[1px] h-6 bg-black mt-1"></div>
-                <h3 className="font-heading uppercase font-light">Airbnb</h3>
+                <a href={placeData.airbnbLink} target="_blank" rel="noopener noreferrer" className="font-heading uppercase font-light">Airbnb</a>
             </div>
             <div className="w-2/5 flex flex-col justify-center items-center mt-15">
                 <p className="text-body text-sm text-gray-700 text-center mt-10">{placeData.description[i18n.language]}</p>
