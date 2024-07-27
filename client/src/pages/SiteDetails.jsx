@@ -4,6 +4,10 @@ import { useTranslation } from "react-i18next";
 import { touristSites } from "../util";
 import { useEffect, useState } from "react";
 import ImageModal from "../components/ImageModal";
+import { LuClipboardList } from "react-icons/lu";
+import { TbArrowGuide } from "react-icons/tb";
+import { IoMdTime } from "react-icons/io";
+import { ImLocation2 } from "react-icons/im";
 
 const SiteDetails = () => {
 
@@ -81,14 +85,47 @@ const SiteDetails = () => {
                 <div className="w-[1px] h-6 bg-black mt-1"></div>
                 <a href={placeData.airbnbLink} target="_blank" rel="noopener noreferrer" className="font-heading uppercase font-light">Airbnb</a>
             </div>
-            <div className="w-2/5 flex flex-col justify-center items-center mt-15">
-                <p className="text-body text-sm text-gray-700 text-center mt-10">{placeData.description[i18n.language]}</p>
+            <div className="w-2/3 flex flex-col mt-16">
+                <div className="flex items-center">
+                    <LuClipboardList className="w-8 h-8 mr-2 text-primary" />
+                    <h3 className="text-3xl font-heading uppercase font-bold text-primary">{t('siteDetails.placeDescription')}</h3>
+                </div>
+                <p className="font-body text-sm text-left mt-5">{placeData.description[i18n.language]}</p>
             </div>
-            <h3 className="py-10">Location:</h3>
-            <div className="w-40 h-40 bg-gray-500"></div>
-            <div className="w-[70%] h-96 justify-center items-center bg-gray-300 mt-10"></div>
-            <img className="w-1/5 absolute -bottom-24 right-5" src={girlImg} alt="Girl Image" />
-            <img className="w-64 absolute -bottom-24 left-10 mb-1" src={manImg} alt="Man Image" />
+            <div className="w-2/3 flex flex-col mt-16">
+                <div className="flex items-center">
+                    <TbArrowGuide className="w-8 h-8 mr-2 font-bold text-primary" />
+                    <h3 className="text-3xl font-heading uppercase font-bold text-primary">{t('siteDetails.access')}</h3>
+                </div>
+                <p className="font-body text-sm text-left mt-5">{placeData.access[i18n.language]}</p>
+            </div>
+            <div className="w-2/3  flex flex-col mt-16">
+                <div className="flex items-center">
+                    <IoMdTime className="w-8 h-8 mr-2 font-bold text-primary" />
+                    <h3 className="text-3xl font-heading uppercase font-bold text-primary">{t('siteDetails.workTime')}</h3>
+                </div>
+                <div>
+                    <p className="font-body text-sm text-left mt-5">{placeData.summerWorkTime[i18n.language]}</p>
+                    <p className="font-body text-sm text-left mt-5">{placeData.winterWorkTime[i18n.language]}</p>
+                </div>
+            </div>
+            <div className="max-w-screen-xl justify-center items-center flex flex-col">
+                <h3 className="mt-10 font-bold font-heading uppercase">Location:</h3>
+                <h2 className="font-bold font-heading uppercase">GPS: {placeData.coordinates.gps}</h2>
+                <img className="w-40 h-40" src={placeData.qrCode} alt="QR CODE" />
+                <h2 className="font-light font-heading uppercase">SCAN FOR DIRECTIONS</h2>
+            </div>
+            <div className="w-[70%] h-96 justify-center items-center mt-10">
+                <iframe
+                    className="w-full object-cover rounded-2xl"
+                    src={placeData.googleMaps}
+                    height="450"
+                    allowfullscreen
+                >
+                </iframe>
+            </div>
+            <img className="w-1/5 absolute -bottom-24 -right-12 pointer-events-none" src={girlImg} alt="Girl Image" />
+            <img className="w-64 absolute -bottom-24 left-10 mb-1 pointer-events-none" src={manImg} alt="Man Image" />
 
             {galleryOpen && <ImageModal photo={photos[selectedPhotoIndex]} onClose={handleCloseGallery} photos={photos} currentIndex={selectedPhotoIndex} onNext={handleNextPhoto} onPrevious={handlePreviousPhoto} />}
         </div>

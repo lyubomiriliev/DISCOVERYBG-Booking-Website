@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 import { siteLogo } from "../assets"
 import { useTranslation } from "react-i18next"
 import { useEffect, useRef, useState } from "react";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
 
@@ -41,11 +42,12 @@ const Header = () => {
         <div className="w-full h-20 bg-white shadow-md fixed top-0 left-0 z-50 flex justify-around items-center px-4">
             <div className="flex justify-between items-center w-full max-w-screen-lg">
                 <div className="flex justify-around items-center w-1/3 ">
+                    <GiHamburgerMenu className="flex md:hidden" />
                     <Link to="/">
-                        <h2 className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold">{t('header.home')}</h2>
+                        <h2 className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold hidden md:block">{t('header.home')}</h2>
                     </Link>
                     <Link to="/tourist-site">
-                        <h2 className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold">{t('header.touristSites')}</h2>
+                        <h2 className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold hidden md:block">{t('header.touristSites')}</h2>
                     </Link>
                 </div>
                 <div className="flex justify-center items-center w-1/3 ">

@@ -16,5 +16,10 @@
     "googleMaps": "Google Maps",
     "booking": "Booking",
     "restaurants": "Ресторанти",
-    "airbnb": "Airbnb"
+    "airbnb": "Airbnb",
+    "siteDetails": {
+        "placeDescription": "Описание",
+        "access": "Достъпност",
+        "workTime": "Работно време"
+    }
   }

@@ -15,5 +15,10 @@
     "location": "Location",
     "googleMaps": "Google Maps",
     "restaurants": "Restaurants",
-    "airbnb": "Airbnb"
+    "airbnb": "Airbnb",
+    "siteDetails": {
+        "placeDescription": "Description",
+        "access": "Accessibility",
+        "workTime": "Working hours"
+    }
   }

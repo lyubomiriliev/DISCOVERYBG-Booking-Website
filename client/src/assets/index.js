@@ -1,4 +1,6 @@
 import siteLogo from "../assets/discoveryLogo.png";
+import siteLogoWhite from "../assets/discoveryLogoWhite.png";
+import siteLogoBlack from "../assets/discoveryLogoBlack.png";
 import siteLogo1 from "../assets/discoveryLogo1.png";
 import heroImg from "../assets/heroImg.png";
 import girlImg from "../assets/girlImg.png";
@@ -34,9 +36,12 @@ import curkva3 from "../assets/curkva3.jpg";
 import curkva4 from "../assets/curkva4.jpg";
 import curkva5 from "../assets/curkva5.jpg";
 import curkva6 from "../assets/curkva6.jpg";
+import ovechQR from "../assets/ovechQR.png";
 
 export {
   siteLogo,
+  siteLogoWhite,
+  siteLogoBlack,
   heroImg,
   girlImg,
   manImg,
@@ -72,4 +77,5 @@ export {
   curkva4,
   curkva5,
   curkva6,
+  ovechQR,
 };

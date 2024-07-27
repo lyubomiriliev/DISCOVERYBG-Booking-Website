@@ -16,5 +16,10 @@
     "googleMaps": "Mapy Google",
     "booking": "Rezerwacja",
     "restaurants": "restauracje",
-    "airbnb": "Airbnb"
+    "airbnb": "Airbnb",
+    "siteDetails": {
+        "placeDescription": "Opis",
+        "access": "Dostępność",
+        "workTime": "Czas pracy"
+    }
   }

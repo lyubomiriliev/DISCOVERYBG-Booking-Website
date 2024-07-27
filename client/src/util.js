@@ -21,6 +21,7 @@ import {
   ovech4,
   ovech5,
   ovech6,
+  ovechQR,
   pametnik1,
   pametnik2,
   pametnik3,
@@ -574,12 +575,16 @@ export const touristSites = {
         },
         displayPhoto: ovech1,
         photos: [{ ovech1, ovech2, ovech3, ovech4, ovech5, ovech6 }],
-        googleMapsLink: "https://maps.google.com/?q=Place1Dalgopol",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        googleMapsLink: "https://maps.app.goo.gl/39i4PAynhw3F2B6H9",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=Ovech+Fortress%2C+Provadia%2C+Bulgaria&map=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4ArCRlLUGwAIB0gIkZThjYmE3YmYtMjdiYy00MTc4LWE4ZmMtYjM2NzExODBmZWZm2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=ChIJa6335GG5pUARp1d8wZEXmkI&dest_type=landmark&place_id=ChIJa6335GG5pUARp1d8wZEXmkI&latitude=43.1754873&longitude=27.4477372&ac_position=0&ac_click_type=g&ac_langcode=en-us&ac_suggestion_list_length=1&search_selected=true&search_pageview_id=68056818bd4100fc&ac_meta=IAAoAjIFZW4tdXM%3D&checkin=2024-09-02&checkout=2024-09-10&group_adults=2&no_rooms=1&group_children=0#map_closed",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
-        airbnbLink: "https://www.airbnb.com/",
-
+          "https://www.tripadvisor.com/Restaurants-g2100806-Provadia_Varna_Province.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Ovech-Fortress--Provadia--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-08-01&monthly_length=3&monthly_end_date=2024-11-01&price_filter_input_type=0&channel=EXPLORE&query=Ovech%20Fortress%2C%20Provadia&place_id=ChIJa6335GG5pUARp1d8wZEXmkI&location_bb=Qiy1AEHbmEFCLLI9QduSug%3D%3D&date_picker_type=calendar&source=structured_search_input_header&search_type=autocomplete_click",
+        qrCode: ovechQR,
+        googleMaps:
+          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2909.6206083666334!2d27.447737200000002!3d43.1754873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5b961e4f7ad6b%3A0x429a1791c17c57a7!2sOvech%20Fortress!5e0!3m2!1sen!2sbg!4v1722089217848!5m2!1sen!2sbg",
         description: {
           en: "Description in English",
           bg: "Провадийската крепост, известна като Калето, е построена на величествено плато в източната част на град Провадия. Използвана е от средата на III в. до края на XVII в., с прекъсвания през първите десетилетия на VII до X в. Византийците го наричат Проват, българите - Овеч, а турците - Таш Хисар (Каменна крепост) Уникалните природни дадености на самата крепост я правят трудно превземаема. Крепостта е защитена отвсякъде от скали с височина от 11 до 25 метра. Смята се, че Овеч е построен за защита на средновековните български столици от византийското настъпление. В началото има основно отбранителна функция, но бързо се превръща в голям административен и военен център с постоянно пребиваващо население. В някои източници крепостта се споменава като областен административен център, а след приемането на християнството от българите, става епископска резиденция. Поради стратегическото си местоположение извън границите на населеното място, Овеч е привлекателно и желано място за много царе и владетели по време на Първото и Второто българско царство и затова през годините там се водят много битки и сражения за нейното владение. Овеч се свързва с управлението на Петър II и Калоян, движението на цар Ивайло, рицарите на Амедей VI Савойски, османското нашествие, антиосманското въстание от началото на XV в., похода на полско-унгарския крал Владислав III Ягело. През XIV в. е седалище на митрополията. Днес от крепостта са останали напълно обновеното мостово съоръжение между крепостта и платото Табиите, множество кладенци за събиране на вода (един от които с дълбочина 80 м.), щерни за зърно, руините на трикорабна едноапсидна църква център на Овечка епархия, две еднокорабни едноапсидни църкви от XII-XIV в., стражевите кули, каменната северна порта, затворите на благородниците и на провинилите се граждани и военнопленници, мраморните колони на Омуртаг. Открити са и пещери обитавани от Античността.",
@@ -590,9 +595,14 @@ export const touristSites = {
           bg: "До крепостта се стига чрез три входа: - Източен, който е запазен в оригиналния си вид с изсечени в скалата каменни стълби. Той е и най-удобен, ако се използва собствен транспорт. - Запзаден, достъпен от към града чрез метална вита стълба, съставена е от 111 стъпала! - Северен, който е и главен за крепостта.  Пред него е изградено мостово съоръжение с дължина 150 м, което свързва две плата – Калето и Табиите. До самия гр. Провадия може да се стигне със собствен транспорт, както и с обществен транспорт – автобус от автогара Варна или влак от ж.п. гара Варна.",
           pl: "",
         },
-        workTime: {
+        summerWorkTime: {
           en: "",
-          bg: "Зимно работно време: 9:00ч. – 17:30 ч. Лятно работно време: 9:00ч. – 19:00 ч.",
+          bg: "Лятно работно време: 9:00ч. – 19:00 ч.",
+          pl: "",
+        },
+        winterWorkTime: {
+          en: "",
+          bg: "Зимно работно време: 9:00ч. – 17:30 ч.",
           pl: "",
         },
         coordinates: {
@@ -602,9 +612,9 @@ export const touristSites = {
       {
         id: "place2",
         name: {
-          en: "Place 1 in Dalgopol",
-          bg: "Археологически паметник",
-          pl: "Miejsce 1 w Dalgopol",
+          en: "Prehistoric Center - Solnitsa",
+          bg: "Праисторически център Провадия – Солницата",
+          pl: "Centrum Prehistoryczne Provadia - Solnica",
         },
         displayPhoto: pametnik1,
         photos: [
@@ -617,19 +627,24 @@ export const touristSites = {
         airbnbLink: "https://www.airbnb.com/",
 
         description: {
-          en: "Description in English",
-          bg: "Счита се, че тук се е намирал най-старият солодобивен център в Европа. Според проучвания на обекта се предполага, че градът е бил обитаван от около 350 души между 4700 и 4200 г. пр.н.е. - около 1500 години преди гръцката цивилизация. Именно затова Солната мина (Солницата) е обявена за най-стария праисторически град в Европа. Жителите използват кипяща вода от местен извор за създаване на солени тухли, които след това търгуват и използват за консервиране на месо. Това означава, че солта е била изключително ценен ресурс през тези времена. Солницата се разраства около извори с повишено съдържание на сол. Чрез нагряване в керамични съдове водата се изпарява и останалата сол се събира. Останките от откритите съдове показват еволюцията в технологията и съответстват на нарастващия добив на сол. Голяма част от проучените жилищни сгради в селището са двуетажни. Счита се, че селището е оградено със защитена стена с дебелина до 3 метра. От останките е видно, че силно земетресение е разрушило града. През епохата на енеолита солта е ценност, която е добре търгувана, видно в златарите в Солт Лейк, които също са едни от най-старите в Европа. Развитието на Солницата предшества и обуславя разцвета на една култура, по-късно показана и от открития Варненския некропол. Около селото се издигат огромни стени от каменни блокове, непознати до тогава като укрепителна система. Други интересни и странни находки са гробове на убити и 'разчленени тела' мъже и един троен гроб на възрастен мъж с две деца. Предполага се, че съществува неизследван до момента център за производство на керамика. Възникването и развитието на комплекса са пряко свързани с голямото и единствено находище на каменна сол в Източните Балкани. На площ от 300 дка археолозите изравят тонове керамични съдове, в които се вари вода от местните солени извори и се добива сол. За момента местоположението на този център за мащабно производство на керамични съдове остава загадка. Освен това, учените твърдят, че по онова време тогава не се използват грънчарски колела, но са открити останки от съдове с диаметър и височина около 70 см. ",
+          en: "It is believed that the oldest malting center in Europe was located here. According to surveys of the site, the city is thought to have been inhabited by about 350 people between 4700 and 4200 BC. - about 1500 years before the Greek civilization. That is why the Salt Mine (Solnitsa) has been declared the oldest prehistoric city in Europe. Residents use boiling water from a local spring to create salt bricks, which they then trade and use to preserve meat. This means that salt was an extremely valuable resource during these times. Salt flats grow around springs with an increased salt content. By heating in ceramic vessels, the water evaporates and the remaining salt is collected. The remains of vessels discovered show the evolution in technology and correspond to the increasing extraction of salt. A large part of the studied residential buildings in the settlement are two-story. It is believed that the settlement is surrounded by a protective wall up to 3 meters thick. From the remains it is clear that a strong earthquake destroyed the city. During the Eneolithic age, salt was an asset that was well traded, evident in the goldsmiths of Salt Lake, which are also some of the oldest in Europe. The development of the Saltworks preceded and determined the flowering of a culture, later shown by the discovered Varna Necropolis. Huge walls of stone blocks were erected around the village, unknown until then as a fortification system. Other interesting and strange finds are graves of murdered and 'dismembered bodies' men and a triple grave of an elderly man with two children. A hitherto unexplored center for pottery production is suggested to exist. ",
+          bg: "Счита се, че тук се е намирал най-старият солодобивен център в Европа. Според проучвания на обекта се предполага, че градът е бил обитаван от около 350 души между 4700 и 4200 г. пр.н.е. - около 1500 години преди гръцката цивилизация. Именно затова Солната мина (Солницата) е обявена за най-стария праисторически град в Европа. Жителите използват кипяща вода от местен извор за създаване на солени тухли, които след това търгуват и използват за консервиране на месо. Това означава, че солта е била изключително ценен ресурс през тези времена. Солницата се разраства около извори с повишено съдържание на сол. Чрез нагряване в керамични съдове водата се изпарява и останалата сол се събира. Останките от откритите съдове показват еволюцията в технологията и съответстват на нарастващия добив на сол. Голяма част от проучените жилищни сгради в селището са двуетажни. Счита се, че селището е оградено със защитена стена с дебелина до 3 метра. От останките е видно, че силно земетресение е разрушило града. През епохата на енеолита солта е ценност, която е добре търгувана, видно в златарите в Солт Лейк, които също са едни от най-старите в Европа. Развитието на Солницата предшества и обуславя разцвета на една култура, по-късно показана и от открития Варненския некропол. Около селото се издигат огромни стени от каменни блокове, непознати до тогава като укрепителна система. Други интересни и странни находки са гробове на убити и 'разчленени тела' мъже и един троен гроб на възрастен мъж с две деца. Предполага се, че съществува неизследван до момента център за производство на керамика. Възникването и развитието на комплекса са пряко свързани с голямото и единствено находище на каменна сол в Източните Балкани. На площ от 300 дка археолозите изравят тонове керамични съдове, в които се вари вода от местните солени извори и се добива сол. За момента местоположението на този център за мащабно производство на керамични съдове остава загадка. Освен това, учените твърдят, че по онова време тогава не се използват грънчарски колела, но са открити останки от съдове с диаметър и височина около 70 см.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The object can be reached by transport.",
           bg: "До обекта се стига с транспорт.",
-          pl: "",
+          pl: "Do obiektu można dojechać komunikacją.",
         },
-        workTime: {
-          en: "",
-          bg: "Летен период: 10:00 – 16:00 ч. Организират се и дни отворени за безплатни посещения на граждани и туристи",
-          pl: "",
+        summerWorkTime: {
+          en: "Summer period: 10:00 a.m. – 4:00 p.m.",
+          bg: "Летен период: 10:00 – 16:00 ч.",
+          pl: "Okres letni: 10:00 – 16:00",
+        },
+        winterWorkTime: {
+          en: "Days open for free visits to citizens and tourists are also organized",
+          bg: "Организират се и дни отворени за безплатни посещения на граждани и туристи",
+          pl: "Organizowane są także dni otwarte umożliwiające bezpłatne wizyty mieszkańcom i turystom",
         },
         coordinates: {
           gps: "43.128417, 27.472528",
