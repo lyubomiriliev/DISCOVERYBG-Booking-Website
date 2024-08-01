@@ -1,6 +1,5 @@
-import Footer from "../components/Footer"
-import Header from "../components/Header"
 import HeroSection from "../components/HeroSection"
+import Partners from "../components/Partners"
 import TouristSites from "../components/TouristSites"
 
 const Home = () => {
@@ -8,6 +7,7 @@ const Home = () => {
         <div>
             <HeroSection />
             <TouristSites />
+            <Partners />
         </div>
     )
 }

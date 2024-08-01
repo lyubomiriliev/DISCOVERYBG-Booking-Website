@@ -1,34 +1,38 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom"
 import { touristSites } from "../util.js"
-import { dalgopolLogo, dolniChiflikLogo, provadiaLogo } from "../assets/index.js";
+import { dalgopol, dolniChiflik, provadia } from "../assets/index.js";
 
 const TouristSites = () => {
 
     const { t, i18n } = useTranslation();
 
     const sitesWithLogos = [
-        { key: 'dalgopol', logo: dalgopolLogo },
-        { key: 'dolniChiflik', logo: dolniChiflikLogo },
-        { key: 'provadia', logo: provadiaLogo },
+        { key: 'dalgopol', logo: dalgopol },
+        { key: 'dolniChiflik', logo: dolniChiflik },
+        { key: 'provadia', logo: provadia },
     ]
 
     return (
 
-        <div className="w-full  flex flex-col justify-center items-center mt-32">
-            <h1 className="font-heading text-primary text-4xl font-bold uppercase mb-10">{t('touristSites')}</h1>
-            <div className='flex flex-col md:flex-row w-1/3 justify-around mb-5 '>
+        <div className="w-full flex flex-col justify-center items-center mt-32">
+            <div className="w-full h-80 bg-secondary flex flex-col justify-around">
+                <div className="flex flex-col text-center mx-auto w-2/3">
+                    <p className="font-body text-center">{t('homeDescription')}</p>
+                    <p className="font-body text-center font-bold my-5">{t('homeDescription2')}</p>
+                    <p className="font-body text-center">{t('homeDescription3')}</p>
+                </div>
+            </div>
+            <h1 className="font-heading text-primary text-4xl font-bold uppercase mb-10 mt-10">{t('touristSites')}</h1>
+            <div className='flex flex-col md:flex-row w-2/3 justify-center mb-5 '>
                 {sitesWithLogos.map((site) => (
                     <Link key={site.key} to={`/location/${site.key}`}>
-                        <div className='flex flex-col items-center'>
-                            <h2 className="font-heading uppercase font-bold text-2xl ">{touristSites[site.key].name[i18n.language]}</h2>
-                            <img src={site.logo} alt={`${touristSites[site.key].name[i18n.language]} Logo`} className="w-48 h-48 object-fill mb-5 mt-2" />
+                        <div className='flex flex-col space-x-20 items-center relative'>
+                            <h2 className="font-heading uppercase font-bold text-2xl absolute bottom-8 text-white drop-shadow-lg z-10">{touristSites[site.key].name[i18n.language]}</h2>
+                            <img src={site.logo} alt={`${touristSites[site.key].name[i18n.language]} Logo`} className="w-80 object-fit mb-5 mt-2 hover:opacity-70" />
                         </div>
                     </Link>
                 ))}
-            </div>
-            <div className="w-1/3 flex flex-col justify-center">
-                <p className="font-body text-center">{t('homeDescription')}</p>
             </div>
         </div>
     )

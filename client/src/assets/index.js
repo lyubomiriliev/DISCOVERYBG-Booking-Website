@@ -40,6 +40,9 @@ import ovechQR from "../assets/ovechQR.png";
 import partnersLogos from "../assets/logos.png";
 import discoveryToShare from "../assets/discoveryToShare.png";
 import MTlogo from "../assets/MT_logo.png";
+import provadia from "../assets/provadia.jpg";
+import dalgopol from "../assets/dalgopol.jpg";
+import dolniChiflik from "../assets/dolniChiflik.jpg";
 
 export {
   siteLogo,
@@ -84,4 +87,7 @@ export {
   partnersLogos,
   MTlogo,
   discoveryToShare,
+  provadia,
+  dalgopol,
+  dolniChiflik,
 };

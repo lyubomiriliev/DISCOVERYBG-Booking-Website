@@ -50,17 +50,17 @@ const Header = () => {
                 <div className="flex justify-around items-center w-2/3 ">
                     <GiHamburgerMenu className="flex md:hidden" />
                     <Link to="/">
-                        <h2 className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold hidden md:block">{t('header.home')}</h2>
+                        <h2 className="font-body uppercase text-textPrimary hover:text-secondary duration-300 font-bold hidden md:block">{t('header.home')}</h2>
                     </Link>
                     <Link to="/tourist-site">
-                        <h2 className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold hidden md:block">{t('header.touristSites')}</h2>
+                        <h2 className="font-body uppercase text-textPrimary hover:text-secondary duration-300 font-bold hidden md:block">{t('header.touristSites')}</h2>
                     </Link>
                 </div>
                 <div className="flex justify-around items-center w-2/3 ">
-                    <h2 className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold">{t('header.partners')}</h2>
+                    <h2 className="font-body uppercase text-textPrimary hover:text-secondary duration-300 font-bold">{t('header.partners')}</h2>
                     <div className="relative">
                         <button
-                            className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold"
+                            className="font-body uppercase text-textPrimary hover:text-secondary duration-300 font-bold"
                             onClick={toggleLanguageMenu}
                         >
                             {changeLanguageText}

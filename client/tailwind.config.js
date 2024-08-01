@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         heading: ["Outfit", "sans-serif"],
-        body: ["Roboto", "sans-serif"],
+        body: ["Montserrat", "sans-serif"],
       },
       colors: {
         primary: "#2D9513",
