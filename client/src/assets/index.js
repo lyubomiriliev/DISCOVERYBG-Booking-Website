@@ -37,6 +37,9 @@ import curkva4 from "../assets/curkva4.jpg";
 import curkva5 from "../assets/curkva5.jpg";
 import curkva6 from "../assets/curkva6.jpg";
 import ovechQR from "../assets/ovechQR.png";
+import partnersLogos from "../assets/logos.png";
+import discoveryToShare from "../assets/discoveryToShare.png";
+import MTlogo from "../assets/MT_logo.png";
 
 export {
   siteLogo,
@@ -78,4 +81,7 @@ export {
   curkva5,
   curkva6,
   ovechQR,
+  partnersLogos,
+  MTlogo,
+  discoveryToShare,
 };

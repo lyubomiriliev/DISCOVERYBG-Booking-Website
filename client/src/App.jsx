@@ -6,6 +6,7 @@ import WelcomePage from './pages/WelcomePage'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Location from './pages/Location'
+import Partners from './components/Partners'
 
 const Layout = () => {
   return (
@@ -13,6 +14,7 @@ const Layout = () => {
       <Header />
       <ScrollRestoration />
       <Outlet />
+      <Partners />
       <Footer />
     </div>
   )

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { siteLogo } from "../assets"
+import { discoveryToShare, MTlogo, siteLogo } from "../assets"
 import { useTranslation } from "react-i18next"
 import { useEffect, useRef, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -39,9 +39,15 @@ const Header = () => {
 
 
     return (
-        <div className="w-full h-20 bg-white shadow-md fixed top-0 left-0 z-50 flex justify-around items-center px-4">
-            <div className="flex justify-between items-center w-full max-w-screen-lg">
-                <div className="flex justify-around items-center w-1/3 ">
+        <div className="w-full h-40 bg-white shadow-md fixed top-0 left-0 z-50 flex flex-col items-center">
+            <div className="flex space-x-2 items-center 0">
+                <img className="w-52 object-cover -mr-3" src={siteLogo} alt="" />
+                <img className="w-60 object-cover" src={MTlogo} alt="" />
+                <img className="w-20 object-cover" src={discoveryToShare} alt="" />
+            </div>
+            <div className="w-full h-[1px] bg-gray-300"></div>
+            <div className="flex justify-between items-center w-full max-w-screen-lg mt-7">
+                <div className="flex justify-around items-center w-2/3 ">
                     <GiHamburgerMenu className="flex md:hidden" />
                     <Link to="/">
                         <h2 className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold hidden md:block">{t('header.home')}</h2>
@@ -50,13 +56,8 @@ const Header = () => {
                         <h2 className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold hidden md:block">{t('header.touristSites')}</h2>
                     </Link>
                 </div>
-                <div className="flex justify-center items-center w-1/3 ">
-                    <Link to="/">
-                        <img className="w-60" src={siteLogo} alt="Logo" />
-                    </Link>
-                </div>
-                <div className="flex justify-around items-center w-1/3 ">
-                    <h2 className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold">{t('header.booking')}</h2>
+                <div className="flex justify-around items-center w-2/3 ">
+                    <h2 className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold">{t('header.partners')}</h2>
                     <div className="relative">
                         <button
                             className="font-heading uppercase text-textPrimary hover:text-secondary duration-300 font-bold"
