@@ -2,9 +2,12 @@
     "header": {
         "home": "początek",
         "touristSites": "Miejsca turystyczne",
-        "booking" : "Ratować"
+        "booking" : "Ratować",
+        "packages": "Pakiety turystyczne"
+
     },
-    "bookTrips": "Book Your Trips",
+    "homeTitle": "ODKRYJ PRZESZŁOŚĆ, PRZEŻYJ TERAŹNIEJSZOŚĆ",
+    "homeSubTitle": "w Dyłgopolu, Prowadii i Dolnym Czifliku",
     "homeDescription": "home description",
     "touristSites": "Miejsca turystyczne",
     "dalgopol": "Długonogi",

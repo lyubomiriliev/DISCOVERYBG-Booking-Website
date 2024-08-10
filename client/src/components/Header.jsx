@@ -57,7 +57,7 @@ const Header = () => {
                     </Link>
                 </div>
                 <div className="flex justify-around items-center w-2/3 ">
-                    <h2 className="font-body uppercase text-textPrimary hover:text-secondary duration-300 font-bold">{t('header.partners')}</h2>
+                    <h2 className="font-body uppercase text-textPrimary hover:text-secondary duration-300 font-bold">{t('header.packages')}</h2>
                     <div className="relative">
                         <button
                             className="font-body uppercase text-textPrimary hover:text-secondary duration-300 font-bold"

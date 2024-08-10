@@ -15,15 +15,8 @@ const TouristSites = () => {
 
     return (
 
-        <div className="w-full flex flex-col justify-center items-center mt-32">
-            <div className="w-full h-80 bg-secondary flex flex-col justify-around">
-                <div className="flex flex-col text-center mx-auto w-2/3">
-                    <p className="font-body text-center">{t('homeDescription')}</p>
-                    <p className="font-body text-center font-bold my-5">{t('homeDescription2')}</p>
-                    <p className="font-body text-center">{t('homeDescription3')}</p>
-                </div>
-            </div>
-            <h1 className="font-heading text-primary text-4xl font-bold uppercase mb-10 mt-10">{t('touristSites')}</h1>
+        <div className="w-full flex flex-col justify-center items-center">
+            <h1 className="font-body text-primary text-4xl font-bold uppercase mb-10 mt-10">{t('touristSites')}</h1>
             <div className='flex flex-col md:flex-row w-2/3 justify-center mb-5 '>
                 {sitesWithLogos.map((site) => (
                     <Link key={site.key} to={`/location/${site.key}`}>

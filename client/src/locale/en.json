@@ -2,9 +2,12 @@
     "header": {
         "home": "Home",
         "touristSites": "Tourist Sites",
-        "partners" : "Partners"
+        "partners" : "Partners",
+        "packages": "Tourist Packages"
+
     },
-    "bookTrips": "Book Your Trips",
+    "homeTitle": "DISCOVER THE PAST, EXPERIENCE THE PRESENT",
+    "homeSubTitle": "in Dalgopol, Provadia and Dolni Chiflik",
     "homeDescription": "home description",
     "touristSites": "Tourist Sites",
     "dalgopol": "Dalgopol",

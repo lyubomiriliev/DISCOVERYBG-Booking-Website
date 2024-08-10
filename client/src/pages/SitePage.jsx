@@ -1,9 +1,11 @@
+import Partners from "../components/Partners"
 import TouristSites from "../components/TouristSites"
 
 const SitePage = () => {
     return (
-        <div>
+        <div className="mt-36">
             <TouristSites />
+            <Partners />
         </div>
     )
 }
