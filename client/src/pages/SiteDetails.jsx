@@ -67,8 +67,8 @@ const SiteDetails = () => {
     }, [galleryOpen]);
 
     return (
-        <div className="w-full flex flex-col mt-32 items-center relative">
-            <h1 className="font-heading text-4xl uppercase font-bold">{placeData.name[i18n.language]}</h1>
+        <div className="w-full flex flex-col mt-44 items-center relative">
+            <h1 className="font-body text-4xl uppercase font-bold">{placeData.name[i18n.language]}</h1>
             <div className="flex max-w-screen-xl mx-auto mt-10 gap-5">
                 {photos.map((photo, index) => (
                     <div key={index} className="w-full flex items-center" onClick={() => handleOpenGallery(index)}>
@@ -77,32 +77,32 @@ const SiteDetails = () => {
                 ))}
             </div>
             <div className="w-2/5 flex justify-between items-center px-4 mt-6">
-                <a href={placeData.googleMapsLink} target="_blank" rel="noopener noreferrer" className="font-heading uppercase font-light">Google Maps</a>
+                <a href={placeData.googleMapsLink} target="_blank" rel="noopener noreferrer" className="font-body uppercase font-light">Google Maps</a>
                 <div className="w-[1px] h-6 bg-black mt-1"></div>
-                <a href={placeData.bookingLink} target="_blank" rel="noopener noreferrer" className="font-heading uppercase font-light">Booking</a>
+                <a href={placeData.bookingLink} target="_blank" rel="noopener noreferrer" className="font-body uppercase font-light">Booking</a>
                 <div className="w-[1px] h-6 bg-black mt-1"></div>
-                <a href={placeData.restaurantsLink} target="_blank" rel="noopener noreferrer" className="font-heading uppercase font-light">Restaurants</a>
+                <a href={placeData.restaurantsLink} target="_blank" rel="noopener noreferrer" className="font-body uppercase font-light">Restaurants</a>
                 <div className="w-[1px] h-6 bg-black mt-1"></div>
-                <a href={placeData.airbnbLink} target="_blank" rel="noopener noreferrer" className="font-heading uppercase font-light">Airbnb</a>
+                <a href={placeData.airbnbLink} target="_blank" rel="noopener noreferrer" className="font-body uppercase font-light">Airbnb</a>
             </div>
             <div className="w-2/3 flex flex-col mt-16">
                 <div className="flex items-center">
                     <LuClipboardList className="w-8 h-8 mr-2 text-primary" />
-                    <h3 className="text-3xl font-heading uppercase font-bold text-primary">{t('siteDetails.placeDescription')}</h3>
+                    <h3 className="text-3xl font-body uppercase font-bold text-primary">{t('siteDetails.placeDescription')}</h3>
                 </div>
                 <p className="font-body text-sm text-left mt-5">{placeData.description[i18n.language]}</p>
             </div>
             <div className="w-2/3 flex flex-col mt-16">
                 <div className="flex items-center">
                     <TbArrowGuide className="w-8 h-8 mr-2 font-bold text-primary" />
-                    <h3 className="text-3xl font-heading uppercase font-bold text-primary">{t('siteDetails.access')}</h3>
+                    <h3 className="text-3xl font-body uppercase font-bold text-primary">{t('siteDetails.access')}</h3>
                 </div>
                 <p className="font-body text-sm text-left mt-5">{placeData.access[i18n.language]}</p>
             </div>
             <div className="w-2/3  flex flex-col mt-16">
                 <div className="flex items-center">
                     <IoMdTime className="w-8 h-8 mr-2 font-bold text-primary" />
-                    <h3 className="text-3xl font-heading uppercase font-bold text-primary">{t('siteDetails.workTime')}</h3>
+                    <h3 className="text-3xl font-body uppercase font-bold text-primary">{t('siteDetails.workTime')}</h3>
                 </div>
                 <div>
                     <p className="font-body text-sm text-left mt-5">{placeData.summerWorkTime[i18n.language]}</p>
@@ -110,10 +110,10 @@ const SiteDetails = () => {
                 </div>
             </div>
             <div className="max-w-screen-xl justify-center items-center flex flex-col">
-                <h3 className="mt-10 font-bold font-heading uppercase">Location:</h3>
-                <h2 className="font-bold font-heading uppercase">GPS: {placeData.coordinates.gps}</h2>
+                <h3 className="mt-10 font-bold font-body uppercase">Location:</h3>
+                <h2 className="font-bold font-body uppercase">GPS: {placeData.coordinates.gps}</h2>
                 <img className="w-40 h-40" src={placeData.qrCode} alt="QR CODE" />
-                <h2 className="font-light font-heading uppercase">SCAN FOR DIRECTIONS</h2>
+                <h2 className="font-light font-body uppercase">SCAN FOR DIRECTIONS</h2>
             </div>
             <div className="w-[70%] h-96 justify-center items-center mt-10">
                 <iframe

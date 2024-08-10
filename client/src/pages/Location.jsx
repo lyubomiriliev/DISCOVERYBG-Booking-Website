@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { manImg, ovech1, pametnik1 } from '../assets'
+import { manImg } from '../assets'
 import { useTranslation } from 'react-i18next'
 import { touristSites } from '../util'
 
@@ -14,10 +14,9 @@ const Location = () => {
         return <div>Location not found</div>
     }
 
-    console.log(site.places[0].displayPhoto)
 
     return (
-        <div className='max-w-screen-xl flex flex-col mt-32 mx-auto relative'>
+        <div className='max-w-screen-xl flex flex-col mt-44 mx-auto relative'>
             <div className='flex  justify-center mb-10'>
                 <h1 className='font-heading font-bold text-secondary text-4xl uppercase'>{site.name[i18n.language]}</h1>
             </div>
@@ -38,7 +37,7 @@ const Location = () => {
                 ))}
 
             </div>
-            <p className='w-1/3 pl-8 mt-10'>Lorem ipsum dolor sit amet consectetur. Tellus quisque lacus semper tortor mauris porta mi viverra tellus. Quisque interdum dui etiam laoreet sed. Sed </p>
+            {/* <p className='w-1/3 pl-8 mt-10'>Lorem ipsum dolor sit amet consectetur. Tellus quisque lacus semper tortor mauris porta mi viverra tellus. Quisque interdum dui etiam laoreet sed. Sed </p> */}
             <img className="w-64 absolute -bottom-24 -right-36 mb-1" src={manImg} alt="Man Image" />
         </div>
     )

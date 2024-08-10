@@ -43,6 +43,7 @@ import MTlogo from "../assets/MT_logo.png";
 import provadia from "../assets/provadia.jpg";
 import dalgopol from "../assets/dalgopol.jpg";
 import dolniChiflik from "../assets/dolniChiflik.jpg";
+import touristPackagesHero from "../assets/touristPackages.png";
 
 export {
   siteLogo,
@@ -90,4 +91,5 @@ export {
   provadia,
   dalgopol,
   dolniChiflik,
+  touristPackagesHero,
 };

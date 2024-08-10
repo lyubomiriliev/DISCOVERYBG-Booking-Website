@@ -10,6 +10,7 @@ export default {
       colors: {
         primary: "#2D9513",
         secondary: "#8BC34A",
+        darkGreen: "#193F10",
         textPrimary: "$193F10",
       },
     },

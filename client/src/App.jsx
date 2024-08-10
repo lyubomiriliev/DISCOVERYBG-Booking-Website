@@ -6,6 +6,7 @@ import WelcomePage from './pages/WelcomePage'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Location from './pages/Location'
+import TouristPackages from './pages/TouristPackages'
 
 const Layout = () => {
   return (
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
       {
         path: "/location/:name",
         element: <Location />
+      },
+      {
+        path: "/tourist-packages",
+        element: <TouristPackages />
       }
     ]
   }
