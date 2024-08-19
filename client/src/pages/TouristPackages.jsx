@@ -36,6 +36,7 @@ const TouristPackages = () => {
             bgColor: "bg-primary",
             details: "- Късноантична и средновековна крепост Градище /Голямото кале/, с. Петров дол - Исторически музей в гр. Провадия - Първата българска църква „Св. Николай Мирликийски Чудотворец“, в комплекс Вароша гр. Провадия Църква “Св. Благовещение” гр. Провадия - Крепост 'Овеч'",
             lunchDetails: "- Градска галерия в гр. Провадия - Провадия Солницата",
+            night: "Нощувка"
 
         },
         {
@@ -53,6 +54,7 @@ const TouristPackages = () => {
             bgColor: "bg-secondary",
             details: "- Исторически музей - Часовниковата кула - Турската баня, Войнишки паметник на загиналите през ІІ св. Война - 	Ансамбъл “Вароша” с Ламбовата и Панайотовата къща запазени от Възрождението - Крепост 'Овеч'",
             lunchDetails: "- Градска галерия в гр. Провадия - Провадия Солницата",
+            night: "Нощувка",
 
         },
         {
@@ -60,6 +62,7 @@ const TouristPackages = () => {
             bgColor: "bg-secondary",
             details: "- Крепост 'Овеч' - Скален манастир 'Шашкъни' - Късноантична и средновекова крепост на Мухалийското кале. Скален манастир от XIII-XIV век. -	Скални килии в склоновете на Мухалийска кале.",
             lunchDetails: "Средновековен скален манастир, североизточно в местност Тъпанчето, с. Кривня",
+            night: "Нощувка в къщи за гости от селски тип с. Добрина",
 
         },
         {
@@ -81,49 +84,57 @@ const TouristPackages = () => {
                     <img className="w-full" src={touristPackagesHero} alt="Hero Image" />
                 </div>
             </div>
-            <div className="w-2/3 flex flex-col mx-auto items-center mt-20 ">
+            <div className="w-full flex flex-col items-center mt-10 ">
                 <h1 className="font-body text-5xl uppercase font-bold">One day Packages</h1>
                 <div className="w-2/4 text-center mx-auto">
                     <p className="font-body mt-5">Еднодневните пакети включват основно посещение на гр. Провадия с възможност за обиколка на близки забележителности. Представени са следните варианти:</p>
                 </div>
             </div>
-            {packageVariants.map((variant, index) => (
-                <TouristPackageVariants
-                    key={index}
-                    variantNumber={variant.variantNumber}
-                    tourTitle={variant.tourTitle}
-                    details={variant.details}
-                    lunch={variant.lunch}
-                    bgColor={variant.bgColor}
-                />
-            ))}
+            <div className="w-2/4 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-12">
+                {packageVariants.map((variant, index) => (
+                    <TouristPackageVariants
+                        key={index}
+                        variantNumber={variant.variantNumber}
+                        tourTitle={variant.tourTitle}
+                        details={variant.details}
+                        lunch={variant.lunch}
+                        bgColor={variant.bgColor}
+                    />
+                ))}
+            </div>
             <div className="w-2/3 flex flex-col mx-auto items-center mt-20 ">
                 <h1 className="font-body text-5xl uppercase font-bold text-primary">Two day Packages</h1>
                 <div className="w-2/4 text-center mx-auto">
                     <p className="font-body mt-5">Двудневните пакети могат да комбинират посещение на обекти от еднодневните маршрути, заедно със следните:</p>
                 </div>
             </div>
-            {twoDayPackages.map((day, index) => (
-                <TouristPackageDays
-                    key={index}
-                    dayNumber={day.dayNumber}
-                    bgColor={day.bgColor}
-                    details={day.details}
-                    lunchDetails={day.lunchDetails}
-                />
-            ))}
+            <div className="w-2/4 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-12 mt-10">
+                {twoDayPackages.map((day, index) => (
+                    <TouristPackageDays
+                        key={index}
+                        dayNumber={day.dayNumber}
+                        bgColor={day.bgColor}
+                        details={day.details}
+                        lunchDetails={day.lunchDetails}
+                        night={day.night}
+                    />
+                ))}
+            </div>
             <div className="w-2/3 flex flex-col mx-auto items-center mt-20 ">
                 <h1 className="font-body text-5xl uppercase font-bold text-secondary">Three day Packages</h1>
             </div>
-            {threeDayPackages.map((day, index) => (
-                <TouristPackageDays
-                    key={index}
-                    dayNumber={day.dayNumber}
-                    bgColor={day.bgColor}
-                    details={day.details}
-                    lunchDetails={day.lunchDetails}
-                />
-            ))}
+            <div className="w-2/4 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-12 mt-10">
+                {threeDayPackages.map((day, index) => (
+                    <TouristPackageDays
+                        key={index}
+                        dayNumber={day.dayNumber}
+                        bgColor={day.bgColor}
+                        details={day.details}
+                        lunchDetails={day.lunchDetails}
+                        night={day.night}
+                    />
+                ))}
+            </div>
         </div>
     )
 }
