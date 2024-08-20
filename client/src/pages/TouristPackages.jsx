@@ -1,34 +1,44 @@
-import { touristPackagesHero } from "../assets"
+import { useState } from "react"
+import { dolniChiflik, touristPackagesHero } from "../assets"
 import TouristPackageDays from "../components/TouristPackageDays"
 import TouristPackageVariants from "../components/TouristPackageVariants"
 
 const TouristPackages = () => {
 
-    const packageVariants = [
-        {
-            variantNumber: 1,
-            tourTitle: "Пешеходен Тур",
-            details: '- Крепост "Овеч" - Исторически музей Провадия - Градска художествена галерия Провадия',
-            lunch: "ОБЯД",
-            bgColor: "bg-secondary",
-        },
-        {
-            variantNumber: 2,
-            tourTitle: "Пешеходен Тур",
-            details: 'Крепост "Овеч" - Скален манастир "Шашкъни" - Тракийско светилище',
-            lunch: "ОБЯД",
-            bgColor: "bg-primary",
+    const packageVariants = {
 
-        },
-        {
-            variantNumber: 3,
-            tourTitle: "Пешеходен Тур",
-            details: 'Исторически музей гр. Провадия - Солницата',
-            lunch: "ОБЯД",
-            bgColor: "bg-darkGreen",
-        }
+        dalgopol: [
 
-    ]
+        ],
+        dolniChiflik: [
+
+        ],
+        provadia: [
+            {
+                variantNumber: 1,
+                tourTitle: "Пешеходен Тур",
+                details: '- Крепост "Овеч" - Исторически музей Провадия - Градска художествена галерия Провадия',
+                lunch: "ОБЯД",
+                bgColor: "bg-secondary",
+            },
+            {
+                variantNumber: 2,
+                tourTitle: "Пешеходен Тур",
+                details: 'Крепост "Овеч" - Скален манастир "Шашкъни" - Тракийско светилище',
+                lunch: "ОБЯД",
+                bgColor: "bg-primary",
+
+            },
+            {
+                variantNumber: 3,
+                tourTitle: "Пешеходен Тур",
+                details: 'Исторически музей гр. Провадия - Солницата',
+                lunch: "ОБЯД",
+                bgColor: "bg-darkGreen",
+            }
+        ],
+
+    }
 
     const twoDayPackages = [
         {
@@ -73,25 +83,48 @@ const TouristPackages = () => {
 
     ]
 
+    const [selectedStation, setSelectedStation] = useState('')
+
+    const getButtonClass = (station) => {
+        return station === selectedStation
+            ? "bg-primary text-white px-2 py-2 uppercase font-body font-bold text-sm duration-200 ease-out"
+            : "bg-secondary text-white px-2 py-2 uppercase font-body font-bold text-sm hover:bg-primary duration-200 ease-out";
+    };
+
+    const handleStationClick = (station) => {
+        setSelectedStation(station)
+    }
+
+    const filteredPackages = packageVariants[selectedStation] || []
+
+
     return (
         <div className="w-full flex flex-col mt-48 ">
             <div className="w-2/3 flex mx-auto justify-center gap-10 items-center ">
                 <div className="w-1/3 flex flex-col">
                     <h1 className="font-body text-6xl uppercase font-bold text-secondary">Tourist packages</h1>
                     <p className="font-body mt-5">Lorem ipsum dolor sit amet consectetur. Tellus quisque lacus semper tortor mauris porta mi viverra tellus. Quisque interdum dui etiam laoreet sed. Sed Lorem ipsum dolor sit amet consectetur. Tellus quisque lacus semper tortor mauris porta mi viverra tellus. Quisque interdum dui etiam laoreet sed. Sed </p>
+                    <div className="flex gap-5 items-center my-5">
+                        <button onClick={() => handleStationClick('dalgopol')} className={getButtonClass('dalgopol')}>Дългопол</button>
+                        <button onClick={() => handleStationClick('dolniChiflik')} className={getButtonClass('dolniChiflik')}>Долни Чифлик</button>
+                        <button onClick={() => handleStationClick('provadia')} className={getButtonClass('provadia')}>Провадия</button>
+                    </div>
                 </div>
                 <div className="w-1/3">
                     <img className="w-full" src={touristPackagesHero} alt="Hero Image" />
                 </div>
             </div>
-            <div className="w-full flex flex-col items-center mt-10 ">
-                <h1 className="font-body text-5xl uppercase font-bold">One day Packages</h1>
-                <div className="w-2/4 text-center mx-auto">
-                    <p className="font-body mt-5">Еднодневните пакети включват основно посещение на гр. Провадия с възможност за обиколка на близки забележителности. Представени са следните варианти:</p>
+
+            {selectedStation && (
+                <div className="w-full flex flex-col items-center mt-10 ">
+                    <h1 className="font-body text-3xl uppercase font-bold">One day Packages</h1>
+                    <div className="w-2/4 text-center mx-auto">
+                        <p className="font-body mt-5">Еднодневните пакети включват основно посещение на гр. Провадия с възможност за обиколка на близки забележителности. Представени са следните варианти:</p>
+                    </div>
                 </div>
-            </div>
+            )}
             <div className="w-2/4 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-12">
-                {packageVariants.map((variant, index) => (
+                {filteredPackages.map((variant, index) => (
                     <TouristPackageVariants
                         key={index}
                         variantNumber={variant.variantNumber}

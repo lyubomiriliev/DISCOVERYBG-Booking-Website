@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
-import { discoveryToShare, MTlogo, siteLogo } from "../assets"
+import { BGflag, discoveryToShare, ENGflag, MTlogo, PLflag, siteLogo } from "../assets"
 import { useTranslation } from "react-i18next"
 import { useEffect, useRef, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Header = () => {
 
@@ -11,11 +12,27 @@ const Header = () => {
     const { t } = useTranslation();
 
     const [showLanguage, setShowLanguage] = useState(false);
-    const [changeLanguageText, setChangeLanguageText] = useState("")
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+    const getFlagForLanguage = (lang) => {
+        switch (lang) {
+            case "en":
+                return ENGflag;
+            case "bg":
+                return BGflag;
+            case "pl":
+                return PLflag;
+            default:
+                return ENGflag;
+        }
+    }
+
+    const currentFlag = getFlagForLanguage(i18n.language)
 
     const changeLanguage = (lang) => {
         i18n.changeLanguage(lang);
         setShowLanguage(false);
+        setIsMobileMenuOpen(false);
     }
 
     const toggleLanguageMenu = () => setShowLanguage(!showLanguage);
@@ -33,68 +50,96 @@ const Header = () => {
         };
     }, [])
 
-    useEffect(() => {
-        setChangeLanguageText(i18n.language.toUpperCase());
-    }, [i18n.language]);
 
+    const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen)
 
     return (
-        <div className="w-full h-40 bg-white shadow-md fixed top-0 left-0 z-50 flex flex-col items-center">
-            <div className="flex space-x-2 items-center 0">
-                <img className="w-52 object-cover -mr-3" src={siteLogo} alt="" />
-                <img className="w-60 object-cover" src={MTlogo} alt="" />
-                <img className="w-20 object-cover" src={discoveryToShare} alt="" />
-            </div>
-            <div className="w-full h-[1px] bg-gray-300"></div>
-            <div className="flex justify-between items-center w-full max-w-screen-lg mt-7">
-                <div className="flex justify-around items-center w-2/3 ">
-                    <GiHamburgerMenu className="flex md:hidden" />
+        <div className="w-full h-24 md:h-40 bg-white shadow-md fixed top-0 left-0 z-50 flex flex-col px-4 md:px-8 items-center">
+            <div className="flex justify-between items-center my-auto w-full md:w-2/3 md:pl-10 ">
+                <div className="flex justify-between space-x-2 items-center">
                     <Link to="/">
-                        <h2 className="font-body uppercase text-textPrimary hover:text-secondary duration-300 font-bold hidden md:block">{t('header.home')}</h2>
+                        <img className="w-32 md:w-56 object-cover -mr-3" src={siteLogo} alt="" />
                     </Link>
-                    <Link to="/tourist-site">
-                        <h2 className="font-body uppercase text-textPrimary hover:text-secondary duration-300 font-bold hidden md:block">{t('header.touristSites')}</h2>
-                    </Link>
+                    <img className="w-40 md:w-64 object-cover" src={MTlogo} alt="" />
+                    <img className="w-14 md:w-20 object-cover" src={discoveryToShare} alt="" />
                 </div>
-                <div className="flex justify-around items-center w-2/3 ">
-                    <Link to="/tourist-packages">
-                        <h2 className="font-body uppercase text-textPrimary hover:text-secondary duration-300 font-bold">{t('header.packages')}</h2>
+                {isMobileMenuOpen ? (
+                    <AiOutlineClose className="text-3xl cursor-pointer" onClick={toggleMobileMenu} />
+                ) :
+                    (
+                        <GiHamburgerMenu onClick={toggleMobileMenu} className="text-2xl md:hidden cursor-pointer" />
+                    )
+                }
+            </div>
+            {/* MOBILE MENU */}
+            {isMobileMenuOpen && (
+                <div className="absolute top-24 left-0 w-full h-60 px-4 py-4 space-y-6 bg-white flex flex-col z-50 drop-shadow-lg">
+                    <Link to="/" onClick={toggleMobileMenu}>
+                        <h2 className="font-body uppercase text-black hover:text-secondary duration-300">{t('header.home')}</h2>
                     </Link>
-                    <div className="relative">
+                    <Link to="/tourist-site" onClick={toggleMobileMenu}>
+                        <h2 className="font-body uppercase text-black hover:text-secondary duration-300">{t('header.touristSites')}</h2>
+                    </Link>
+                    <Link to="/tourist-packages" onClick={toggleMobileMenu}>
+                        <h2 className="font-body uppercase text-black hover:text-secondary duration-300">{t('header.packages')}</h2>
+                    </Link>
+                    <div className="">
                         <button
-                            className="font-body uppercase text-textPrimary hover:text-secondary duration-300 font-bold"
+                            className="font-body uppercase text-black hover:text-secondary duration-300"
                             onClick={toggleLanguageMenu}
                         >
-                            {changeLanguageText}
+                            <img className="w-8 h-auto object-cover" src={currentFlag} alt={i18n.language} />
+                        </button>
+                    </div>
+                    <div className="relative">
+                        {showLanguage && (
+                            <div ref={languageRef} className="absolute left-0 -mt-5 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                <div className="flex flex-col items-center space-y-2">
+                                    <img className="w-8 h-auto cursor-pointer" src={ENGflag} onClick={() => changeLanguage('en')} alt="EN" />
+                                    <img className="w-8 h-auto cursor-pointer" src={BGflag} onClick={() => changeLanguage('bg')} alt="BG" />
+                                    <img className="w-8 h-auto cursor-pointer" src={PLflag} onClick={() => changeLanguage('pl')} alt="PL" />
+                                </div>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            )}
+
+            {/* DESKTOP MENU */}
+            <div className="hidden md:flex h-16 w-full justify-start items-center ">
+                <nav className="w-2/3 mx-auto flex space-x-20 items-center pl-20">
+                    <Link to="/">
+                        <h2 className="font-body uppercase text-black hover:text-secondary duration-300 font-bold hidden md:block">{t('header.home')}</h2>
+                    </Link>
+                    <Link to="/tourist-site">
+                        <h2 className="font-body uppercase text-black hover:text-secondary duration-300 font-bold hidden md:block">{t('header.touristSites')}</h2>
+                    </Link>
+                    <Link to="/tourist-packages">
+                        <h2 className="font-body uppercase text-black hover:text-secondary duration-300 font-bold">{t('header.packages')}</h2>
+                    </Link>
+                </nav>
+                <div className="flex justify-around items-center">
+                    <div className="relative">
+                        <button
+                            className="font-body uppercase text-black hover:text-secondary duration-300 font-bold"
+                            onClick={toggleLanguageMenu}
+                        >
+                            <img className="w-10 h-auto object-cover" src={currentFlag} alt={i18n.language} />
                         </button>
 
                         {showLanguage && (
-                            <div ref={languageRef} className="absolute right-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
-                                <div>
-                                    <button
-                                        className="block px-4 py-2 text-sm text-primary hover:bg-gray-100"
-                                        onClick={() => changeLanguage('en')}
-                                    >
-                                        EN
-                                    </button>
-                                    <button
-                                        className="block px-4 py-2 text-sm text-primary hover:bg-gray-100"
-                                        onClick={() => changeLanguage('bg')}
-                                    >
-                                        BG
-                                    </button>
-                                    <button
-                                        className="block px-4 py-2 text-sm text-primary hover:bg-gray-100"
-                                        onClick={() => changeLanguage('pl')}
-                                    >
-                                        PL
-                                    </button>
+                            <div ref={languageRef} className="absolute left-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                <div className="flex flex-col items-center space-y-2">
+                                    <img className="w-8 h-auto cursor-pointer" src={ENGflag} onClick={() => changeLanguage('en')} alt="EN" />
+                                    <img className="w-8 h-auto cursor-pointer" src={BGflag} onClick={() => changeLanguage('bg')} alt="BG" />
+                                    <img className="w-8 h-auto cursor-pointer" src={PLflag} onClick={() => changeLanguage('pl')} alt="PL" />
                                 </div>
                             </div>
                         )}
                     </div>
                 </div>
             </div>
+
         </div>
     )
 }

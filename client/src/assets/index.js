@@ -44,6 +44,9 @@ import provadia from "../assets/provadia.jpg";
 import dalgopol from "../assets/dalgopol.jpg";
 import dolniChiflik from "../assets/dolniChiflik.jpg";
 import touristPackagesHero from "../assets/touristPackages.png";
+import BGflag from "../assets/BGflag.png";
+import ENGflag from "../assets/ENflag.png";
+import PLflag from "../assets/PLflag.png";
 
 export {
   siteLogo,
@@ -92,4 +95,7 @@ export {
   dalgopol,
   dolniChiflik,
   touristPackagesHero,
+  BGflag,
+  ENGflag,
+  PLflag,
 };

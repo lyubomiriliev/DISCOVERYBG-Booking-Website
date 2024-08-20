@@ -16,8 +16,8 @@ const Location = () => {
 
 
     return (
-        <div className='max-w-screen-xl flex flex-col mt-44 mx-auto relative'>
-            <div className='flex  justify-center mb-10'>
+        <div className='max-w-screen-xl flex flex-col mt-28 md:mt-44 mx-auto relative'>
+            <div className='flex  justify-center mb-4 md:mb-6'>
                 <h1 className='font-heading font-bold text-secondary text-4xl uppercase'>{site.name[i18n.language]}</h1>
             </div>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 justify-items-center'>
@@ -38,7 +38,7 @@ const Location = () => {
 
             </div>
             {/* <p className='w-1/3 pl-8 mt-10'>Lorem ipsum dolor sit amet consectetur. Tellus quisque lacus semper tortor mauris porta mi viverra tellus. Quisque interdum dui etiam laoreet sed. Sed </p> */}
-            <img className="w-64 absolute -bottom-24 -right-36 mb-1" src={manImg} alt="Man Image" />
+            <img className="w-64 absolute -bottom-24 -right-36 mb-1 hidden md:block" src={manImg} alt="Man Image" />
         </div>
     )
 }
