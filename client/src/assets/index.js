@@ -36,6 +36,10 @@ import curkva3 from "../assets/curkva3.jpg";
 import curkva4 from "../assets/curkva4.jpg";
 import curkva5 from "../assets/curkva5.jpg";
 import curkva6 from "../assets/curkva6.jpg";
+import muzeiDulgopol1 from "../assets/muzeiDulgopol1.jpg";
+import muzeiDulgopol2 from "../assets/muzeiDulgopol2.jpg";
+import muzeiDulgopol3 from "../assets/muzeiDulgopol3.jpg";
+import muzeiDulgopol4 from "../assets/muzeiDulgopol4.jpg";
 import ovechQR from "../assets/ovechQR.png";
 import partnersLogos from "../assets/logos.png";
 import discoveryToShare from "../assets/discoveryToShare.png";
@@ -47,6 +51,10 @@ import touristPackagesHero from "../assets/touristPackages.png";
 import BGflag from "../assets/BGflag.png";
 import ENGflag from "../assets/ENflag.png";
 import PLflag from "../assets/PLflag.png";
+import manastir1 from "/assets/manastir1.jpg";
+import manastir2 from "/assets/manastir2.jpg";
+import manastir3 from "/assets/manastir3.jpg";
+import manastir4 from "/assets/manastir4.jpg";
 
 export {
   siteLogo,
@@ -98,4 +106,12 @@ export {
   BGflag,
   ENGflag,
   PLflag,
+  muzeiDulgopol1,
+  muzeiDulgopol2,
+  muzeiDulgopol3,
+  muzeiDulgopol4,
+  manastir1,
+  manastir2,
+  manastir3,
+  manastir4,
 };

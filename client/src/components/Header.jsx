@@ -60,8 +60,12 @@ const Header = () => {
                     <Link to="/">
                         <img className="w-32 md:w-56 object-cover -mr-3" src={siteLogo} alt="" />
                     </Link>
-                    <img className="w-40 md:w-64 object-cover" src={MTlogo} alt="" />
-                    <img className="w-14 md:w-20 object-cover" src={discoveryToShare} alt="" />
+                    <Link to="/">
+                        <img className="w-40 md:w-64 object-cover" src={MTlogo} alt="" />
+                    </Link>
+                    <Link to="/">
+                        <img className="w-14 md:w-20 object-cover" src={discoveryToShare} alt="" />
+                    </Link>
                 </div>
                 {isMobileMenuOpen ? (
                     <AiOutlineClose className="text-3xl cursor-pointer" onClick={toggleMobileMenu} />
