@@ -1,9 +1,12 @@
-import { useState } from "react"
+import { useState, useTransition } from "react"
 import { dolniChiflik, touristPackagesHero } from "../assets"
 import TouristPackageDays from "../components/TouristPackageDays"
 import TouristPackageVariants from "../components/TouristPackageVariants"
+import { useTranslation } from "react-i18next"
 
 const TouristPackages = () => {
+
+    const { t } = useTranslation();
 
     const packageVariants = {
 
@@ -99,31 +102,35 @@ const TouristPackages = () => {
 
 
     return (
-        <div className="w-full flex flex-col mt-48 ">
-            <div className="w-2/3 flex mx-auto justify-center gap-10 items-center ">
-                <div className="w-1/3 flex flex-col">
-                    <h1 className="font-body text-6xl uppercase font-bold text-secondary">Tourist packages</h1>
-                    <p className="font-body mt-5">Lorem ipsum dolor sit amet consectetur. Tellus quisque lacus semper tortor mauris porta mi viverra tellus. Quisque interdum dui etiam laoreet sed. Sed Lorem ipsum dolor sit amet consectetur. Tellus quisque lacus semper tortor mauris porta mi viverra tellus. Quisque interdum dui etiam laoreet sed. Sed </p>
-                    <div className="flex gap-5 items-center my-5">
+        <div className="w-full flex flex-col mt-28 md:mt-48 px-4 md:px-0 ">
+            <div className="w-full md:w-2/3 flex flex-col md:flex-row mx-auto justify-center gap-10 md:gap-20 items-center ">
+                <h1 className="font-body text-3xl md:text-5xl uppercase font-bold text-secondary text-center md:text-left md:hidden">{t('touristPackages')}</h1>
+                <div className="w-2/3 md:hidden">
+                    <img className="w-full" src={touristPackagesHero} alt="Hero Image" />
+                </div>
+                <div className="md:w-1/3">
+                    <h1 className="font-body text-3xl md:text-5xl uppercase font-bold text-secondary hidden md:block text-center md:text-left">{t('touristPackages')}</h1>
+                    <p className="font-body md:mt-5">Lorem ipsum dolor sit amet consectetur. Tellus quisque lacus semper tortor mauris porta mi viverra tellus. Quisque interdum dui etiam laoreet sed. Sed Lorem ipsum dolor sit amet consectetur.</p>
+                    <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-5">
                         <button onClick={() => handleStationClick('dalgopol')} className={getButtonClass('dalgopol')}>Дългопол</button>
                         <button onClick={() => handleStationClick('dolniChiflik')} className={getButtonClass('dolniChiflik')}>Долни Чифлик</button>
                         <button onClick={() => handleStationClick('provadia')} className={getButtonClass('provadia')}>Провадия</button>
                     </div>
                 </div>
-                <div className="w-1/3">
+                <div className="w-1/3 hidden md:block">
                     <img className="w-full" src={touristPackagesHero} alt="Hero Image" />
                 </div>
             </div>
 
             {selectedStation && (
                 <div className="w-full flex flex-col items-center mt-10 ">
-                    <h1 className="font-body text-3xl uppercase font-bold">One day Packages</h1>
-                    <div className="w-2/4 text-center mx-auto">
-                        <p className="font-body mt-5">Еднодневните пакети включват основно посещение на гр. Провадия с възможност за обиколка на близки забележителности. Представени са следните варианти:</p>
+                    <h1 className="font-body text-3xl md:text-4xl uppercase font-bold">One day Packages</h1>
+                    <div className="w-full md:w-2/4 text-center mx-auto">
+                        <p className="font-body mt-5 text-sm md:text-base">Еднодневните пакети включват основно посещение на гр. Провадия с възможност за обиколка на близки забележителности. Представени са следните варианти:</p>
                     </div>
                 </div>
             )}
-            <div className="w-2/4 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="w-full md:w-2/4 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5 md:mt-10">
                 {filteredPackages.map((variant, index) => (
                     <TouristPackageVariants
                         key={index}
@@ -135,13 +142,13 @@ const TouristPackages = () => {
                     />
                 ))}
             </div>
-            <div className="w-2/3 flex flex-col mx-auto items-center mt-20 ">
-                <h1 className="font-body text-5xl uppercase font-bold text-primary">Two day Packages</h1>
-                <div className="w-2/4 text-center mx-auto">
-                    <p className="font-body mt-5">Двудневните пакети могат да комбинират посещение на обекти от еднодневните маршрути, заедно със следните:</p>
+            <div className="w-full flex flex-col items-center mt-20 ">
+                <h1 className="font-body text-3xl md:text-4xl uppercase font-bold text-primary">Two day Packages</h1>
+                <div className="w-full md:w-2/4 text-center mx-auto">
+                    <p className="font-body mt-5 text-base">Двудневните пакети могат да комбинират посещение на обекти от еднодневните маршрути, заедно със следните:</p>
                 </div>
             </div>
-            <div className="w-2/4 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-2 gap-12 mt-10">
+            <div className="w-full md:w-2/4 mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
                 {twoDayPackages.map((day, index) => (
                     <TouristPackageDays
                         key={index}
@@ -153,10 +160,10 @@ const TouristPackages = () => {
                     />
                 ))}
             </div>
-            <div className="w-2/3 flex flex-col mx-auto items-center mt-20 ">
-                <h1 className="font-body text-5xl uppercase font-bold text-secondary">Three day Packages</h1>
+            <div className="w-full flex flex-col items-center mt-20 ">
+                <h1 className="font-body text-3xl md:text-4xl uppercase font-bold text-secondary">Three day Packages</h1>
             </div>
-            <div className="w-2/4 mx-auto max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-12 mt-10">
+            <div className="w-full md:w-2/4 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
                 {threeDayPackages.map((day, index) => (
                     <TouristPackageDays
                         key={index}
