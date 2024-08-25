@@ -4,10 +4,9 @@ import { discoveryToShare, MTlogo, siteLogoBlack } from '../assets'
 const Footer = () => {
     return (
         <div className="w-full flex flex-col h-auto bg-secondary mt-20 font-outfit">
-            <div className="h-full max-w-screen-xl mx-auto w-full justify-center flex flex-col mb-16">
-                <div className='flex w-full'>
+            <div className="h-full w-full mx-auto justify-center flex flex-col mb-16">
+                <div className='flex w-full justify-center'>
                     <img className="w-60 md:w-80 mt-2" src={siteLogoBlack} alt="Logo" />
-
                 </div>
             </div>
             <div className="flex flex-col items-center mb-2">

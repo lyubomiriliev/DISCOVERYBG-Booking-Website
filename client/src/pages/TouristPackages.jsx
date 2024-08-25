@@ -86,7 +86,7 @@ const TouristPackages = () => {
 
     ]
 
-    const [selectedStation, setSelectedStation] = useState('')
+    const [selectedStation, setSelectedStation] = useState('dalgopol')
 
     const getButtonClass = (station) => {
         return station === selectedStation

@@ -67,46 +67,48 @@ const SiteDetails = () => {
     }, [galleryOpen]);
 
     return (
-        <div className="w-full flex flex-col mt-44 items-center relative">
-            <h1 className="font-body text-4xl uppercase font-bold">{placeData.name[i18n.language]}</h1>
-            <div className="flex max-w-screen-xl mx-auto mt-10 gap-5">
-                {photos.map((photo, index) => (
-                    <div key={index} className="w-full flex items-center" onClick={() => handleOpenGallery(index)}>
-                        <img src={photo} alt={`Photo ${index + 1}`} className="w-full h-full object-cover hover:scale-110 duration-300 ease-out" />
-                    </div>
-                ))}
+        <div className="w-full flex flex-col mt-32 md:mt-48 items-center relative">
+            <h1 className="font-body text-center text-2xl md:text-3xl uppercase font-bold">{placeData.name[i18n.language]}</h1>
+            <div className="flex w-full md:max-w-screen-xl mt-10 overflow-x-auto hide-scrollbar md:overflow-x-clip px-5 md:px-0">
+                <div className="flex flex-nowrap space-x-4 md:space-x-10">
+                    {photos.map((photo, index) => (
+                        <div key={index} className="w-72 flex-shrink-0 cursor-pointer" onClick={() => handleOpenGallery(index)}>
+                            <img src={photo} alt={`Photo ${index + 1}`} className="w-full h-48 object-cover md:hover:scale-110 duration-300 ease-out" />
+                        </div>
+                    ))}
+                </div>
             </div>
-            <div className="w-2/5 flex justify-between items-center px-4 mt-6">
-                <a href={placeData.googleMapsLink} target="_blank" rel="noopener noreferrer" className="font-body uppercase font-light">Google Maps</a>
+            <div className="w-full md:w-2/4 flex justify-between items-center px-4 md:px-0 mt-6">
+                <a href={placeData.googleMapsLink} target="_blank" rel="noopener noreferrer" className="font-body text-sm md:text-base uppercase font-light">Google Maps</a>
                 <div className="w-[1px] h-6 bg-black mt-1"></div>
-                <a href={placeData.bookingLink} target="_blank" rel="noopener noreferrer" className="font-body uppercase font-light">Booking</a>
+                <a href={placeData.bookingLink} target="_blank" rel="noopener noreferrer" className="font-body text-sm md:text-base uppercase font-light">Booking</a>
                 <div className="w-[1px] h-6 bg-black mt-1"></div>
-                <a href={placeData.restaurantsLink} target="_blank" rel="noopener noreferrer" className="font-body uppercase font-light">Restaurants</a>
+                <a href={placeData.restaurantsLink} target="_blank" rel="noopener noreferrer" className="font-body text-sm md:text-base uppercase font-light">Restaurants</a>
                 <div className="w-[1px] h-6 bg-black mt-1"></div>
-                <a href={placeData.airbnbLink} target="_blank" rel="noopener noreferrer" className="font-body uppercase font-light">Airbnb</a>
+                <a href={placeData.airbnbLink} target="_blank" rel="noopener noreferrer" className="font-body text-sm md:text-base uppercase font-light">Airbnb</a>
             </div>
-            <div className="w-2/3 flex flex-col mt-16">
+            <div className="w-full md:w-2/4 flex flex-col px-10 md:px-0 mt-16">
                 <div className="flex items-center">
                     <LuClipboardList className="w-8 h-8 mr-2 text-primary" />
                     <h3 className="text-3xl font-body uppercase font-bold text-primary">{t('siteDetails.placeDescription')}</h3>
                 </div>
-                <p className="font-body text-sm text-left mt-5">{placeData.description[i18n.language]}</p>
+                <p className="font-body text-sm md:text-base text-left mt-5">{placeData.description[i18n.language]}</p>
             </div>
-            <div className="w-2/3 flex flex-col mt-16">
+            <div className="w-full md:w-2/4 flex flex-col px-10 md:px-0 mt-16">
                 <div className="flex items-center">
                     <TbArrowGuide className="w-8 h-8 mr-2 font-bold text-primary" />
                     <h3 className="text-3xl font-body uppercase font-bold text-primary">{t('siteDetails.access')}</h3>
                 </div>
-                <p className="font-body text-sm text-left mt-5">{placeData.access[i18n.language]}</p>
+                <p className="font-body text-sm md:text-base text-left mt-5">{placeData.access[i18n.language]}</p>
             </div>
-            <div className="w-2/3  flex flex-col mt-16">
+            <div className="w-full md:w-2/4  flex flex-col px-10 md:px-0 mt-16">
                 <div className="flex items-center">
                     <IoMdTime className="w-8 h-8 mr-2 font-bold text-primary" />
                     <h3 className="text-3xl font-body uppercase font-bold text-primary">{t('siteDetails.workTime')}</h3>
                 </div>
                 <div>
-                    <p className="font-body text-sm text-left mt-5">{placeData.summerWorkTime[i18n.language]}</p>
-                    <p className="font-body text-sm text-left mt-5">{placeData.winterWorkTime[i18n.language]}</p>
+                    <p className="font-body text-sm md:text-base text-left mt-5">{placeData.summerWorkTime[i18n.language]}</p>
+                    <p className="font-body text-sm md:text-base text-left mt-5">{placeData.winterWorkTime[i18n.language]}</p>
                 </div>
             </div>
             <div className="max-w-screen-xl justify-center items-center flex flex-col">
@@ -115,7 +117,7 @@ const SiteDetails = () => {
                 <img className="w-40 h-40" src={placeData.qrCode} alt="QR CODE" />
                 <h2 className="font-light font-body uppercase">SCAN FOR DIRECTIONS</h2>
             </div>
-            <div className="w-[70%] h-96 justify-center items-center mt-10">
+            <div className="w-full md:w-[70%] h-96 justify-center px-5 md:px-0 items-center mt-10">
                 <iframe
                     className="w-full object-cover rounded-2xl"
                     src={placeData.googleMaps}
@@ -124,8 +126,8 @@ const SiteDetails = () => {
                 >
                 </iframe>
             </div>
-            <img className="w-1/5 absolute -bottom-24 -right-12 pointer-events-none" src={girlImg} alt="Girl Image" />
-            <img className="w-64 absolute -bottom-24 left-10 mb-1 pointer-events-none" src={manImg} alt="Man Image" />
+            <img className="w-1/5 absolute -bottom-24 -right-12 pointer-events-none hidden md:block" src={girlImg} alt="Girl Image" />
+            <img className="w-64 absolute -bottom-24 left-10 mb-1 pointer-events-none hidden md:block" src={manImg} alt="Man Image" />
 
             {galleryOpen && <ImageModal photo={photos[selectedPhotoIndex]} onClose={handleCloseGallery} photos={photos} currentIndex={selectedPhotoIndex} onNext={handleNextPhoto} onPrevious={handlePreviousPhoto} />}
         </div>
