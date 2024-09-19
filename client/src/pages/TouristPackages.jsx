@@ -336,7 +336,7 @@ const TouristPackages = () => {
                 </div>
                 <div className="md:w-1/3">
                     <h1 className="font-body text-3xl md:text-5xl uppercase font-bold text-secondary hidden md:block text-center md:text-left">{t('touristPackages')}</h1>
-                    <p className="font-body md:mt-5">Lorem ipsum dolor sit amet consectetur. Tellus quisque lacus semper tortor mauris porta mi viverra tellus. Quisque interdum dui etiam laoreet sed. Sed Lorem ipsum dolor sit amet consectetur.</p>
+                    <p className="font-body text-sm md:mt-5">{t("packagesDesc")}</p>
                     <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-5">
                         <button onClick={() => handleStationClick('dalgopol')} className={getButtonClass('dalgopol')}>{t('dalgopol')}</button>
                         <button onClick={() => handleStationClick('dolniChiflik')} className={getButtonClass('dolniChiflik')}>{t('dolniChiflik')}</button>

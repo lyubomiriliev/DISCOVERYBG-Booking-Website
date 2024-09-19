@@ -92,6 +92,28 @@ import skoka4 from "../assets/skoka4.jpg";
 import skoka5 from "../assets/skoka5.jpg";
 import etnografski1 from "../assets/etnografski1.jpg";
 import etnografski2 from "../assets/etnografski2.jpg";
+import kale1 from "../assets/kale1.jpg";
+import kale2 from "../assets/kale2.jpg";
+import kale3 from "../assets/kale3.jpg";
+import kale4 from "../assets/kale4.jpg";
+import muha1 from "../assets/muha1.jpg";
+import muha2 from "../assets/muha2.jpg";
+import muha3 from "../assets/muha3.jpg";
+import muha4 from "../assets/muha4.jpg";
+import muha5 from "../assets/muha5.jpg";
+import muha6 from "../assets/muha6.jpg";
+import kara1 from "../assets/kara1.jpg";
+import kara2 from "../assets/kara2.jpg";
+import kara3 from "../assets/kara3.jpg";
+import kara4 from "../assets/kara4.jpg";
+import kara5 from "../assets/kara5.jpg";
+import kara6 from "../assets/kara6.jpg";
+import teodor1 from "../assets/teodor1.jpg";
+import teodor2 from "../assets/teodor2.jpg";
+import teodor3 from "../assets/teodor3.jpg";
+import teodor4 from "../assets/teodor4.jpg";
+import teodor5 from "../assets/teodor5.jpg";
+import teodor6 from "../assets/teodor6.jpg";
 
 import ovechQR from "../assets/ovechQR.png";
 import partnersLogos from "../assets/logos.png";
@@ -211,4 +233,26 @@ export {
   skoka5,
   etnografski1,
   etnografski2,
+  kale1,
+  kale2,
+  kale3,
+  kale4,
+  muha1,
+  muha2,
+  muha3,
+  muha4,
+  muha5,
+  muha6,
+  kara1,
+  kara2,
+  kara3,
+  kara4,
+  kara5,
+  kara6,
+  teodor1,
+  teodor2,
+  teodor3,
+  teodor4,
+  teodor5,
+  teodor6,
 };

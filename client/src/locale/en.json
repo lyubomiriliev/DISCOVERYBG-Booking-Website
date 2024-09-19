@@ -6,9 +6,14 @@
         "packages": "Tourist Packages"
 
     },
+    "partners": "Partners",
+    "partnersDesc": "Project 'DISCOVER THE PAST, EXPERIENCE THE PRESENT in Dulgopol, Provadia and Dolni chiflik: An integrated marketing model for advertising tourist services in remote Black Sea municipalities'",
+    "partnersText": "Ministry of Tourism 'Program for financing marketing activities of tourist services in the Black Sea municipalities in the Republic of Bulgaria'",
     "homeTitle": "DISCOVER THE PAST, EXPERIENCE THE PRESENT",
     "homeSubTitle": "in Dalgopol, Provadia and Dolni Chiflik",
-    "homeDescription": "home description",
+    "homeDescription": "Whether individually, with family and friends, or organized with a group, here you will discover the past and experience the present in three wonderful municipalities Dulgopol - Dolni chiflik - Provadia with many natural beauties and an impressive past.",
+    "homeDescription2": "GET OFF THE TRACK!",
+    "homeDescription3": "Just a few kilometers from the main roads in the area, you will find a little-known Bulgaria. You will touch its rich history, you will get to know the traditional Bulgarian hospitality, the authentic national cuisine and you will see that the beauty lies in the unadulterated nature!",
     "touristSites": "Tourist Sites",
     "touristPackages": "Tourist packages",
     "dalgopol": "Dalgopol",
@@ -22,6 +27,7 @@
     "airbnb": "Airbnb",
     "variant": "Option",
     "day": "Day",
+    "packagesDesc": "By their nature, tourist packages represent a combination of different forms of tourism, including cultural-cognitive, ecotourism, wine, gourmet, sports, sea, emotional. That is why they are defined as integrated.",
     "oneDay": "One day packages",
     "twoDay": "Two day packages",
     "threeDay": "Three day packages",

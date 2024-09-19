@@ -87,24 +87,15 @@ const Header = () => {
                     <Link to="/tourist-packages" onClick={toggleMobileMenu}>
                         <h2 className="font-body uppercase text-black hover:text-secondary duration-300">{t('header.packages')}</h2>
                     </Link>
-                    <div className="">
-                        <button
-                            className="font-body uppercase text-black hover:text-secondary duration-300"
-                            onClick={toggleLanguageMenu}
-                        >
-                            <img className="w-8 h-auto object-cover" src={currentFlag} alt={i18n.language} />
-                        </button>
-                    </div>
+
                     <div className="relative">
-                        {showLanguage && (
-                            <div ref={languageRef} className="absolute left-0 -mt-5 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
-                                <div className="flex flex-col items-center space-y-2">
-                                    <img className="w-8 h-auto cursor-pointer" src={ENGflag} onClick={() => changeLanguage('en')} alt="EN" />
-                                    <img className="w-8 h-auto cursor-pointer" src={BGflag} onClick={() => changeLanguage('bg')} alt="BG" />
-                                    <img className="w-8 h-auto cursor-pointer" src={PLflag} onClick={() => changeLanguage('pl')} alt="PL" />
-                                </div>
+                        <div ref={languageRef} className="absolute left-0">
+                            <div className=" flex items-center justify-center space-x-4 bg-gray-200 rounded-md p-2">
+                                <img className="w-8 h-auto cursor-pointer" src={BGflag} onClick={() => changeLanguage('bg')} alt="BG" />
+                                <img className="w-8 h-5 cursor-pointer" src={ENGflag} onClick={() => changeLanguage('en')} alt="EN" />
+                                <img className="w-8 h-auto cursor-pointer" src={PLflag} onClick={() => changeLanguage('pl')} alt="PL" />
                             </div>
-                        )}
+                        </div>
                     </div>
                 </div>
             )}
