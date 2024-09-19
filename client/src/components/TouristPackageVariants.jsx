@@ -1,11 +1,19 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
-const TouristPackageVariants = ({ variantNumber, details, lunch, bgColor, timeStamps, id }) => {
+
+const TouristPackageVariants = ({ variantNumber, tourTitle, details, lunch, bgColor, timeStamps }) => {
+
+    const { t } = useTranslation();
+
+
     return (
         <div className="w-full flex flex-col items-center mt-5 bg-secondaryOpacity20">
             <div className={`w-full h-14 flex justify-center items-center ${bgColor} `}>
-                <h1 className="font-body uppercase font-bold text-white text-3xl">{`ВАРИАНТ ${variantNumber}`}</h1>
+                <h1 className="font-body uppercase font-bold text-white text-3xl">{`${t("variant")} ${variantNumber}`}</h1>
             </div>
+            <div className='font-body font-bold text-xs mt-2 uppercase'>{tourTitle}</div>
+
             <div className="text-left flex flex-col mt-5 w-[85%]">
 
                 <div className='grid grid-cols-[1fr_auto] gap-x-4 mb-4'>

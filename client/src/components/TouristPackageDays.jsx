@@ -1,31 +1,42 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
-const TouristPackageDays = ({ dayNumber, bgColor, details, lunchDetails, night, timeStamps = [] }) => {
+const TouristPackageDays = ({ dayNumber, variant, bgColor, details, tourTitle, lunchDetails, night, timeStamps = [] }) => {
+
+    const { t } = useTranslation();
+
     return (
         <div className="w-full flex flex-col items-center mt-5 bg-secondaryOpacity20">
-            <div className={`w-full h-14 flex justify-center items-center ${bgColor}`}>
-                <h1 className="font-body uppercase font-bold text-white text-3xl ">{`ДЕН ${dayNumber}`}</h1>
+            <div className={`w-full h-14 flex flex-col justify-center items-center ${bgColor}`}>
+                <h1 className="font-body uppercase font-bold text-white text-3xl ">{`${t("day")} ${dayNumber}`}</h1>
             </div>
+            <div className='w-full justify-end pr-4 pt-2 flex'>
+                {variant !== undefined && (
+                    <h3 className="font-body uppercase font-bold text-primary text-sm ">{`ВАРИАНТ ${variant}`}</h3>
+                )}
+            </div>
+            <div className='font-body font-bold text-xs mt-2 uppercase'>{tourTitle}</div>
 
-            <div className="text-left flex flex-col mt-5 w-[85%]">
-
+            <div className="text-left flex flex-col mt-5 w-[90%]">
                 <div className='grid grid-cols-[1fr_auto] gap-x-4 mb-4'>
-                    <div className='font-body font-bold text-base uppercase'>Активности</div>
+                    <div className='font-body font-bold text-base uppercase'>Активност</div>
                     <div className='font-body font-bold text-base text-right uppercase'>Времетраене</div>
                 </div>
 
                 <div className='grid grid-cols-[1fr_auto] gap-x-4'>
                     {details.map((detail, index) => (
                         <React.Fragment key={index}>
-                            <div className='font-body text-sm mb-4 w-full'>{detail}</div>
+                            <div className='font-body text-sm mb-4 w-full'>
+                                <div dangerouslySetInnerHTML={{ __html: detail }} />
+                            </div>
                             <div className='font-body text-sm mb-4 text-right'>
-                                {timeStamps[index]} мин.
+                                {timeStamps[index]}мин.
                             </div>
                         </React.Fragment>
                     ))}
                 </div>
-                <p className="font-body font-bold text-2xl mt-4 mb-10 text-secondary">{lunchDetails}</p>
-                <p className="font-body font-bold text-2xl mt-4 mb-10 text-secondary">{night}</p>
+                <p className="font-body font-bold text-xl mt-4 mb-10 text-secondary">{lunchDetails}</p>
+                <p className="font-body font-bold text-xl mt-4 mb-10 text-secondary">{night}</p>
             </div>
         </div>
     )
