@@ -12,9 +12,11 @@ const TouristPackageVariants = ({ variantNumber, tourTitle, details, lunch, bgCo
             <div className={`w-full h-14 flex justify-center items-center ${bgColor} `}>
                 <h1 className="font-body uppercase font-bold text-white text-3xl">{`${t("variant")} ${variantNumber}`}</h1>
             </div>
-            <div className='font-body font-bold text-xs mt-2 uppercase'>{tourTitle}</div>
+            <div className='font-body font-bold text-xs mt-2 text-center  uppercase'>
+                <h2>{tourTitle}</h2>
+            </div>
 
-            <div className="text-left flex flex-col mt-5 w-[85%]">
+            <div className="text-left flex flex-col mt-5 w-[90%]">
 
                 <div className='grid grid-cols-[1fr_auto] gap-x-4 mb-4'>
                     <div className='font-body font-bold text-base uppercase'>Активност</div>

@@ -142,6 +142,9 @@ import shashkuniteQR from "../assets/qrCodes/shashkuniteQR.png";
 import shkorpilovciQR from "../assets/qrCodes/shkorpilovciQR.png";
 import skokaQR from "../assets/qrCodes/skokaQR.png";
 import svTeodorQR from "../assets/qrCodes/svTeodorQR.png";
+import dalgopolPackages from "../assets/dalgopolPackages.jpg";
+import dolniChiflikPackages from "../assets/dolniChiflikPacakges.jpg";
+import provadiqPackages from "../assets/provadiqPackages.jpg";
 
 import partnersLogos from "../assets/logos.png";
 import discoveryToShare from "../assets/discoveryToShare.png";
@@ -307,4 +310,7 @@ export {
   shkorpilovciQR,
   skokaQR,
   svTeodorQR,
+  dalgopolPackages,
+  dolniChiflikPackages,
+  provadiqPackages,
 };

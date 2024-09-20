@@ -1,16 +1,16 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom"
 import { touristSites } from "../util.js"
-import { dalgopol, dolniChiflik, provadia } from "../assets/index.js";
+import { dalgopolPackages, dolniChiflikPackages, provadiqPackages } from "../assets/index.js";
 
 const TouristSites = () => {
 
     const { t, i18n } = useTranslation();
 
     const sitesWithLogos = [
-        { key: 'dalgopol', logo: dalgopol },
-        { key: 'dolniChiflik', logo: dolniChiflik },
-        { key: 'provadia', logo: provadia },
+        { key: 'dalgopol', logo: dalgopolPackages },
+        { key: 'dolniChiflik', logo: dolniChiflikPackages },
+        { key: 'provadia', logo: provadiqPackages },
     ]
 
     return (

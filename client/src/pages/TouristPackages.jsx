@@ -1,8 +1,9 @@
 import { useState, useTransition } from "react"
-import { dalgopol, dolniChiflik, touristPackagesHero } from "../assets"
+import { dalgopol, dalgopolPackages, dolniChiflik, dolniChiflikPackages, provadiqPackages, touristPackagesHero } from "../assets"
 import TouristPackageDays from "../components/TouristPackageDays"
 import TouristPackageVariants from "../components/TouristPackageVariants"
 import { useTranslation } from "react-i18next"
+import { Link } from "react-router-dom"
 
 const TouristPackages = () => {
 
@@ -309,13 +310,7 @@ const TouristPackages = () => {
 
     }
 
-    const [selectedStation, setSelectedStation] = useState('dalgopol')
-
-    const getButtonClass = (station) => {
-        return station === selectedStation
-            ? "bg-primary text-white px-2 py-2 uppercase font-body font-bold text-sm duration-200 ease-out"
-            : "bg-secondary text-white px-2 py-2 uppercase font-body font-bold text-sm hover:bg-primary duration-200 ease-out";
-    };
+    const [selectedStation, setSelectedStation] = useState('')
 
     const handleStationClick = (station) => {
         setSelectedStation(station)
@@ -325,6 +320,11 @@ const TouristPackages = () => {
     const filteredTwoDayPackages = twoDayPackages[selectedStation] || []
     const filteredThreeDayPackages = threeDayPackages[selectedStation] || []
 
+    const sitesWithLogos = [
+        { key: 'dalgopol', logo: dalgopolPackages },
+        { key: 'dolniChiflik', logo: dolniChiflikPackages },
+        { key: 'provadia', logo: provadiqPackages },
+    ]
 
 
     return (
@@ -337,17 +337,32 @@ const TouristPackages = () => {
                 <div className="md:w-1/3">
                     <h1 className="font-body text-3xl md:text-5xl uppercase font-bold text-secondary hidden md:block text-center md:text-left">{t('touristPackages')}</h1>
                     <p className="font-body text-sm md:mt-5">{t("packagesDesc")}</p>
-                    <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-5">
-                        <button onClick={() => handleStationClick('dalgopol')} className={getButtonClass('dalgopol')}>{t('dalgopol')}</button>
-                        <button onClick={() => handleStationClick('dolniChiflik')} className={getButtonClass('dolniChiflik')}>{t('dolniChiflik')}</button>
-                        <button onClick={() => handleStationClick('provadia')} className={getButtonClass('provadia')}>{t('Provadia')}</button>
-                    </div>
+
                 </div>
                 <div className="w-1/3 hidden md:block">
                     <img className="w-full" src={touristPackagesHero} alt="Hero Image" />
                 </div>
-            </div>
 
+            </div>
+            <div className="flex flex-col relative w-full md:w-2/3 overflow-x-auto hide-scrollbar md:overflow-x-clip mx-auto justify-center gap-4 mt-5">
+                <div className="flex gap-4 mx-auto">
+                    {sitesWithLogos.map((site) => (
+                        <div key={site.key} className={`relative flex flex-col items-center transition-all duration-500 ${selectedStation === site.key ? "w-96" : selectedStation ? "w-40 opacity-50" : "w-80"}`} onClick={() => handleStationClick(site.key)}>
+                            {/* <h2 className="font-heading uppercase font-bold text-2xl absolute md:right-3 mx-auto text-white bottom-6 text-blue drop-shadow-lg z-10">
+                                {t(site.key)}
+                            </h2> */}
+                            <img
+                                src={site.logo}
+                                alt="SiteLogo"
+                                className={`object-cover w-full h-full my-4 cursor-pointer transition-all duration-500 ${selectedStation === site.key ? "w-80" : selectedStation ? "w-40 opacity-50" : "w-80"}`}
+                            />
+                            <h2 className={`absolute bottom-5 left-0 right-0 text-center font-heading uppercase font-bold text-white transition-all duration-500 ${selectedStation === site.key ? 'text-3xl' : 'text-xl'}`}>
+                                {t(site.key)}
+                            </h2>
+                        </div>
+                    ))}
+                </div>
+            </div>
             {selectedStation && (
                 <div className="w-full flex flex-col items-center mt-10 ">
                     <h1 className="font-body text-3xl md:text-4xl uppercase font-bold">{t('oneDay')}</h1>
@@ -356,6 +371,7 @@ const TouristPackages = () => {
                     </div>
                 </div>
             )}
+
             <div className={`w-full md:w-[60%] mx-auto grid grid-cols-1 md:grid-cols-2 ${filteredVariants.length >= 3 ? "lg:grid-cols-3" : "lg:grid-cols-2"} gap-6 mt-5 md:mt-10}`}>
                 {filteredVariants.map((variant, index) => (
                     <TouristPackageVariants
@@ -371,12 +387,14 @@ const TouristPackages = () => {
                     />
                 ))}
             </div>
-            <div className="w-full flex flex-col items-center mt-20 ">
-                <h1 className="font-body text-3xl md:text-4xl uppercase font-bold text-primary">{t('twoDay')}</h1>
-                <div className="w-full md:w-2/4 text-center mx-auto">
-                    <p className="font-body mt-5 text-base">{t('twoDayDesc')}</p>
+            {selectedStation && (
+                <div className="w-full flex flex-col items-center mt-20 ">
+                    <h1 className="font-body text-3xl md:text-4xl uppercase font-bold text-primary">{t('twoDay')}</h1>
+                    <div className="w-full md:w-2/4 text-center mx-auto">
+                        <p className="font-body mt-5 text-base">{t('twoDayDesc')}</p>
+                    </div>
                 </div>
-            </div>
+            )}
             <div className="w-full md:w-[60%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
                 {filteredTwoDayPackages.map((day, index) => (
                     <TouristPackageDays
@@ -392,12 +410,14 @@ const TouristPackages = () => {
                     />
                 ))}
             </div>
-            <div className="w-full flex flex-col items-center mt-20 ">
-                <h1 className="font-body text-3xl md:text-4xl uppercase font-bold text-secondary">{t('threeDay')}</h1>
-                <div className="w-full md:w-2/4 text-center mx-auto">
-                    <p className="font-body mt-5 text-base">{t("threeDayDesc")}</p>
+            {selectedStation && (
+                <div className="w-full flex flex-col items-center mt-20 ">
+                    <h1 className="font-body text-3xl md:text-4xl uppercase font-bold text-secondary">{t('threeDay')}</h1>
+                    <div className="w-full md:w-2/4 text-center mx-auto">
+                        <p className="font-body mt-5 text-base">{t("threeDayDesc")}</p>
+                    </div>
                 </div>
-            </div>
+            )}
             <div className="w-full md:w-[60%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5 md:mt-10">
                 {filteredThreeDayPackages.map((day, index) => (
                     <TouristPackageDays
