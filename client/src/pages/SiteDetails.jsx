@@ -114,7 +114,9 @@ const SiteDetails = () => {
             <div className="max-w-screen-xl justify-center items-center flex flex-col">
                 <h3 className="mt-10 font-bold font-body uppercase">Location:</h3>
                 <h2 className="font-bold font-body uppercase">GPS: {placeData.coordinates.gps}</h2>
-                <img className="w-40 h-40" src={placeData.qrCode} alt="QR CODE" />
+                <a href={placeData.googleMapsLink} target="_blank" rel="noopener noreferrer">
+                    <img className="w-40 h-40" src={placeData.qrCode} alt="QR CODE" />
+                </a>
                 <h2 className="font-light font-body uppercase">SCAN FOR DIRECTIONS</h2>
             </div>
             <div className="w-full md:w-[70%] h-96 justify-center px-5 md:px-0 items-center mt-10">

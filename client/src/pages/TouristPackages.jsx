@@ -356,7 +356,7 @@ const TouristPackages = () => {
                     </div>
                 </div>
             )}
-            <div className={`w-full md:w-2/4 mx-auto grid grid-cols-1 md:grid-cols-2 ${filteredVariants.length >= 3 ? "lg:grid-cols-3" : "lg:grid-cols-2"} gap-6 mt-5 md:mt-10}`}>
+            <div className={`w-full md:w-[60%] mx-auto grid grid-cols-1 md:grid-cols-2 ${filteredVariants.length >= 3 ? "lg:grid-cols-3" : "lg:grid-cols-2"} gap-6 mt-5 md:mt-10}`}>
                 {filteredVariants.map((variant, index) => (
                     <TouristPackageVariants
                         key={index}
@@ -377,7 +377,7 @@ const TouristPackages = () => {
                     <p className="font-body mt-5 text-base">{t('twoDayDesc')}</p>
                 </div>
             </div>
-            <div className="w-full md:w-2/4 mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+            <div className="w-full md:w-[60%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
                 {filteredTwoDayPackages.map((day, index) => (
                     <TouristPackageDays
                         key={index}
@@ -398,7 +398,7 @@ const TouristPackages = () => {
                     <p className="font-body mt-5 text-base">{t("threeDayDesc")}</p>
                 </div>
             </div>
-            <div className="w-full md:w-2/4 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5 md:mt-10">
+            <div className="w-full md:w-[60%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5 md:mt-10">
                 {filteredThreeDayPackages.map((day, index) => (
                     <TouristPackageDays
                         key={index}

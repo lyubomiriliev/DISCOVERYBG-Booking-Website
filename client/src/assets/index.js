@@ -115,7 +115,34 @@ import teodor4 from "../assets/teodor4.jpg";
 import teodor5 from "../assets/teodor5.jpg";
 import teodor6 from "../assets/teodor6.jpg";
 
-import ovechQR from "../assets/ovechQR.png";
+// QR CODES
+import arhangelMihailQR from "../assets/qrCodes/arhangelMihailQR.png";
+import blagoveshtenieQR from "../assets/qrCodes/blagoveshtenieQR.png";
+import burunGradishteQR from "../assets/qrCodes/burunGradishteQR.png";
+import chudniSkaliQR from "../assets/qrCodes/chudniSkaliQR.png";
+import curkvaPetkaQR from "../assets/qrCodes/curkvaPetkaQR.png";
+import etnografskiMuzeiQR from "../assets/qrCodes/etnografskiMuzeiQR.png";
+import golqmotoKaleQR from "../assets/qrCodes/golqmotoKaleQR.png";
+import hemskiPortiQR from "../assets/qrCodes/hemskiPortiQR.png";
+import istoricheskiMuzeiQR from "../assets/qrCodes/istoricheskiMuzeiQR.png";
+import karaPeshteraQR from "../assets/qrCodes/karaPeshteraQR.png";
+import kuzaSkokaQR from "../assets/qrCodes/kuzaSkokaQR.png";
+import mestnostManastiraQR from "../assets/qrCodes/mestnostManastiraQR.png";
+import muhaKaleQR from "../assets/qrCodes/muhaKaleQR.png";
+import muzeiDulgopolQR from "../assets/qrCodes/muzeiDulgopolQR.png";
+import niazlarskoGermeQR from "../assets/qrCodes/niazlarskoGermeQR.png";
+import orlovKamukQR from "../assets/qrCodes/orlovKamukQR.png";
+import ortaKaqQR from "../assets/qrCodes/ortaKaqQR.png";
+import ovchagaQR from "../assets/qrCodes/ovchagaQR.png";
+import ovechQR from "../assets/qrCodes/ovechQR.png";
+import praistoricheskiQR from "../assets/qrCodes/praistoricheskiQR.png";
+import qrmazKaqQR from "../assets/qrCodes/qrmazKaqQR.png";
+import roqkQR from "../assets/qrCodes/roqkQR.png";
+import shashkuniteQR from "../assets/qrCodes/shashkuniteQR.png";
+import shkorpilovciQR from "../assets/qrCodes/shkorpilovciQR.png";
+import skokaQR from "../assets/qrCodes/skokaQR.png";
+import svTeodorQR from "../assets/qrCodes/svTeodorQR.png";
+
 import partnersLogos from "../assets/logos.png";
 import discoveryToShare from "../assets/discoveryToShare.png";
 import MTlogo from "../assets/MT_logo.png";
@@ -255,4 +282,29 @@ export {
   teodor4,
   teodor5,
   teodor6,
+  arhangelMihailQR,
+  blagoveshtenieQR,
+  burunGradishteQR,
+  chudniSkaliQR,
+  curkvaPetkaQR,
+  etnografskiMuzeiQR,
+  golqmotoKaleQR,
+  hemskiPortiQR,
+  istoricheskiMuzeiQR,
+  karaPeshteraQR,
+  kuzaSkokaQR,
+  mestnostManastiraQR,
+  muhaKaleQR,
+  muzeiDulgopolQR,
+  niazlarskoGermeQR,
+  orlovKamukQR,
+  ortaKaqQR,
+  ovchagaQR,
+  praistoricheskiQR,
+  qrmazKaqQR,
+  roqkQR,
+  shashkuniteQR,
+  shkorpilovciQR,
+  skokaQR,
+  svTeodorQR,
 };
