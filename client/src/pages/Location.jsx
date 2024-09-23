@@ -24,7 +24,7 @@ const Location = () => {
                 {site.places.map((place, index) => (
                     <Link key={index} to={`/site-details/${name}/${place.id}`}>
                         <div className='flex flex-col items-center w-80 mt-5'>
-                            <h2 className='font-body font-bold w-full justify-center items-center text-center md:mb-4 h-16'>{place.name[i18n.language]}</h2>
+                            <h2 className='font-body font-bold w-full justify-center items-center text-center md:mb-4 h-14 md:h-10'>{place.name[i18n.language]}</h2>
                             <div className='flex w-full h-40 justify-center mb-2'>
                                 <img src={place.displayPhoto} alt="" className='w-full object-cover' />
                             </div>

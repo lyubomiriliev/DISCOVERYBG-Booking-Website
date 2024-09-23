@@ -3,7 +3,7 @@ import { dalgopol, dalgopolPackages, dolniChiflik, dolniChiflikPackages, provadi
 import TouristPackageDays from "../components/TouristPackageDays"
 import TouristPackageVariants from "../components/TouristPackageVariants"
 import { useTranslation } from "react-i18next"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 const TouristPackages = () => {
 
@@ -310,10 +310,17 @@ const TouristPackages = () => {
 
     }
 
+    const navigate = useNavigate();
     const [selectedStation, setSelectedStation] = useState('')
+    const [firstClick, setFirstClick] = useState(false);
 
     const handleStationClick = (station) => {
-        setSelectedStation(station)
+        if (selectedStation === station && firstClick) {
+            navigate(`/location/${station}`)
+        } else {
+            setSelectedStation(station)
+            setFirstClick(true);
+        }
     }
 
     const filteredVariants = packageVariants[selectedStation] || []

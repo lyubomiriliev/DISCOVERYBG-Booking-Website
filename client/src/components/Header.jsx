@@ -12,6 +12,7 @@ const Header = () => {
     const { t } = useTranslation();
 
     const [showLanguage, setShowLanguage] = useState(false);
+    const [showLanguageText, setShowLanguageText] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     const getFlagForLanguage = (lang) => {
@@ -35,11 +36,10 @@ const Header = () => {
         setIsMobileMenuOpen(false);
     }
 
-    const toggleLanguageMenu = () => setShowLanguage(!showLanguage);
-
     const handleClickOutside = (event) => {
         if (languageRef.current && !languageRef.current.contains(event.target)) {
             setShowLanguage(false);
+            setShowLanguageText(false);
         }
     };
 
@@ -49,6 +49,16 @@ const Header = () => {
             document.removeEventListener("mousedown", handleClickOutside);
         };
     }, [])
+
+    const handleLanguageHover = () => {
+        setShowLanguageText(true);
+        setShowLanguage(true);
+    };
+
+    const handleLanguageLeave = () => {
+        setShowLanguageText(false);
+        setShowLanguage(false);
+    };
 
 
     const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen)
@@ -104,24 +114,30 @@ const Header = () => {
             <div className="hidden md:flex h-16 w-full justify-start items-center ">
                 <nav className="w-2/3 mx-auto flex space-x-20 items-center pl-20">
                     <Link to="/">
-                        <h2 className="font-body uppercase text-black hover:text-secondary duration-300 font-bold hidden md:block">{t('header.home')}</h2>
+                        <h2 className="font-body uppercase text-black text-sm hover:text-secondary duration-300 font-bold hidden md:block">{t('header.home')}</h2>
                     </Link>
                     <Link to="/tourist-site">
-                        <h2 className="font-body uppercase text-black hover:text-secondary duration-300 font-bold hidden md:block">{t('header.touristSites')}</h2>
+                        <h2 className="font-body uppercase text-black text-sm hover:text-secondary duration-300 font-bold hidden md:block">{t('header.touristSites')}</h2>
                     </Link>
                     <Link to="/tourist-packages">
-                        <h2 className="font-body uppercase text-black hover:text-secondary duration-300 font-bold">{t('header.packages')}</h2>
+                        <h2 className="font-body uppercase text-black text-sm hover:text-secondary duration-300 font-bold">{t('header.packages')}</h2>
                     </Link>
                 </nav>
                 <div className="flex justify-around items-center">
                     <div className="relative">
                         <button
                             className="font-body uppercase text-black hover:text-secondary duration-300 font-bold"
-                            onClick={toggleLanguageMenu}
+                            onMouseEnter={handleLanguageHover}
+                            onMouseLeave={handleLanguageLeave}
                         >
                             <img className="w-10 h-auto object-cover" src={currentFlag} alt={i18n.language} />
                         </button>
 
+                        {showLanguageText && (
+                            <h3 className="text-sm font-bold text-primary font-body">
+                                {i18n.language.toUpperCase()}
+                            </h3>
+                        )}
                         {showLanguage && (
                             <div ref={languageRef} className="absolute left-0 mt-2 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                                 <div className="flex flex-col items-center space-y-2">
@@ -130,6 +146,9 @@ const Header = () => {
                                     <img className="w-8 h-auto cursor-pointer" src={PLflag} onClick={() => changeLanguage('pl')} alt="PL" />
                                 </div>
                             </div>
+                        )}
+                        {showLanguageText && (
+                            <h3 className="text-sm font-bold text-primary font-body">BG</h3>
                         )}
                     </div>
                 </div>
