@@ -13,6 +13,7 @@ const Header = () => {
 
     const [showLanguage, setShowLanguage] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [objectsDropdown, setObjectsDropdown] = useState(false);
 
     const getFlagForLanguage = (lang) => {
         switch (lang) {
@@ -36,6 +37,14 @@ const Header = () => {
     };
 
     const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
+
+    const handleObjectsEnter = () => {
+        setObjectsDropdown(true)
+    }
+
+    const handleObjectsLeave = () => {
+        setObjectsDropdown(false)
+    }
 
     const handleMouseEnter = () => {
         setShowLanguage(true);
@@ -111,9 +120,34 @@ const Header = () => {
                     <Link to="/">
                         <h2 className="font-body uppercase text-black text-sm hover:text-secondary duration-300 font-bold hidden md:block">{t('header.home')}</h2>
                     </Link>
-                    <Link to="/tourist-site">
-                        <h2 className="font-body uppercase text-black text-sm hover:text-secondary duration-300 font-bold hidden md:block">{t('header.touristSites')}</h2>
-                    </Link>
+                    <div
+                        className="relative"
+                        onMouseEnter={handleObjectsEnter}
+                        onMouseLeave={handleObjectsLeave}
+                    >
+                        <Link to="/tourist-site">
+                            <h2
+                                className="font-body uppercase text-black text-sm hover:text-secondary duration-300 font-bold hidden md:block"
+                                onClick={() => setObjectsDropdown(false)}
+                            >
+                                {t('header.touristSites')}
+                            </h2>
+                            {objectsDropdown && (
+                                <div className="absolute flex flex-col space-y-4 pt-4 bg-white shadow-xl px-4 py-4">
+                                    <Link to="/location/dalgopol">
+                                        <h2 className="font-body font-bold uppercase text-black text-sm hover:text-secondary duration-300" onClick={() => setObjectsDropdown(false)}>Дългопол</h2>
+                                    </Link>
+                                    <Link to="/location/dolniChiflik">
+                                        <h2 className="font-body font-bold uppercase text-black text-sm hover:text-secondary duration-300" onClick={() => setObjectsDropdown(false)}>Долни Чифлик</h2>
+                                    </Link>
+                                    <Link to="/location/provadia">
+                                        <h2 className="font-body font-bold uppercase text-black text-sm hover:text-secondary duration-300" onClick={() => setObjectsDropdown(false)}>Провадия</h2>
+                                    </Link>
+                                </div>
+                            )}
+
+                        </Link>
+                    </div>
                     <Link to="/tourist-packages">
                         <h2 className="font-body uppercase text-black text-sm hover:text-secondary duration-300 font-bold">{t('header.packages')}</h2>
                     </Link>
