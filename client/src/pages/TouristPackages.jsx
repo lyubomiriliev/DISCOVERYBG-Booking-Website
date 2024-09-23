@@ -361,7 +361,7 @@ const TouristPackages = () => {
                             <img
                                 src={site.logo}
                                 alt="SiteLogo"
-                                className={`object-cover w-full h-full my-4 cursor-pointer transition-all duration-500 ${selectedStation === site.key ? "w-80" : selectedStation ? "w-40 opacity-50" : "w-80"}`}
+                                className={`object-cover w-full h-full my-4 hover:opacity-70 cursor-pointer transition-all duration-500 ${selectedStation === site.key ? "w-80" : selectedStation ? "w-40 opacity-50" : "w-80"}`}
                             />
                             <h2 className={`absolute bottom-5 left-0 right-0 text-center font-heading uppercase font-bold text-white transition-all duration-500 ${selectedStation === site.key ? 'text-3xl' : 'text-xl'}`}>
                                 {t(site.key)}
