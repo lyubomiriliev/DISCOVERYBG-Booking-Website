@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom'
 import { manImg } from '../assets'
 import { useTranslation } from 'react-i18next'
 import { touristSites } from '../util'
+import Breadcrumbs from '../components/Breadcrumbs'
 
 const Location = () => {
 
@@ -17,6 +18,8 @@ const Location = () => {
 
     return (
         <div className='max-w-screen-xl flex flex-col mt-28 md:mt-44 mx-auto relative'>
+            <Breadcrumbs />
+
             <div className='flex  justify-center mb-4 md:mb-6'>
                 <h1 className='font-body font-bold text-secondary text-4xl uppercase'>{site.name[i18n.language]}</h1>
             </div>

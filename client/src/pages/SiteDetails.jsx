@@ -7,7 +7,7 @@ import ImageModal from "../components/ImageModal";
 import { LuClipboardList } from "react-icons/lu";
 import { TbArrowGuide } from "react-icons/tb";
 import { IoMdTime } from "react-icons/io";
-import { ImLocation2 } from "react-icons/im";
+import Breadcrumbs from "../components/Breadcrumbs";
 
 const SiteDetails = () => {
 
@@ -67,7 +67,8 @@ const SiteDetails = () => {
     }, [galleryOpen]);
 
     return (
-        <div className="w-full flex flex-col mt-32 md:mt-48 items-center relative">
+        <div className="w-full flex flex-col mt-28 md:mt-44 items-center relative">
+            <Breadcrumbs />
             <h1 className="font-body text-center text-2xl md:text-3xl uppercase font-bold">{placeData.name[i18n.language]}</h1>
             <div className="flex w-full md:max-w-screen-xl mt-10 overflow-x-auto hide-scrollbar md:overflow-x-clip px-5 md:px-0">
                 <div className="flex flex-nowrap space-x-4 md:space-x-10">

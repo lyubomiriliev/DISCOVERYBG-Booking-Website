@@ -13,6 +13,8 @@ const TouristSites = () => {
         { key: 'provadia', logo: provadiqPackages },
     ]
 
+
+
     return (
 
         <div className="w-full flex flex-col justify-center items-center -mt-6 md:mt-48 ">

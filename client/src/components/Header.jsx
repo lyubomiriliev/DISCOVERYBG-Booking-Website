@@ -133,7 +133,7 @@ const Header = () => {
                                 {t('header.touristSites')}
                             </h2>
                             {objectsDropdown && (
-                                <div className="absolute flex flex-col space-y-4 pt-4 bg-white shadow-xl px-4 py-4">
+                                <div className="absolute right-0 flex flex-col space-y-4 pt-4 bg-white shadow-xl px-4 py-4">
                                     <Link to="/location/dalgopol">
                                         <h2 className="font-body font-bold uppercase text-black text-sm hover:text-secondary duration-300" onClick={() => setObjectsDropdown(false)}>Дългопол</h2>
                                     </Link>
