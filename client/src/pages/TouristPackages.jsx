@@ -4,6 +4,7 @@ import TouristPackageDays from "../components/TouristPackageDays"
 import TouristPackageVariants from "../components/TouristPackageVariants"
 import { useTranslation } from "react-i18next"
 import { Link, useNavigate } from "react-router-dom"
+import SitesMap from "../components/SitesMap"
 
 const TouristPackages = () => {
 
@@ -310,9 +311,9 @@ const TouristPackages = () => {
 
     }
 
-    const navigate = useNavigate();
     const [selectedStation, setSelectedStation] = useState('')
     const [firstClick, setFirstClick] = useState(false);
+    const navigate = useNavigate();
 
     const handleStationClick = (station) => {
         if (selectedStation === station && firstClick) {
@@ -368,6 +369,11 @@ const TouristPackages = () => {
                             </h2>
                         </div>
                     ))}
+                </div>
+                <div>
+                    {selectedStation && (
+                        <SitesMap selectedStation={selectedStation} />
+                    )}
                 </div>
             </div>
             {selectedStation && (

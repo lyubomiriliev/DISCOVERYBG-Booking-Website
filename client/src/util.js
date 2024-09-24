@@ -187,7 +187,7 @@ export const touristSites = {
       {
         id: "place2",
         name: {
-          en: "Place 1 in Dalgopol",
+          en: "Locality 'Manastira' village Asparuhovo",
           bg: "Местност „Манастира“ с. Аспарухово",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -227,7 +227,7 @@ export const touristSites = {
       {
         id: "place3",
         name: {
-          en: "Place 1 in Dalgopol",
+          en: "Natural Landmark 'The Wonderful Rocks'",
           bg: "Природна Забележителност „Чудните скали“",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -267,7 +267,7 @@ export const touristSites = {
       {
         id: "place4",
         name: {
-          en: "Place 1 in Dalgopol",
+          en: "Medieval rock monastery in the village of Royak",
           bg: "Средновековен скален манастир с. Рояк",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -307,7 +307,7 @@ export const touristSites = {
       {
         id: "place5",
         name: {
-          en: "Place 1 in Dalgopol",
+          en: "Medieval fortress 'Ovchaga'",
           bg: "Средновековна крепост „Овчага“",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -347,7 +347,7 @@ export const touristSites = {
       {
         id: "place6",
         name: {
-          en: "Place 1 in Dalgopol",
+          en: "Waterfall 'Kuza Skoka'",
           bg: "Водопад „Куза Скока“",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -387,7 +387,7 @@ export const touristSites = {
       {
         id: "place7",
         name: {
-          en: "Place 1 in Dalgopol",
+          en: "Revival Church 'St. Petka Paraskeva'",
           bg: "Възрожденска църква „Св. Петка Параскева“",
           pl: "Miejsce 1 w Dalgopol",
         },
