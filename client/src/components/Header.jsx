@@ -133,15 +133,15 @@ const Header = () => {
                                 {t('header.touristSites')}
                             </h2>
                             {objectsDropdown && (
-                                <div className="absolute right-0 flex flex-col space-y-4 pt-4 bg-white shadow-xl px-4 py-4">
+                                <div className="w-full absolute left-0 flex flex-col space-y-4 pt-4 bg-white shadow-xl px-4 py-4">
                                     <Link to="/location/dalgopol">
-                                        <h2 className="font-body font-bold uppercase text-black text-sm hover:text-secondary duration-300" onClick={() => setObjectsDropdown(false)}>Дългопол</h2>
+                                        <h2 className="font-body font-bold uppercase text-black text-sm hover:text-secondary duration-300" onClick={() => setObjectsDropdown(false)}>{t('dalgopol')}</h2>
                                     </Link>
                                     <Link to="/location/dolniChiflik">
-                                        <h2 className="font-body font-bold uppercase text-black text-sm hover:text-secondary duration-300" onClick={() => setObjectsDropdown(false)}>Долни Чифлик</h2>
+                                        <h2 className="font-body font-bold uppercase text-black text-sm hover:text-secondary duration-300" onClick={() => setObjectsDropdown(false)}>{t('dolniChiflik')}</h2>
                                     </Link>
                                     <Link to="/location/provadia">
-                                        <h2 className="font-body font-bold uppercase text-black text-sm hover:text-secondary duration-300" onClick={() => setObjectsDropdown(false)}>Провадия</h2>
+                                        <h2 className="font-body font-bold uppercase text-black text-sm hover:text-secondary duration-300" onClick={() => setObjectsDropdown(false)}>{t('provadia')}</h2>
                                     </Link>
                                 </div>
                             )}

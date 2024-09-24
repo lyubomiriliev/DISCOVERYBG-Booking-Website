@@ -342,7 +342,7 @@ const TouristPackages = () => {
                 <div className="w-2/3 md:hidden">
                     <img className="w-full" src={touristPackagesHero} alt="Hero Image" />
                 </div>
-                <div className="md:w-1/3">
+                <div className="w-full text-center md:text-left md:w-1/3">
                     <h1 className="font-body text-3xl md:text-5xl uppercase font-bold text-secondary hidden md:block text-center md:text-left">{t('touristPackages')}</h1>
                     <p className="font-body text-sm md:mt-5">{t("packagesDesc")}</p>
 
@@ -353,7 +353,7 @@ const TouristPackages = () => {
 
             </div>
             <div className="flex flex-col relative w-full md:w-2/3 overflow-x-auto hide-scrollbar md:overflow-x-clip mx-auto justify-center gap-4 mt-5">
-                <div className="flex gap-4 mx-auto">
+                <div className="flex flex-col md:flex-row gap-4 mx-auto">
                     {sitesWithLogos.map((site) => (
                         <div key={site.key} className={`relative flex flex-col items-center transition-all duration-500 ${selectedStation === site.key ? "w-96" : selectedStation ? "w-40 opacity-50" : "w-80"}`} onClick={() => handleStationClick(site.key)}>
                             {/* <h2 className="font-heading uppercase font-bold text-2xl absolute md:right-3 mx-auto text-white bottom-6 text-blue drop-shadow-lg z-10">
