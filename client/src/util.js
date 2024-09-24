@@ -181,7 +181,7 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "43.13034, 27.34071",
+          gps: "43.0501, 27.34402",
         },
       },
       {
@@ -261,7 +261,7 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "42.96770, 27.292492",
+          gps: "42.96774, 27.29244",
         },
       },
       {
@@ -301,7 +301,7 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "43.09766,  27.36172",
+          gps: "43.09745, 27.36174",
         },
       },
       {
@@ -341,7 +341,7 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "42.960555, 27.335833",
+          gps: "42.96083, 27.33583",
         },
       },
       {
@@ -381,7 +381,7 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "42.96802, 27.15539",
+          gps: "42.96781, 27.15542",
         },
       },
       {
@@ -550,7 +550,7 @@ export const touristSites = {
       {
         id: "place1",
         name: {
-          en: "Historical Museum",
+          en: "Ancient fortress of Shkorpilovtsi, Shkorpilovtsi village",
           bg: "Антична крепост Шкорпиловци, с. Шкорпиловци",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -570,12 +570,12 @@ export const touristSites = {
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The ancient and late ancient fortress of Shkorpilovtsi is located 1.46 km east of the center of the village of Shkorpilovtsi. The site is accessible and within walking distance from the village of Shkropilovtsi",
           bg: "Антична и късноантична крепост Шкорпиловци се намира на 1.46 km източно от центъра на село Шкорпиловци. Обектът е достъпен и е на пешеходно разстояние от с. Шкропиловци",
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "The fortress has free access.",
           bg: "Крепостта е със свободен достъп.",
           pl: "",
         },
@@ -585,13 +585,13 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "42°57’32” С.Ш. и 27°53’41” И.Д.",
+          gps: "42.95931, 27.89493",
         },
       },
       {
         id: "place2",
         name: {
-          en: "Historical Museum",
+          en: "Late antique fortress Burun gradishte, Golitsa village",
           bg: "Късноантична крепост Бурун градище, с. Голица",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -614,7 +614,7 @@ export const touristSites = {
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "The site has free access.",
           bg: "Обектът е със свободен достъп.",
           pl: "",
         },
@@ -624,13 +624,13 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "42.5355, 27.3623",
+          gps: "42.91457, 27.54742",
         },
       },
       {
         id: "place3",
         name: {
-          en: "Historical Museum",
+          en: "Late antique and medieval fortress complex Hemskite Porti/Germeto",
           bg: "Късноантичен и средновековен крепостен комплекс Хемските порти/Гермето",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -655,7 +655,7 @@ export const touristSites = {
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "The site has free access.",
           bg: "Обектът е със свободен достъп.",
           pl: "",
         },
@@ -665,13 +665,13 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "42.89989, 27.48577",
+          gps: "42.8997, 27.4858",
         },
       },
       {
         id: "place4",
         name: {
-          en: "Historical Museum",
+          en: "Niazlarsko Germe complex, Bulair village",
           bg: "Комплекс Ниазларско герме, с. Булаир",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -698,7 +698,7 @@ export const touristSites = {
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "The site has free access.",
           bg: "Обектът е със свободен достъп.",
           pl: "",
         },
@@ -708,13 +708,13 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "42.90626, 27.41084",
+          gps: "42.90609, 27.41081",
         },
       },
       {
         id: "place5",
         name: {
-          en: "Historical Museum",
+          en: "Orta Kaya rock sanctuary, Bulair village",
           bg: "Скално светилище „Орта кая“, с. Булаир",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -739,7 +739,7 @@ export const touristSites = {
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "The site has free access and is particularly suitable for lovers of hiking routes, nature walks, etc.",
           bg: "Обектът е със свободен достъп и е особено подходящ за любителите на пешеходни маршрути, разходки сред природата и др.",
           pl: "",
         },
@@ -749,13 +749,13 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "42.90626, 27.41454",
+          gps: "42.90608, 27.41453",
         },
       },
       {
         id: "place6",
         name: {
-          en: "Historical Museum",
+          en: "'Yaramaz kaya' sanctuary, Bulair village",
           bg: "Светилище „Ярамаз кая“, с. Булаир",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -780,7 +780,7 @@ export const touristSites = {
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "The site has free access.",
           bg: "Обектът е със свободен достъп.",
           pl: "",
         },
@@ -790,13 +790,13 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "42.90534, 27.40021",
+          gps: "42.90493, 27.40022",
         },
       },
       {
         id: "place7",
         name: {
-          en: "Historical Museum",
+          en: "Temple 'St. Archangel Michael', Venelin village",
           bg: "Храм „Св. Архангел Михаил“, с. Венелин",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -816,7 +816,7 @@ export const touristSites = {
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The temple is located in the village of Venelin, which is 8 km north of the municipal center Dolni Chiflik. The temple is open for visits.",
           bg: "Храмът се намира в с. Венелин, което е на 8 км на север от общинския център Долни Чифлик. Храмът е достъпен за посещения.",
           pl: "",
         },
@@ -831,13 +831,13 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "43.0464385, 27.6689923",
+          gps: "43.04555, 27.67076",
         },
       },
       {
         id: "place8",
         name: {
-          en: "Historical Museum",
+          en: "Orlov stone waterfall, Goren Chiflik village",
           bg: "Водопад Орлов камък, с. Горен Чифлик",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -857,12 +857,12 @@ export const touristSites = {
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The waterfall is hidden in the forest areas near the village of Goren Chiflik. The waterfall can be reached on foot, after driving from Goren Chiflik to where the asphalt road allows.",
           bg: "Водопадът е закътан в горските местности близо до с. Горен Чифлик. До водопада се стига пеш, след автомобилен преход от Горен Чифлик до където асфалтовия път позволява.",
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "The site has free access.",
           bg: "Обектът е със свободен достъп.",
           pl: "",
         },
@@ -872,13 +872,13 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "42.98206, 27.57646",
+          gps: "42.97713, 27.57709",
         },
       },
       {
         id: "place9",
         name: {
-          en: "Historical Museum",
+          en: "Skoka waterfall, Solnik village",
           bg: "Водопад Скока, с. Солник",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -898,12 +898,12 @@ export const touristSites = {
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "Skoka waterfall is located in a sheltered wooded area near the village of Solnik. The place can be reached by two roads - through Dolni Chiflik and through the village of Krivini. Also, on the main street in Solnik coming from Dolni Chiflik you can turn left and follow the wooden arrow 'Waterfall'",
           bg: "Водопад Скока се намира в закътана гориста местност близо до с.Солник. До мястото се стига по два пътя - през Долни Чифлик и през с. Кривини. Освен това, на главната улица в Солник, идваща от Долни Чифлик може да се завие наляво и се следва дървена стрелка „Водопада“.",
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "Skoka waterfall has free access.",
           bg: "Водопад Скока е със свободен достъп.",
           pl: "",
         },
@@ -913,13 +913,13 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "42.90581, 27.63763",
+          gps: "42.9056, 27.63759",
         },
       },
       {
         id: "place10",
         name: {
-          en: "Historical Museum",
+          en: "Ethnographic Museum at 'Izgrev'",
           bg: "Етнографски музей при НЧ „Изгрев“,",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -937,12 +937,12 @@ export const touristSites = {
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The museum is located in the center of the town of Dolni Chiflik. The site is easily accessible in the center of Dolni Chiflik.",
           bg: "Музеят се намира в центъра на гр. Долни чифлик. Обектът е с лесен достъп в центъра на гр. Долни чифлик.",
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "Weekdays: Monday - Friday: 8:00 - 17:00",
           bg: "Делнични дни: понеделник – петък: 8:00 – 17:00",
           pl: "",
         },
@@ -952,7 +952,7 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "43.13034, 27.34071",
+          gps: "42.99289, 27.71997",
         },
       },
     ],
@@ -994,17 +994,17 @@ export const touristSites = {
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "Summer opening hours: 9:00 a.m. – 7:00 p.m.",
           bg: "Лятно работно време: 9:00ч. – 19:00 ч.",
           pl: "",
         },
         winterWorkTime: {
-          en: "",
+          en: "Winter opening hours: 9:00 a.m. – 5:30 p.m.",
           bg: "Зимно работно време: 9:00ч. – 17:30 ч.",
           pl: "",
         },
         coordinates: {
-          gps: "43.175409,   27.448018",
+          gps: "43.17548, 27.44773",
         },
       },
       {
@@ -1047,13 +1047,13 @@ export const touristSites = {
           pl: "Organizowane są także dni otwarte umożliwiające bezpłatne wizyty mieszkańcom i turystom",
         },
         coordinates: {
-          gps: "43.128417, 27.472528",
+          gps: "43.12949, 27.47345",
         },
       },
       {
         id: "place3",
         name: {
-          en: "Place 1 in Dalgopol",
+          en: "Thracian sanctuary 'Shashkanite' and rock monastery",
           bg: "Тракийско светилище „Шашкъните“ и скален манастир",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -1078,7 +1078,7 @@ export const touristSites = {
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "Free access for visitors every day.",
           bg: "Свободен достъп за посетители всеки ден.",
           pl: "",
         },
@@ -1088,13 +1088,13 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "43.19372  24.45379",
+          gps: "43.19212, 27.45447",
         },
       },
       {
         id: "place4",
         name: {
-          en: "Place 1 in Dalgopol",
+          en: "Historical Museum",
           bg: "Исторически Музей",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -1119,7 +1119,7 @@ export const touristSites = {
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "Working hours: Winter: from 09:00 a.m. to 6:00 p.m. Weekends: Saturday and Sunday Summer: from 9:00 a.m. to 6:00 p.m. Saturday and Sunday: from 9:30 a.m. to 5:30 p.m.",
           bg: "Работно време: Зимно: от 09:00ч. до 18:00 ч. Почивни дни: събота и неделя Лятно: от 09:00ч. до 18:00 ч. Събота и неделя: от 9:30 до 17:30 ч. ",
           pl: "",
         },
@@ -1129,13 +1129,13 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "43.17592   27.44151",
+          gps: "43.17585, 27.44152",
         },
       },
       {
         id: "place5",
         name: {
-          en: "Place 1 in Dalgopol",
+          en: "Temple 'St. Annunciation'",
           bg: "Храм „Св. Благовещение“, ",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -1155,12 +1155,12 @@ export const touristSites = {
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "Located in the central part of Provadia, church 'St. Annunciation' is easily accessible and visible.",
           bg: "Намирайки се в централната част на Провадия, храм „Св. Благовещение“ е лесно достъпен и видим.",
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "Every weekday: from 8:00 a.m. until 4:00 p.m",
           bg: "Всеки делничен ден: от 8:00ч. до 16:00ч.",
           pl: "",
         },
@@ -1170,13 +1170,13 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "43.173933, 27.443056",
+          gps: "43.17392, 27.44291",
         },
       },
       {
         id: "place6",
         name: {
-          en: "Place 1 in Dalgopol",
+          en: "Late antique and medieval fortress Gradishte /The Great Kale/",
           bg: "Късноантична и средновековна крепост Градище /Голямото кале/",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -1184,7 +1184,7 @@ export const touristSites = {
         photos: [{ kale1, kale2, kale3, kale4 }],
         googleMapsLink: "https://maps.app.goo.gl/DqMesLakuCQei4a58",
         googleMaps:
-          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1456.5700178716452!2d27.325798153483632!3d43.10157190221294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5c0ce6f7ad259%3A0x5c4b2352ed04988e!2z0JzRg9GF0LDQu9C40LnRgdC60L4g0LrQsNC70LU!5e0!3m2!1sen!2sbg!4v1726732586369!5m2!1sen!2sbg",
+          "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d6340.471396375015!2d27.450525547140703!3d43.22796559394798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDEzJzQ1LjMiTiAyN8KwMjcnMDcuMiJF!5e0!3m2!1sbg!2sbg!4v1727183699227!5m2!1sbg!2sbg",
         bookingLink: "https://www.booking.com/Place1Dalgopol",
         restaurantsLink:
           "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
@@ -1195,12 +1195,12 @@ export const touristSites = {
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The road to the area of ​Gradishte and the rock monastery 'St. Georgi' is not marked and has no signs. The road is covered on foot. After the south-eastern end of the village of Petrov Dol, take the direction of the monastery along the meadow, following a barely noticeable path.",
           bg: "Пътят до местността Градище и скалният манастир „Св. Георги“ не е маркиран и няма табели. Пътят се изминава пеш. След югоизточния край на с. Петров дол се поема в посока манастира по поляна, като се следва едвам забележима пътека.",
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "Free access for visitors every day.",
           bg: "Свободен достъп за посетители всеки ден.",
           pl: "",
         },
@@ -1216,7 +1216,7 @@ export const touristSites = {
       {
         id: "place7",
         name: {
-          en: "Place 1 in Dalgopol",
+          en: "Late antique and medieval fortress Mukhaliysko Kale",
           bg: "Късноантична и средновековна крепост Мухалийско кале",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -1235,12 +1235,12 @@ export const touristSites = {
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The only access to the elevation is from the east, where it is connected to the broad plateau of the hill by a saddle.",
           bg: "Единственият достъп до възвишението е от изток, където със седловина се свързва с широкото плато на рида.",
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "Free access for visitors every day.",
           bg: "Свободен достъп за посетители всеки ден.",
           pl: "",
         },
@@ -1250,13 +1250,13 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "43.0604, 27.1933",
+          gps: "43.10157, 27.32579",
         },
       },
       {
         id: "place8",
         name: {
-          en: "Place 1 in Dalgopol",
+          en: "Rock monastery 'Kara cave' - village Manastir",
           bg: "Скален манастир „Кара пещера”- с.Манастир",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -1280,7 +1280,7 @@ export const touristSites = {
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "The rock monastery is open for visits around the clock.",
           bg: "Скалният манастир е отворен за посещения денонощно.",
           pl: "",
         },
@@ -1290,13 +1290,13 @@ export const touristSites = {
           pl: "",
         },
         coordinates: {
-          gps: "43.198189, 27.503965",
+          gps: "43.19796, 27.50396",
         },
       },
       {
         id: "place9",
         name: {
-          en: "Place 1 in Dalgopol",
+          en: "Excavated church 'St. Teodor', Dobrina village",
           bg: "Вкопана църква „Св. Теодор“, с. Добрина",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -1315,22 +1315,22 @@ export const touristSites = {
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The church has two entrances - on the western and southern walls. At one time the entire interior of the church was probably covered with frescoes. Today there is no mention of them. The antiquity was cleared and partially restored only a few years ago. A new tiled roof has been installed.",
           bg: "Черквата има два входа - на западната и на южната стена. Някога цялата вътрешност на църквата вероятно е била изписана със стенописи. Днес от тях няма и помен. Старината е разчистена и частично реставрирана едва от преди няколко години. Поставен е нов покрив с керемиди.",
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "Weekdays: from 9:00 a.m. until 5:00 p.m.",
           bg: "Делнични дни: от 9:00ч. до 17:00ч.",
           pl: "",
         },
         winterWorkTime: {
-          en: "",
+          en: "Days off: Saturday and Sunday",
           bg: "Почивни дни: събота и неделя",
           pl: "",
         },
         coordinates: {
-          gps: "43.17963, 27.45995",
+          gps: "43.17939, 27.45987",
         },
       },
     ],

@@ -165,7 +165,7 @@ const Header = () => {
                         <div ref={languageRef} className="absolute right-0 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                             <div className="flex flex-col items-center space-y-2 bg-gray-200 px-2 py-2 w-20">
                                 <div className="flex gap-2">
-                                    <img className="w-8 h-auto cursor-pointer" src={BGflag} onClick={() => changeLanguage('bg')} alt="EN" />
+                                    <img className="w-8 h-auto cursor-pointer" src={BGflag} onClick={() => changeLanguage('bg')} alt="BG" />
                                     <h3 className="text-sm font-bold text-primary font-body">EN</h3>
                                 </div>
                                 <div className="flex gap-2">
