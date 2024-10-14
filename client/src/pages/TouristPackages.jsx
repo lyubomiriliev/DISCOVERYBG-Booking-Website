@@ -11,187 +11,206 @@ const TouristPackages = () => {
     const { t } = useTranslation();
 
     const packageVariants = {
-
         dalgopol: [
             {
                 variantNumber: 1,
-                tourTitle: "История, бит, обичаи",
-                details: ["Исторически музей, „Дългопол“", "Часовникова кула", "Местни изби и дегустации на вино с. Дебелец", "Работилница по грънчарство в с. Аспарухово", "Обяд в местен ресторант, заведение за хранене и др.", "ПЗ Чудните скали"],
+                tourTitle: "packageVariants.dalgopol.variant1.title", // Translation key
+                details: [
+                    "packageVariants.dalgopol.variant1.detail1",
+                    "packageVariants.dalgopol.variant1.detail2",
+                    "packageVariants.dalgopol.variant1.detail3",
+                    "packageVariants.dalgopol.variant1.detail4",
+                    "packageVariants.dalgopol.variant1.detail5",
+                    "packageVariants.dalgopol.variant1.detail6",
+                ],
                 timeStamps: ["60", "15", "75", "45", "90", "60"],
                 lunch: "",
                 bgColor: "bg-secondary",
             },
             {
                 variantNumber: 2,
-                tourTitle: "История, природа и забавления",
-                details: ["Исторически музей, „Дългопол“", "Часовникова кула", "Храм „Св. Иван Рилски” – гр. Дългопол", "Обяд в местен ресторант, заведение за хранене и др.", "Риболовен туризъм на язовир Цонево и язовир Тича", "Еко поход до скални светилища, манастири"],
+                tourTitle: "packageVariants.dalgopol.variant2.title",
+                details: [
+                    "packageVariants.dalgopol.variant2.detail1",
+                    "packageVariants.dalgopol.variant2.detail2",
+                    "packageVariants.dalgopol.variant2.detail3",
+                    "packageVariants.dalgopol.variant2.detail4",
+                    "packageVariants.dalgopol.variant2.detail5",
+                    "packageVariants.dalgopol.variant2.detail6",
+                ],
                 timeStamps: ["60", "15", "15", "90", "60", "90"],
                 lunch: "",
                 bgColor: "bg-primary",
-            }
-
+            },
         ],
         dolniChiflik: [
             {
                 variantNumber: 1,
-                tourTitle: "Културен туризъм",
-                details: ["Етнографски музей при НЧ „Изгрев“, гр. Долни чифлик. Беседа", "Паметник на Георги Трайков,  гр.Долни чифлик", "Паметник на Иван Сокачев, гр. Долни Чифлик", "Храм „Св.Рождество богородично“, гр. Долни чифлик", "Извор „ Горящата вода – местността „Ботево“, гр. Долни чифлик", "Извор „ Горящата вода – местността „Ботево“, гр. Долни чифлик", "Обяд в местен ресторант, заведение за хранене и др.", "Антична крепост Шкорпиловци, с Шкорпиловци", "Крайбрежна алея кк Шкорпиловци. Плаж. Разходка"],
+                tourTitle: "packageVariants.dolniChiflik.variant1.title",
+                details: [
+                    "packageVariants.dolniChiflik.variant1.detail1",
+                    "packageVariants.dolniChiflik.variant1.detail2",
+                    "packageVariants.dolniChiflik.variant1.detail3",
+                    "packageVariants.dolniChiflik.variant1.detail4",
+                    "packageVariants.dolniChiflik.variant1.detail5",
+                    "packageVariants.dolniChiflik.variant1.detail6",
+                    "packageVariants.dolniChiflik.variant1.detail7",
+                    "packageVariants.dolniChiflik.variant1.detail8",
+                    "packageVariants.dolniChiflik.variant1.detail9",
+                ],
                 timeStamps: ["45", "15", "15", "15", "30", "30", "60", "30", "120"],
                 lunch: "",
                 bgColor: "bg-secondary",
             },
             {
                 variantNumber: 2,
-                tourTitle: "Културен и морски туризъм",
-                details: ["Етнографски музей при НЧ „Изгрев“, гр. Долни чифлик. Беседа", "Обиколка на централната част на гр. Долни чифлик", "Етнографски комплекс Кривини, с. Кривини", "Обяд в местно заведение за хранене", "Антична крепост Шкорпиловци, с Шкорпиловци (по желание)", "Плаж в съчетание с морски дейности"],
+                tourTitle: "packageVariants.dolniChiflik.variant2.title",
+                details: [
+                    "packageVariants.dolniChiflik.variant2.detail1",
+                    "packageVariants.dolniChiflik.variant2.detail2",
+                    "packageVariants.dolniChiflik.variant2.detail3",
+                    "packageVariants.dolniChiflik.variant2.detail4",
+                    "packageVariants.dolniChiflik.variant2.detail5",
+                    "packageVariants.dolniChiflik.variant2.detail6",
+                ],
                 timeStamps: ["60", "30", "30", "60", "30", "120"],
                 lunch: "",
                 bgColor: "bg-primary",
             },
-            {
-                variantNumber: 3,
-                tourTitle: "Еко и опознавателен туризъм",
-                details: ["Ботаническа градина, с Гроздьово", "Държавно ловно стопанство „Шерба“, с Горен Чифлик", "Обяд в местно заведение за хранене", "Късноантична крепост „Голямото кале“, гр. Долни чифлик", "Паметник на Георги Трайков,  гр.Долни чифлик", "Паметник на Иван Сокачев, гр. Долни Чифлик", "Храм „Св.Рождество богородично“, гр. Долни чифлик"],
-                timeStamps: ["60", "60", "60", "30", "20", "20", "20"],
-                lunch: "",
-                bgColor: "bg-darkGreen",
-            },
-
         ],
         provadia: [
             {
                 variantNumber: 1,
-                tourTitle: "Пешеходен Тур",
-                details: ["Исторически музей", "Градска художествена галерия", "Часовникова кула", "Обяд", "Крепост 'Овеч'"],
+                tourTitle: "packageVariants.provadia.variant1.title",
+                details: [
+                    "packageVariants.provadia.variant1.detail1",
+                    "packageVariants.provadia.variant1.detail2",
+                    "packageVariants.provadia.variant1.detail3",
+                    "packageVariants.provadia.variant1.detail4",
+                    "packageVariants.provadia.variant1.detail5",
+                ],
+                timeStamps: ["60", "45", "15", "90", "60"],
                 lunch: "",
                 bgColor: "bg-secondary",
-                timeStamps: ["60", "45", "15", "90", "60"],
             },
             {
                 variantNumber: 2,
-                tourTitle: "Пешеходен Тур",
-                details: ["Крепост Овеч", "Скален манастир Шашкъни", "Тракийско светилище", "Обяд"],
+                tourTitle: "packageVariants.provadia.variant2.title",
+                details: [
+                    "packageVariants.provadia.variant2.detail1",
+                    "packageVariants.provadia.variant2.detail2",
+                    "packageVariants.provadia.variant2.detail3",
+                    "packageVariants.provadia.variant2.detail4",
+                ],
+                timeStamps: ["60", "45", "45", "90"],
                 lunch: "",
                 bgColor: "bg-primary",
-                timeStamps: ["60", "45", "45", "90"],
-
             },
-            {
-                variantNumber: 3,
-                tourTitle: "Пешеходен Тур + автобусен/собствен транспорт",
-                details: ["Исторически музей гр. Провадия", "Провадия – Солницата", "Обяд", "Неновски водопад „Совата“ (пешеходен преход 30 мин. от центъра на с. Неново)"],
-                lunch: "",
-                bgColor: "bg-darkGreen",
-                timeStamps: ["60", "45", "60", "90"],
-            }
         ],
-
-    }
+    };
 
     const twoDayPackages = {
         dalgopol: [
             {
                 dayNumber: 1,
                 bgColor: "bg-primary",
-                details: ["Средновековен скален манастир - с. Рояк", "Крепост Овчага", "Обяд в местен ресторант, заведение за хранене и др.", "Тича Водопад „Куза Скока“, край с. Поляците", "Местност „Манастира”", "Местностите „Беджината” и „Топаловата воденица”"],
+                details: [
+                    "twoDayPackages.dalgopol.day1.details.detail1",
+                    "twoDayPackages.dalgopol.day1.details.detail2",
+                    "twoDayPackages.dalgopol.day1.details.detail3",
+                    "twoDayPackages.dalgopol.day1.details.detail4",
+                    "twoDayPackages.dalgopol.day1.details.detail5",
+                    "twoDayPackages.dalgopol.day1.details.detail6",
+                ],
                 lunchDetails: "",
                 timeStamps: ["45", "45", "60", "60", "45", "45"],
-                night: "Нощувка. Във с. Аспарухово са създадени множество къщи за гости, заведения за настаняване от семеен тип, хотели, които предлагат отлични възможности за отдих и туризъм. В с. Дебелец също предлагат места за настаняване – стаи за гости, къщи за гости. Семеен хотел-ресторант има и в с. Арковна и с. Партизани."
-
+                night: "twoDayPackages.dalgopol.day1.night",
             },
             {
                 dayNumber: 2,
                 bgColor: "bg-primary",
-                details: ["Гребане в язовир Цонево", "Риболовен туризъм на язовир Цонево и язовир Тича", "Скално катерене, ориентиране", "Обяд"],
+                details: [
+                    "twoDayPackages.dalgopol.day2.details.detail1",
+                    "twoDayPackages.dalgopol.day2.details.detail2",
+                    "twoDayPackages.dalgopol.day2.details.detail3",
+                    "twoDayPackages.dalgopol.day2.details.detail4",
+                ],
                 lunchDetails: "",
                 timeStamps: ["120", "120", "90", "60"],
                 night: ""
-
             },
-
         ],
         dolniChiflik: [
             {
                 dayNumber: 1,
-                tourTitle: "Гр. Долни чифлик и наоколо",
+                tourTitle: "twoDayPackages.dolniChiflik.day1.tourTitle",
                 bgColor: "bg-primary",
                 details: [
-                    "Писта за картинг, гр. Долни чифлик",
-                    "Късноантична крепост „Голямото кале“, гр. Долни чифлик",
-                    "Разходка из центъра на Долни чифлик и посещение на:<br />• Паметник на Георги Трайков<br />• Паметник на Иван Сокачев<br />• Храм „Св.Рождество богородично“<br />• Етнографски музей при НЧ „Изгрев“",
-                    "Обяд в местен ресторант, заведение за хранене и др.",
-                    "Църква „Свето възнесение Господне“, с. Пчелник",
-                    "Тракийска Крепост „Ерак“, с. Гроздьово", "Държавно ловно стопанство „Шерба“, с Горен Чифлик", "Водопад „Орлов камък“, с. Горен чифлик", "Извор „ Горящата вода – местността „Ботево“, гр. Долни чифлик"],
+                    "twoDayPackages.dolniChiflik.day1.details.detail1",
+                    "twoDayPackages.dolniChiflik.day1.details.detail2",
+                    "twoDayPackages.dolniChiflik.day1.details.detail3",
+                    "twoDayPackages.dolniChiflik.day1.details.detail4",
+                    "twoDayPackages.dolniChiflik.day1.details.detail5",
+                    "twoDayPackages.dolniChiflik.day1.details.detail6",
+                    "twoDayPackages.dolniChiflik.day1.details.detail7",
+                    "twoDayPackages.dolniChiflik.day1.details.detail8",
+                    "twoDayPackages.dolniChiflik.day1.details.detail9",
+                ],
                 lunchDetails: "",
                 timeStamps: ["60", "30", "30", "60", "30", "30", "45", "45", "30"],
-                night: "Нощувка"
-
+                night: "twoDayPackages.dolniChiflik.day1.night",
             },
             {
-                tourTitle: "Малките селища около Долни чифлик",
                 dayNumber: 2,
+                tourTitle: "twoDayPackages.dolniChiflik.day2.tourTitle",
                 bgColor: "bg-primary",
                 details: [
-                    "Късноантична крепост Бурун градище, с. Голица",
-                    "Център на с. Голица:<br />• Паметна плоча на Вълчан Войвода<br />• Паметник на петела<br />• Храм „Св. Димитрий Мироточиви“<br />",
-                    "Късноантичен и средновековен крепостен комплекс Хемските порти/Гермето, с. Голица",
-                    "Средновековен комплекс „Ниазларско герме“ Булаир, с.Солник", "Водопад „Скока“, с. Солник",
-                    "Обяд",
-                    "ПМ „Лонгоза“, с.Ново Оряхово, с Старо Оряхово, с Шкорпиловци",
-                    "Плаж кк Шкорпиловци"],
+                    "twoDayPackages.dolniChiflik.day2.details.detail1",
+                    "twoDayPackages.dolniChiflik.day2.details.detail2",
+                    "twoDayPackages.dolniChiflik.day2.details.detail3",
+                    "twoDayPackages.dolniChiflik.day2.details.detail4",
+                    "twoDayPackages.dolniChiflik.day2.details.detail5",
+                    "twoDayPackages.dolniChiflik.day2.details.detail6",
+                    "twoDayPackages.dolniChiflik.day2.details.detail7",
+                    "twoDayPackages.dolniChiflik.day2.details.detail8",
+                ],
                 lunchDetails: "",
                 timeStamps: ["45", "30", "30", "60", "45", "60", "60", "120"],
                 night: ""
-
             },
-
         ],
         provadia: [
             {
                 dayNumber: 1,
                 variant: 1,
                 bgColor: "bg-primary",
-                details: ["Исторически музей в град Провадия", "Провадия – Солницата", "Обяд в местно заведение", "Крепост „Овеч“", "Нощувка "],
+                details: [
+                    "twoDayPackages.provadia.day1.details.detail1",
+                    "twoDayPackages.provadia.day1.details.detail2",
+                    "twoDayPackages.provadia.day1.details.detail3",
+                    "twoDayPackages.provadia.day1.details.detail4",
+                ],
                 lunchDetails: "",
                 timeStamps: ["60", "60", "90", "60"],
-                night: "Нощувка"
-
+                night: "twoDayPackages.provadia.day1.night",
             },
             {
                 dayNumber: 2,
                 variant: 1,
                 bgColor: "bg-primary",
-                details: ["Пешеходен преход: с. Петров - Скални манастири „Градище“ и „Свети Георги“  - с. Петров дол", "Обяд в местно заведение", "Исторически музей в гр. Провадия", "Крепост „Овеч“"],
+                details: [
+                    "twoDayPackages.provadia.day2.details.detail1",
+                    "twoDayPackages.provadia.day2.details.detail2",
+                    "twoDayPackages.provadia.day2.details.detail3",
+                    "twoDayPackages.provadia.day2.details.detail4",
+                ],
                 lunchDetails: "",
                 timeStamps: ["240", "60", "60", "60"],
                 night: ""
-
-
             },
-            {
-                dayNumber: 1,
-                variant: 2,
-                bgColor: "bg-primary",
-                details: ["Етнографска сбирка в Народно читалище „Илия Добрев – 1899“, с. Манастир", "Пешеходен преход: Скален манастир „Кара пещера“/отиване и връщане/", "Обяд в местно заведение", "Етнографска сбирка в Народно читалище „Васил Левски - 1901“, с. Добрина", "Вкопаната църква „Свети Теодор“ в село Добрина"],
-                lunchDetails: "",
-                timeStamps: ["60", "150", "90", "60", "30"],
-                night: "Нощувка"
-
-
-            },
-            {
-                dayNumber: 2,
-                variant: 2,
-                bgColor: "bg-primary",
-                details: ["Крепост „Овеч“", "Исторически музей в град Провадия", "Обяд в местно заведение", "Провадия – Солницата", "Винарска изба, с. Блъсково."],
-                lunchDetails: "",
-                timeStamps: ["60", "60", "90", "60", "90"],
-
-            },
-
         ],
-
-    }
+    };
+    
 
     const threeDayPackages = {
         provadia: [
@@ -313,6 +332,7 @@ const TouristPackages = () => {
 
     const [selectedStation, setSelectedStation] = useState('')
     const [firstClick, setFirstClick] = useState(false);
+    
     const navigate = useNavigate();
 
     const handleStationClick = (station) => {
@@ -395,8 +415,6 @@ const TouristPackages = () => {
                         lunch={variant.lunch}
                         bgColor={variant.bgColor}
                         timeStamps={variant.timeStamps}
-                        id={variant.id}
-
                     />
                 ))}
             </div>

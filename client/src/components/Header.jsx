@@ -92,9 +92,14 @@ const Header = () => {
             {/* MOBILE MENU */}
             {isMobileMenuOpen && (
                 <div ref={mobileHeaderRef} className="absolute top-24 left-0 w-full h-60 px-4 py-4 space-y-6 bg-white flex flex-col z-50 drop-shadow-lg">
-                    <Link to="/" onClick={toggleMobileMenu}>
-                        <h2 className="font-body uppercase text-black hover:text-secondary duration-300">{t('header.home')}</h2>
-                    </Link>
+                    <a
+                        onClick={toggleMobileMenu}
+                        href="https://discoverybg.eu/"
+                        rel="noopener noreferrer"
+                        className="font-body uppercase text-black hover:text-secondary duration-300"
+                    >
+                        {t('header.home')}
+                    </a>
                     <Link to="/tourist-site" onClick={toggleMobileMenu}>
                         <h2 className="font-body uppercase text-black hover:text-secondary duration-300">{t('header.touristSites')}</h2>
                     </Link>
@@ -117,9 +122,13 @@ const Header = () => {
             {/* DESKTOP MENU */}
             <div className="hidden md:flex h-16 w-full justify-start items-center ">
                 <nav className="w-2/3 mx-auto flex space-x-20 items-center pl-20">
-                    <Link to="/">
-                        <h2 className="font-body uppercase text-black text-sm hover:text-secondary duration-300 font-bold hidden md:block">{t('header.home')}</h2>
-                    </Link>
+                    <a
+                        href="https://discoverybg.eu/"
+                        rel="noopener noreferrer"
+                        className="font-body uppercase text-black text-sm hover:text-secondary duration-300 font-bold hidden md:block"
+                    >
+                        {t('header.home')}
+                    </a>
                     <div
                         className="relative"
                         onMouseEnter={handleObjectsEnter}
@@ -133,7 +142,7 @@ const Header = () => {
                                 {t('header.touristSites')}
                             </h2>
                             {objectsDropdown && (
-                                <div className="w-full absolute left-0 flex flex-col space-y-4 pt-4 bg-white shadow-xl px-4 py-4">
+                                <div className="w-full absolute right-0 flex flex-col space-y-4 pt-4 bg-white shadow-xl px-4 py-4">
                                     <Link to="/location/dalgopol">
                                         <h2 className="font-body font-bold uppercase text-black text-sm hover:text-secondary duration-300" onClick={() => setObjectsDropdown(false)}>{t('dalgopol')}</h2>
                                     </Link>

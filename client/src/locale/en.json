@@ -34,9 +34,198 @@
     "oneDayDesc": "The one-day packages include a basic visit to the town of Provadia with the possibility of a tour of nearby attractions. The following options are presented:",
     "twoDayDesc": "Two-day packages can combine a visit to sites from the one-day itineraries, along with the following:",
     "threeDayDesc": "Three-day packages can combine a visit to sites included in the one-day and two-day itineraries along with the following:",
+    "min": "min",
+    "activity": "Activity",
+    "duration": "Duration",
+
     "siteDetails": {
         "placeDescription": "Description",
         "access": "Accessibility",
         "workTime": "Working hours"
+    },
+
+    "packageVariants": {
+        "dalgopol": {
+          "variant1": {
+            "title": "History, Customs, Traditions",
+            "detail1": "The Historical Museum in Dalgopol",
+            "detail2": "The Clock Tower",
+            "detail3": "Local wineries and wine degustation in Debelets village",
+            "detail4": "The Pottery workshop in Asparuhovo village",
+            "detail5": "Lunch in a local restaurant",
+            "detail6": "The Natural Landmark “The Wonderful Rocks”"
+          },
+          "variant2": {
+            "title": "History, Nature, Entertainment",
+            "detail1": "The Historical Museum in Dalgopol",
+            "detail2": "The Clock Tower",
+            "detail3": "The Orthodox Church Ivan Rilski in Dalgopol",
+            "detail4": "Lunch in a local restaurant",
+            "detail5": "Fishing activities at the Tsonevo and Eleshnitsa lakes",
+            "detail6": "Eco hike to rock sanctuaries and monasteries"
+          }
+        },
+        "dolniChiflik": {
+          "variant1": {
+            "title": "Cultural heritage tourism",
+            "detail1": "The Ethnographic Museum at the Community Centre “Izgrev” in Dolni chiflik",
+            "detail2": "The Monument of Georgi Traikov in Dolni chilfik",
+            "detail3": "The Monument of Ivan Sokachev in Dolni chiflik",
+            "detail4": "The Nativity of Virging Mary Orthodox Church in Dolni chflik",
+            "detail5": "The “Burning Water” Spring in Botevo area, Dolni chiflik",
+            "detail6": "Free time. Walk",
+            "detail7": "Lunch in a local restaurant",
+            "detail8": "The Ancient Fortress in Shkorpilovtsi village",
+            "detail9": "The coastal area of Skorpilovtsi resort. Beach / Walking & Entertainment"
+          },
+          "variant2": {
+            "title": "Combining culture heritage and marine tourism",
+            "detail1": "The Ethnographic Museum at the Community Centre “Izgrev” in Dolni chiflik",
+            "detail2": "Walking tour in the central area of Dolni chiflik",
+            "detail3": "The Ethnographical complex in Krivini village",
+            "detail4": "Lunch in a local restaurant",
+            "detail5": "The Ancient Fortress in Shkorpilovts village (optional)",
+            "detail6": "Beaching and marine activities"
+          },
+          "variant3": {
+            "title": "Eco- and cognitive tourism",
+            "detail1": "The Botanical Garden in Grozdyovo village",
+            "detail2": "The Hunting Lodge of Sherba in Goren chiflik village",
+            "detail3": "Lunch in a local restaurant",
+            "detail4": "The Late Antique Fortress in Dolni chiflik",
+            "detail5": "The Monument of Georgi Traikov in Dolni chiflik",
+            "detail6": "The Monument of Ivan Sokachev in Dolni chiflik",
+            "detail7": "The Nativity of Virging Mary Orthodox Church in Dolni chflik"
+          }
+        },
+        "provadia": {
+          "variant1": {
+            "title": "Walking tour in Provadia",
+            "detail1": "The Historical Museum",
+            "detail2": "The Art Gallery",
+            "detail3": "The Clock Tower",
+            "detail4": "Lunch",
+            "detail5": "The Ovech Fortress"
+          },
+          "variant2": {
+            "title": "Walking tour",
+            "detail1": "The Ovech Fortress",
+            "detail2": "The Shashkanite Rock Monastery",
+            "detail3": "The Thracian Sanctuary",
+            "detail4": "Lunch"
+          },
+          "variant3": {
+            "title": "Walking tour / own transport",
+            "detail1": "The Historical Museum in Provadia",
+            "detail2": "The Salt Mine",
+            "detail3": "Lunch",
+            "detail4": "The Nenovo Waterfall “The Owl” (walking tour 30 mins from the center of Nenovo village)"
+          }
+        }
+    },
+
+    "twoDayPackages": {
+    "dalgopol": {
+      "day1": {
+        "tourTitle": "",
+        "details": {
+          "detail1": "The Middle Age Rock Monastery near Royak village",
+          "detail2": "The Ovhcaga Fortress",
+          "detail3": "Lunch in a local restaurant",
+          "detail4": "The Kuza Skoka Waterfall near Polyatsite village",
+          "detail5": "The Monastery Area near Asparuhovo village",
+          "detail6": "The areas of Bedzhinata and Topalovata Vodenitsa"
+        },
+        "night": "Overnight stay. There are many guest houses, family hotels and restaurants which offer excellent opportunities for recreation and tourism. There are places for accommodation in Debelets village – guest rooms, guest houses, etc. There is family hotel – restaurant in Arkovna and Partizani villages."
+      },
+      "day2": {
+        "tourTitle": "",
+        "details": {
+          "detail1": "Rowing in Tsonevo lake",
+          "detail2": "Fishing tourism at the Tsonevo and Eleshnitsa lakes",
+          "detail3": "Rock climbing. Orienteering",
+          "detail4": "Lunch"
+        },
+        "night": ""
+      }
+    },
+    "dolniChiflik": {
+      "day1": {
+        "tourTitle": "Dolni chiflik town and the area around",
+        "details": {
+          "detail1": "The Karting Area in Dolni chiflik",
+          "detail2": "The Late Antique Fortress in Dolni chiflik",
+          "detail3": "Walking in the central area of Dolni chiflik and visit of: The monument of Georgi Traikov, The monument of Ivan Sokachev, The Nativity of Virging Mary Orthodox Church in Dolni chflik, The Ethnographic Museum at the Community Centre “Izgrev” in Dolni chiflik",
+          "detail4": "Lunch in a local restaurant",
+          "detail5": "The Ascension of Lord Orthodox Church in Pchelnik village",
+          "detail6": "The Thracian Fortress Erak in Grozdyovo village",
+          "detail7": "The Hunting Lodge of Sherba in Goren chiflik village",
+          "detail8": "The Eagle Stone Waterfall in Goren chiflik village",
+          "detail9": "The “Burning Water” Spring in Botevo area, Dolni chiflik"
+        },
+        "night": "Overnight stay"
+      },
+      "day2": {
+        "tourTitle": "The small villages around Dolni chiflik",
+        "details": {
+          "detail1": "The Late Antique Fortress “Burun Gradishte” in Golitsa village",
+          "detail2": "Walking in the centre of Golitsa village and visit of: The Stone monument of Valchan Voyvoda, The Monument of the Cock, The St. Demetrius Orthodox Church",
+          "detail3": "The Late Antique Fortress Complex Hemski gateways in Golitsa village",
+          "detail4": "The Middle Age Complex Bulair in Solnik village",
+          "detail5": "The Jump Waterfall in Solnik village",
+          "detail6": "Lunch in a local restaurant",
+          "detail7": "The Natural area Longoza in Novo Oryahovo, Staro Oryahovo and Shkorpilovtsi villages",
+          "detail8": "Beaching in Shkorpilovtsi resort"
+        },
+        "night": ""
+      }
+    },
+    "provadia": {
+      "day1": {
+        "tourTitle": "Walking tour",
+        "details": {
+          "detail1": "The Historical Museum in Provadia",
+          "detail2": "The Salt Mine",
+          "detail3": "Lunch in a local restaurant",
+          "detail4": "The Ovech Fortress"
+        },
+        "night": "Overnight stay"
+      },
+      "day2": {
+        "tourTitle": "",
+        "details": {
+          "detail1": "Petrov dol village – The Rock Monasteries “Gradishte” and “St. George” – Petrov dol village /walking tour/ ",
+          "detail2": "Lunch in a local restaurant",
+          "detail3": "The Art Gallery"
+        },
+        "night": ""
+      },
+      "day3": {
+        "tourTitle": "",
+        "details": {
+          "detail1": "The Ethnographic Exhibition at the Community Center “Ilia Dobrev – 1899” in Manastir village",
+          "detail2": "The Kara Cave Rock Monastery /walking tour/",
+          "detail3": "Lunch in a local restaurant",
+          "detail4": "The Ethnographic Exhibition at the Community Center “Vasil Levski 1901” in Dobrina village",
+          "detail5": "The Buried Church “St. Theodore” in Dobrina village"
+        },
+        "night": "Overnight stay"
+      },
+      "day4": {
+        "tourTitle": "",
+        "details": {
+          "detail1": "The Ovech Fortress",
+          "detail2": "The Historical museum in Provadia",
+          "detail3": "Lunch in a local restaurant",
+          "detail4": "The Salt Mine",
+          "detail5": "Winery in Bluskovo village"
+        },
+        "night": ""
+      }
     }
   }
+
+  }
+
+  
+

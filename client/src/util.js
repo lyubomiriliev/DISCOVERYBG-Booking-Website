@@ -157,6 +157,8 @@ export const touristSites = {
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.5874135772065!2d27.341448276530404!3d43.050111691227094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5c732f6eb1a5f%3A0x78aea70a83d6ec54!2z0JPRgNCw0LTRgdC60Lgg0LzRg9C30LXQuQ!5e0!3m2!1sen!2sbg!4v1726769667633!5m2!1sen!2sbg",
         bookingLink:
           "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dalgopol--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dalgopol%2C%20Varna&place_id=ChIJC5rkrd_EpUARQFy_aRKgAAQ&location_bb=Qiw%2F4UHa7ppCLC2bQdqCAw%3D%3D&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click",
         restaurantsLink:
           "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
         qrCode: istoricheskiMuzeiQR,
@@ -196,9 +198,12 @@ export const touristSites = {
         googleMapsLink: "https://maps.app.goo.gl/9MeyC1BHig1QUSfG6",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d23351.802285574344!2d27.27198213958156!3d42.978794247393886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDLCsDU5JzAwLjkiTiAyN8KwMTYnMzguMSJF!5e0!3m2!1sen!2sbg!4v1726769750087!5m2!1sen!2sbg",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dalgopol--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dalgopol%2C%20Varna&place_id=ChIJC5rkrd_EpUARQFy_aRKgAAQ&location_bb=Qiw%2F4UHa7ppCLC2bQdqCAw%3D%3D&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
+          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
         qrCode: mestnostManastiraQR,
         description: {
           en: "Description in English",
@@ -236,9 +241,12 @@ export const touristSites = {
         googleMapsLink: "https://maps.app.goo.gl/RnjqBVqM8C8UmCiu9",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46711.99458444444!2d27.241580222083016!3d42.96774719999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5daca8662647d%3A0xe76ddc9700dbb8f5!2sWonderful%20rocks!5e0!3m2!1sen!2sbg!4v1726769824022!5m2!1sen!2sbg",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dalgopol--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dalgopol%2C%20Varna&place_id=ChIJC5rkrd_EpUARQFy_aRKgAAQ&location_bb=Qiw%2F4UHa7ppCLC2bQdqCAw%3D%3D&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
+          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
         qrCode: chudniSkaliQR,
         description: {
           en: "Description in English",
@@ -276,9 +284,12 @@ export const touristSites = {
         googleMapsLink: "https://maps.app.goo.gl/zitzSgfcfTkDSLje7",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57074.22472762407!2d27.36126593970899!3d43.07925080827604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5c76fd4f40d99%3A0xf2c0f477a8b349af!2z0KDQvtGP0YjQutC4INGB0LrQsNC70L3QuCDQvNCw0L3QsNGB0YLQuNGA0Lg!5e0!3m2!1sen!2sbg!4v1726769924059!5m2!1sen!2sbg",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dalgopol--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dalgopol%2C%20Varna&place_id=ChIJC5rkrd_EpUARQFy_aRKgAAQ&location_bb=Qiw%2F4UHa7ppCLC2bQdqCAw%3D%3D&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
+          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
         qrCode: roqkQR,
         description: {
           en: "Description in English",
@@ -316,9 +327,12 @@ export const touristSites = {
         googleMapsLink: "https://maps.app.goo.gl/guQeJZ6cz7Veyr2c8",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d128434.70036982781!2d27.376114105784964!3d42.93204774318541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5d12757949553%3A0x7cc1a5d67f975aee!2z0KHRgNC10LTQvdC-0LLQtdC60L7QstC90LAg0LrRgNC10L_QvtGB0YIgItCe0LLRh9Cw0LPQsCI!5e0!3m2!1sen!2sbg!4v1726769963034!5m2!1sen!2sbg",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dalgopol--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dalgopol%2C%20Varna&place_id=ChIJC5rkrd_EpUARQFy_aRKgAAQ&location_bb=Qiw%2F4UHa7ppCLC2bQdqCAw%3D%3D&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
+          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
         qrCode: ovchagaQR,
         description: {
           en: "Description in English",
@@ -356,9 +370,12 @@ export const touristSites = {
         googleMapsLink: "https://maps.app.goo.gl/2uSYfFkTkPBksAQk7",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.496405758128!2d27.152848476527044!3d42.96781579648861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5ddec8f94039f%3A0x329ba05ec9074c15!2z0JLQvtC00L7Qv9Cw0LQg0JrRg9C30LAg0YHQutC-0LrQsA!5e0!3m2!1sen!2sbg!4v1726769992781!5m2!1sen!2sbg",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dalgopol--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dalgopol%2C%20Varna&place_id=ChIJC5rkrd_EpUARQFy_aRKgAAQ&location_bb=Qiw%2F4UHa7ppCLC2bQdqCAw%3D%3D&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
+          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
         qrCode: kuzaSkokaQR,
         description: {
           en: "Description in English",
@@ -396,9 +413,12 @@ export const touristSites = {
         googleMapsLink: "https://maps.app.goo.gl/nPt5fePqnUfXGJyr7",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2912.340394798253!2d26.865997876533164!3d43.11837498685677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5f0ce63594567%3A0xe4b6054b7f5caac6!2z0JLRitC30YDQvtC20LTQtdC90YHQutCwINGG0YrRgNC60LLQsCAi0KHQsi4g0J_QsNGA0LDRgdC60LXQstCwIiAo0J_QtdGC0LrQsCk!5e0!3m2!1sen!2sbg!4v1726770025346!5m2!1sen!2sbg",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dalgopol--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dalgopol%2C%20Varna&place_id=ChIJC5rkrd_EpUARQFy_aRKgAAQ&location_bb=Qiw%2F4UHa7ppCLC2bQdqCAw%3D%3D&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
+          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
         qrCode: curkvaPetkaQR,
         description: {
           en: "Description in English",
@@ -560,9 +580,11 @@ export const touristSites = {
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.8998014590925!2d27.89236207652673!3d42.95931589703154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a439628149f58b%3A0x86936bf60746536e!2z0JDQvdGC0LjRh9C90LAg0LrRgNC10L_QvtGB0YI!5e0!3m2!1sen!2sbg!4v1726768284356!5m2!1sen!2sbg",
         bookingLink:
-          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+          "https://www.booking.com/searchresults.html?ss=Dolni+Chiflik%2C+Varna+Province%2C+Bulgaria&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-834001&dest_type=city&ac_position=1&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=2&search_selected=true&search_pageview_id=a0713ed728b80453&ac_meta=GhBhMDcxM2VkNzI4YjgwNDUzIAEoATICZW46DURvbG5pIENoaWZsaWtAAEoAUAA%3D&checkin=2024-09-27&checkout=2024-09-28&ltfd=5%3A1%3A10-2024_12-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
+          "https://www.tripadvisor.com/Tourism-g6851815-Dolni_Chiflik_Varna_Province-Vacations.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: shkorpilovciQR,
         description: {
           en: "Description in English",
@@ -599,9 +621,11 @@ export const touristSites = {
         photos: [{ golca1 }],
         googleMapsLink: "https://maps.app.goo.gl/fq5Mj7ChhtTFepLn6",
         bookingLink:
-          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+          "https://www.booking.com/searchresults.html?ss=Dolni+Chiflik%2C+Varna+Province%2C+Bulgaria&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-834001&dest_type=city&ac_position=1&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=2&search_selected=true&search_pageview_id=a0713ed728b80453&ac_meta=GhBhMDcxM2VkNzI4YjgwNDUzIAEoATICZW46DURvbG5pIENoaWZsaWtAAEoAUAA%3D&checkin=2024-09-27&checkout=2024-09-28&ltfd=5%3A1%3A10-2024_12-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
+          "https://www.tripadvisor.com/Tourism-g6851815-Dolni_Chiflik_Varna_Province-Vacations.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: burunGradishteQR,
         description: {
           en: "Description in English",
@@ -640,9 +664,11 @@ export const touristSites = {
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29461.042727182823!2d27.495299398835012!3d42.89593673518075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5d3fe26a66e67%3A0xed9c0c843bbc3aee!2z0JDQvdGC0LjRh9C90LAg0LrRgNC10L_QvtGB0YIgItCl0LXQvNGB0LrQuCDQv9C-0YDRgtC4Ig!5e0!3m2!1sen!2sbg!4v1726768707126!5m2!1sen!2sbg",
         bookingLink:
-          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+          "https://www.booking.com/searchresults.html?ss=Dolni+Chiflik%2C+Varna+Province%2C+Bulgaria&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-834001&dest_type=city&ac_position=1&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=2&search_selected=true&search_pageview_id=a0713ed728b80453&ac_meta=GhBhMDcxM2VkNzI4YjgwNDUzIAEoATICZW46DURvbG5pIENoaWZsaWtAAEoAUAA%3D&checkin=2024-09-27&checkout=2024-09-28&ltfd=5%3A1%3A10-2024_12-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
+          "https://www.tripadvisor.com/Tourism-g6851815-Dolni_Chiflik_Varna_Province-Vacations.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: hemskiPortiQR,
         description: {
           en: "Description in English",
@@ -683,9 +709,11 @@ export const touristSites = {
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24771.93601042578!2d27.404261935883405!3d42.90029066675006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5d3afd90abc61%3A0x8a3d868ce10c7eb2!2z0JrRitGB0L3QvtCw0L3RgtC40YfQtdC9INC4INGB0YDQtdC00L3QvtCy0LXQutC-0LLQtdC9INC-0YLQsdGA0LDQvdC40YLQtdC70LXQvSDQutC-0LzQv9C70LXQutGBICLQndC40LDQt9C70LDRgNGB0LrQviDQs9C10YDQvNC1Ig!5e0!3m2!1sen!2sbg!4v1726768756039!5m2!1sen!2sbg",
         bookingLink:
-          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+          "https://www.booking.com/searchresults.html?ss=Dolni+Chiflik%2C+Varna+Province%2C+Bulgaria&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-834001&dest_type=city&ac_position=1&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=2&search_selected=true&search_pageview_id=a0713ed728b80453&ac_meta=GhBhMDcxM2VkNzI4YjgwNDUzIAEoATICZW46DURvbG5pIENoaWZsaWtAAEoAUAA%3D&checkin=2024-09-27&checkout=2024-09-28&ltfd=5%3A1%3A10-2024_12-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
+          "https://www.tripadvisor.com/Tourism-g6851815-Dolni_Chiflik_Varna_Province-Vacations.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: niazlarskoGermeQR,
         description: {
           en: "Description in English",
@@ -724,9 +752,11 @@ export const touristSites = {
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2922.4245615398413!2d27.411959776524725!3d42.90608620043023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5d33cef3ee901%3A0x7d20662a4598d9d5!2z0KHQutCw0LvQvdC-INGB0LLQtdGC0LjQu9C40YnQtSAi0J7RgNGC0LAg0LrQsNGPIg!5e0!3m2!1sen!2sbg!4v1726768838599!5m2!1sen!2sbg",
         bookingLink:
-          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+          "https://www.booking.com/searchresults.html?ss=Dolni+Chiflik%2C+Varna+Province%2C+Bulgaria&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-834001&dest_type=city&ac_position=1&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=2&search_selected=true&search_pageview_id=a0713ed728b80453&ac_meta=GhBhMDcxM2VkNzI4YjgwNDUzIAEoATICZW46DURvbG5pIENoaWZsaWtAAEoAUAA%3D&checkin=2024-09-27&checkout=2024-09-28&ltfd=5%3A1%3A10-2024_12-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
+          "https://www.tripadvisor.com/Tourism-g6851815-Dolni_Chiflik_Varna_Province-Vacations.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: ortaKaqQR,
         description: {
           en: "Description in English",
@@ -765,9 +795,11 @@ export const touristSites = {
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2922.4788048822293!2d27.397648576524425!3d42.90494200050321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5d322cef0c1eb%3A0x90d096079ccfb0e!2z0KHQutCw0LvQvdC-INGB0LLQtdGC0LjQu9C40YnQtSAi0K_RgNCw0LzQsNC3INC60LDRjyI!5e0!3m2!1sen!2sbg!4v1726768871608!5m2!1sen!2sbg",
         bookingLink:
-          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+          "https://www.booking.com/searchresults.html?ss=Dolni+Chiflik%2C+Varna+Province%2C+Bulgaria&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-834001&dest_type=city&ac_position=1&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=2&search_selected=true&search_pageview_id=a0713ed728b80453&ac_meta=GhBhMDcxM2VkNzI4YjgwNDUzIAEoATICZW46DURvbG5pIENoaWZsaWtAAEoAUAA%3D&checkin=2024-09-27&checkout=2024-09-28&ltfd=5%3A1%3A10-2024_12-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
+          "https://www.tripadvisor.com/Tourism-g6851815-Dolni_Chiflik_Varna_Province-Vacations.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: qrmazKaqQR,
         description: {
           en: "Description in English",
@@ -806,9 +838,11 @@ export const touristSites = {
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13476.214957591656!2d27.667337399099033!3d43.04060613606581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a44b7ad920a00b%3A0x3f9756b9bfb63c8c!2z0KXRgNCw0LwgItCh0LLQtdGC0Lgg0JDRgNGF0LDQvdCz0LXQuyDQnNC40YXQsNC40Lsi!5e0!3m2!1sen!2sbg!4v1726768915864!5m2!1sen!2sbg",
         bookingLink:
-          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+          "https://www.booking.com/searchresults.html?ss=Dolni+Chiflik%2C+Varna+Province%2C+Bulgaria&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-834001&dest_type=city&ac_position=1&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=2&search_selected=true&search_pageview_id=a0713ed728b80453&ac_meta=GhBhMDcxM2VkNzI4YjgwNDUzIAEoATICZW46DURvbG5pIENoaWZsaWtAAEoAUAA%3D&checkin=2024-09-27&checkout=2024-09-28&ltfd=5%3A1%3A10-2024_12-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
+          "https://www.tripadvisor.com/Tourism-g6851815-Dolni_Chiflik_Varna_Province-Vacations.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: arhangelMihailQR,
         description: {
           en: "Description in English",
@@ -847,9 +881,11 @@ export const touristSites = {
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2919.0540341710257!2d27.57452047652746!3d42.97713539589316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a43352a8739011%3A0x45903c07ff33bd1d!2z4oCcRWFnbGXigJlzIHN0b25l4oCdIHdhdGVyZmFsbA!5e0!3m2!1sen!2sbg!4v1726768954920!5m2!1sen!2sbg",
         bookingLink:
-          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+          "https://www.booking.com/searchresults.html?ss=Dolni+Chiflik%2C+Varna+Province%2C+Bulgaria&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-834001&dest_type=city&ac_position=1&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=2&search_selected=true&search_pageview_id=a0713ed728b80453&ac_meta=GhBhMDcxM2VkNzI4YjgwNDUzIAEoATICZW46DURvbG5pIENoaWZsaWtAAEoAUAA%3D&checkin=2024-09-27&checkout=2024-09-28&ltfd=5%3A1%3A10-2024_12-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
+          "https://www.tripadvisor.com/Tourism-g6851815-Dolni_Chiflik_Varna_Province-Vacations.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: orlovKamukQR,
         description: {
           en: "Description in English",
@@ -888,9 +924,11 @@ export const touristSites = {
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2922.4473740366543!2d27.63502227652463!3d42.90560500046071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a431f04fbe838d%3A0xc5ed1795d4c747f1!2sJump%20Waterfall%20-%20Solnik!5e0!3m2!1sen!2sbg!4v1726768990342!5m2!1sen!2sbg",
         bookingLink:
-          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+          "https://www.booking.com/searchresults.html?ss=Dolni+Chiflik%2C+Varna+Province%2C+Bulgaria&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-834001&dest_type=city&ac_position=1&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=2&search_selected=true&search_pageview_id=a0713ed728b80453&ac_meta=GhBhMDcxM2VkNzI4YjgwNDUzIAEoATICZW46DURvbG5pIENoaWZsaWtAAEoAUAA%3D&checkin=2024-09-27&checkout=2024-09-28&ltfd=5%3A1%3A10-2024_12-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
+          "https://www.tripadvisor.com/Tourism-g6851815-Dolni_Chiflik_Varna_Province-Vacations.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: skokaQR,
         description: {
           en: "Description in English",
@@ -927,9 +965,11 @@ export const touristSites = {
         photos: [{ etnografski1, etnografski2 }],
         googleMapsLink: "https://maps.app.goo.gl/fq5Mj7ChhtTFepLn6",
         bookingLink:
-          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+          "https://www.booking.com/searchresults.html?ss=Dolni+Chiflik%2C+Varna+Province%2C+Bulgaria&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-834001&dest_type=city&ac_position=1&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=2&search_selected=true&search_pageview_id=a0713ed728b80453&ac_meta=GhBhMDcxM2VkNzI4YjgwNDUzIAEoATICZW46DURvbG5pIENoaWZsaWtAAEoAUAA%3D&checkin=2024-09-27&checkout=2024-09-28&ltfd=5%3A1%3A10-2024_12-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
+          "https://www.tripadvisor.com/Tourism-g6851815-Dolni_Chiflik_Varna_Province-Vacations.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: etnografskiMuzeiQR,
         description: {
           en: "Description in English",
@@ -975,11 +1015,11 @@ export const touristSites = {
         photos: [{ ovech1, ovech2, ovech3, ovech4, ovech5, ovech6 }],
         googleMapsLink: "https://maps.app.goo.gl/39i4PAynhw3F2B6H9",
         bookingLink:
-          "https://www.booking.com/searchresults.html?ss=Ovech+Fortress%2C+Provadia%2C+Bulgaria&map=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4ArCRlLUGwAIB0gIkZThjYmE3YmYtMjdiYy00MTc4LWE4ZmMtYjM2NzExODBmZWZm2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=ChIJa6335GG5pUARp1d8wZEXmkI&dest_type=landmark&place_id=ChIJa6335GG5pUARp1d8wZEXmkI&latitude=43.1754873&longitude=27.4477372&ac_position=0&ac_click_type=g&ac_langcode=en-us&ac_suggestion_list_length=1&search_selected=true&search_pageview_id=68056818bd4100fc&ac_meta=IAAoAjIFZW4tdXM%3D&checkin=2024-09-02&checkout=2024-09-10&group_adults=2&no_rooms=1&group_children=0#map_closed",
+          "https://www.booking.com/searchresults.html?ss=Provadia&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AtqZz7cGwAIB0gIkOGQwMWZlMjctOTg4OS00ZjM2LWFjNzQtNmI2OGU2OTY4MWUx2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=1666434&dest_type=hotel&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=1&search_selected=true&search_pageview_id=3e463d2d508a0024&ac_meta=GhAzZTQ2M2QyZDUwOGEwMDI0IAAoATICZW46CFByb3ZhZGlhQABKAFAA&checkin=2024-09-27&checkout=2024-09-28&ltfd=1%3A5%3A10-2024_11-2024_12-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
           "https://www.tripadvisor.com/Restaurants-g2100806-Provadia_Varna_Province.html",
         airbnbLink:
-          "https://www.airbnb.com/s/Ovech-Fortress--Provadia--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-08-01&monthly_length=3&monthly_end_date=2024-11-01&price_filter_input_type=0&channel=EXPLORE&query=Ovech%20Fortress%2C%20Provadia&place_id=ChIJa6335GG5pUARp1d8wZEXmkI&location_bb=Qiy1AEHbmEFCLLI9QduSug%3D%3D&date_picker_type=calendar&source=structured_search_input_header&search_type=autocomplete_click",
+          "https://www.airbnb.com/s/Provadia--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Provadia%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJT1T7MMe7pUARj2QWLeLAuo8&location_bb=QizRyEHbnfBCLJxtQdtxqg%3D%3D",
         qrCode: ovechQR,
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2909.6206083666334!2d27.447737200000002!3d43.1754873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5b961e4f7ad6b%3A0x429a1791c17c57a7!2sOvech%20Fortress!5e0!3m2!1sen!2sbg!4v1722089217848!5m2!1sen!2sbg",
@@ -1021,10 +1061,12 @@ export const touristSites = {
         googleMapsLink: "https://maps.app.goo.gl/CRMB4DCmJBu2VvGx6",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2911.8665287933172!2d27.46987967653364!3d43.12832998621901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5b82d46b59cb3%3A0xee01e1f977fd510!2sSolnitsata!5e0!3m2!1sen!2sbg!4v1726731759012!5m2!1sen!2sbg",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=Provadia&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AtqZz7cGwAIB0gIkOGQwMWZlMjctOTg4OS00ZjM2LWFjNzQtNmI2OGU2OTY4MWUx2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=1666434&dest_type=hotel&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=1&search_selected=true&search_pageview_id=3e463d2d508a0024&ac_meta=GhAzZTQ2M2QyZDUwOGEwMDI0IAAoATICZW46CFByb3ZhZGlhQABKAFAA&checkin=2024-09-27&checkout=2024-09-28&ltfd=1%3A5%3A10-2024_11-2024_12-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
-        airbnbLink: "https://www.airbnb.com/",
+          "https://www.tripadvisor.com/Restaurants-g2100806-Provadia_Varna_Province.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Provadia--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Provadia%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJT1T7MMe7pUARj2QWLeLAuo8&location_bb=QizRyEHbnfBCLJxtQdtxqg%3D%3D",
         qrCode: praistoricheskiQR,
         description: {
           en: "It is believed that the oldest malting center in Europe was located here. According to surveys of the site, the city is thought to have been inhabited by about 350 people between 4700 and 4200 BC. - about 1500 years before the Greek civilization. That is why the Salt Mine (Solnitsa) has been declared the oldest prehistoric city in Europe. Residents use boiling water from a local spring to create salt bricks, which they then trade and use to preserve meat. This means that salt was an extremely valuable resource during these times. Salt flats grow around springs with an increased salt content. By heating in ceramic vessels, the water evaporates and the remaining salt is collected. The remains of vessels discovered show the evolution in technology and correspond to the increasing extraction of salt. A large part of the studied residential buildings in the settlement are two-story. It is believed that the settlement is surrounded by a protective wall up to 3 meters thick. From the remains it is clear that a strong earthquake destroyed the city. During the Eneolithic age, salt was an asset that was well traded, evident in the goldsmiths of Salt Lake, which are also some of the oldest in Europe. The development of the Saltworks preceded and determined the flowering of a culture, later shown by the discovered Varna Necropolis. Huge walls of stone blocks were erected around the village, unknown until then as a fortification system. Other interesting and strange finds are graves of murdered and 'dismembered bodies' men and a triple grave of an elderly man with two children. A hitherto unexplored center for pottery production is suggested to exist. ",
@@ -1062,10 +1104,12 @@ export const touristSites = {
         googleMapsLink: "https://maps.app.goo.gl/NaMVBjWwJRm6kPNR7",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.82747182375!2d27.449608090215442!3d43.19213080769439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5bb94c92b4bed%3A0x20c0864140051d46!2sRock%20Monastery%20%22Shashkanite%22!5e0!3m2!1sen!2sbg!4v1726732066189!5m2!1sen!2sbg",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=Provadia&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AtqZz7cGwAIB0gIkOGQwMWZlMjctOTg4OS00ZjM2LWFjNzQtNmI2OGU2OTY4MWUx2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=1666434&dest_type=hotel&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=1&search_selected=true&search_pageview_id=3e463d2d508a0024&ac_meta=GhAzZTQ2M2QyZDUwOGEwMDI0IAAoATICZW46CFByb3ZhZGlhQABKAFAA&checkin=2024-09-27&checkout=2024-09-28&ltfd=1%3A5%3A10-2024_11-2024_12-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
-        airbnbLink: "https://www.airbnb.com/",
+          "https://www.tripadvisor.com/Restaurants-g2100806-Provadia_Varna_Province.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Provadia--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Provadia%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJT1T7MMe7pUARj2QWLeLAuo8&location_bb=QizRyEHbnfBCLJxtQdtxqg%3D%3D",
         qrCode: shashkuniteQR,
         description: {
           en: "Description in English",
@@ -1103,10 +1147,12 @@ export const touristSites = {
         googleMapsLink: "https://maps.app.goo.gl/jU79Xj8S3e2PXYgW7",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2909.602984469492!2d27.438951076535478!3d43.17585718317246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5b95ff62b2f49%3A0x81495c115029afed!2sHistorical%20Museum!5e0!3m2!1sen!2sbg!4v1726732152786!5m2!1sen!2sbg",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=Provadia&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AtqZz7cGwAIB0gIkOGQwMWZlMjctOTg4OS00ZjM2LWFjNzQtNmI2OGU2OTY4MWUx2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=1666434&dest_type=hotel&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=1&search_selected=true&search_pageview_id=3e463d2d508a0024&ac_meta=GhAzZTQ2M2QyZDUwOGEwMDI0IAAoATICZW46CFByb3ZhZGlhQABKAFAA&checkin=2024-09-27&checkout=2024-09-28&ltfd=1%3A5%3A10-2024_11-2024_12-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
-        airbnbLink: "https://www.airbnb.com/",
+          "https://www.tripadvisor.com/Restaurants-g2100806-Provadia_Varna_Province.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Provadia--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Provadia%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJT1T7MMe7pUARj2QWLeLAuo8&location_bb=QizRyEHbnfBCLJxtQdtxqg%3D%3D",
         qrCode: muzeiDulgopolQR,
         description: {
           en: "Description in English",
@@ -1144,10 +1190,12 @@ export const touristSites = {
         googleMapsLink: "https://maps.app.goo.gl/dfebbzrfB9AxDqKu8",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14247.19328081236!2d27.435704037620848!3d43.17091032459667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5b96041075b35%3A0xd8754649243ca95f!2sChurch%20Sveto%20Blagoveshtenie!5e0!3m2!1sen!2sbg!4v1726732332696!5m2!1sen!2sbg",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=Provadia&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AtqZz7cGwAIB0gIkOGQwMWZlMjctOTg4OS00ZjM2LWFjNzQtNmI2OGU2OTY4MWUx2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=1666434&dest_type=hotel&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=1&search_selected=true&search_pageview_id=3e463d2d508a0024&ac_meta=GhAzZTQ2M2QyZDUwOGEwMDI0IAAoATICZW46CFByb3ZhZGlhQABKAFAA&checkin=2024-09-27&checkout=2024-09-28&ltfd=1%3A5%3A10-2024_11-2024_12-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
-        airbnbLink: "https://www.airbnb.com/",
+          "https://www.tripadvisor.com/Restaurants-g2100806-Provadia_Varna_Province.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Provadia--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Provadia%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJT1T7MMe7pUARj2QWLeLAuo8&location_bb=QizRyEHbnfBCLJxtQdtxqg%3D%3D",
         qrCode: blagoveshtenieQR,
         description: {
           en: "Description in English",
@@ -1185,9 +1233,12 @@ export const touristSites = {
         googleMapsLink: "https://maps.app.goo.gl/DqMesLakuCQei4a58",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d6340.471396375015!2d27.450525547140703!3d43.22796559394798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDPCsDEzJzQ1LjMiTiAyN8KwMjcnMDcuMiJF!5e0!3m2!1sbg!2sbg!4v1727183699227!5m2!1sbg!2sbg",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=Provadia&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AtqZz7cGwAIB0gIkOGQwMWZlMjctOTg4OS00ZjM2LWFjNzQtNmI2OGU2OTY4MWUx2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=1666434&dest_type=hotel&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=1&search_selected=true&search_pageview_id=3e463d2d508a0024&ac_meta=GhAzZTQ2M2QyZDUwOGEwMDI0IAAoATICZW46CFByb3ZhZGlhQABKAFAA&checkin=2024-09-27&checkout=2024-09-28&ltfd=1%3A5%3A10-2024_11-2024_12-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
+          "https://www.tripadvisor.com/Restaurants-g2100806-Provadia_Varna_Province.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Provadia--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Provadia%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJT1T7MMe7pUARj2QWLeLAuo8&location_bb=QizRyEHbnfBCLJxtQdtxqg%3D%3D",
         qrCode: golqmotoKaleQR,
         description: {
           en: "Description in English",
@@ -1225,9 +1276,12 @@ export const touristSites = {
         googleMapsLink: "https://maps.app.goo.gl/tRtzMFPDSaykSKyn7",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.139854395946!2d27.320927290189335!3d43.10157571351363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5c0ce6f7ad259%3A0x5c4b2352ed04988e!2z0JzRg9GF0LDQu9C40LnRgdC60L4g0LrQsNC70LU!5e0!3m2!1sen!2sbg!4v1726768230595!5m2!1sen!2sbg",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=Provadia&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AtqZz7cGwAIB0gIkOGQwMWZlMjctOTg4OS00ZjM2LWFjNzQtNmI2OGU2OTY4MWUx2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=1666434&dest_type=hotel&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=1&search_selected=true&search_pageview_id=3e463d2d508a0024&ac_meta=GhAzZTQ2M2QyZDUwOGEwMDI0IAAoATICZW46CFByb3ZhZGlhQABKAFAA&checkin=2024-09-27&checkout=2024-09-28&ltfd=1%3A5%3A10-2024_11-2024_12-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
+          "https://www.tripadvisor.com/Restaurants-g2100806-Provadia_Varna_Province.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Provadia--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Provadia%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJT1T7MMe7pUARj2QWLeLAuo8&location_bb=QizRyEHbnfBCLJxtQdtxqg%3D%3D",
         qrCode: muhaKaleQR,
         description: {
           en: "Description in English",
@@ -1265,9 +1319,12 @@ export const touristSites = {
         googleMapsLink: "https://maps.app.goo.gl/nduH8rkiaBM1Fa8bA",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.5482360563383!2d27.501381376536308!3d43.19798918175303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5ba55f9a97759%3A0x8573c380c9e3f3cc!2sKara%20Peshtera%20Rock%20Monastery!5e0!3m2!1sen!2sbg!4v1726768154597!5m2!1sen!2sbg",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=Provadia&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AtqZz7cGwAIB0gIkOGQwMWZlMjctOTg4OS00ZjM2LWFjNzQtNmI2OGU2OTY4MWUx2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=1666434&dest_type=hotel&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=1&search_selected=true&search_pageview_id=3e463d2d508a0024&ac_meta=GhAzZTQ2M2QyZDUwOGEwMDI0IAAoATICZW46CFByb3ZhZGlhQABKAFAA&checkin=2024-09-27&checkout=2024-09-28&ltfd=1%3A5%3A10-2024_11-2024_12-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
+          "https://www.tripadvisor.com/Restaurants-g2100806-Provadia_Varna_Province.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Provadia--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Provadia%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJT1T7MMe7pUARj2QWLeLAuo8&location_bb=QizRyEHbnfBCLJxtQdtxqg%3D%3D",
         qrCode: karaPeshteraQR,
         description: {
           en: "Description in English",
@@ -1305,9 +1362,12 @@ export const touristSites = {
         googleMapsLink: "https://maps.app.goo.gl/JfiknDpGwPHaWyEy7",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d372842.98505093873!2d27.146070587258734!3d43.10796508042008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5bbdac1de4d7b%3A0xd40dece16fdb3eb!2z0KbRitGA0LrQstCwICLQodCyLiDQotC10L7QtNC-0YAi!5e0!3m2!1sen!2sbg!4v1726768081606!5m2!1sen!2sbg",
-        bookingLink: "https://www.booking.com/Place1Dalgopol",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=Provadia&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AtqZz7cGwAIB0gIkOGQwMWZlMjctOTg4OS00ZjM2LWFjNzQtNmI2OGU2OTY4MWUx2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=index&dest_id=1666434&dest_type=hotel&ac_position=0&ac_click_type=b&ac_langcode=en&ac_suggestion_list_length=1&search_selected=true&search_pageview_id=3e463d2d508a0024&ac_meta=GhAzZTQ2M2QyZDUwOGEwMDI0IAAoATICZW46CFByb3ZhZGlhQABKAFAA&checkin=2024-09-27&checkout=2024-09-28&ltfd=1%3A5%3A10-2024_11-2024_12-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
         restaurantsLink:
-          "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
+          "https://www.tripadvisor.com/Restaurants-g2100806-Provadia_Varna_Province.html",
+        airbnbLink:
+          "https://www.airbnb.com/s/Provadia--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Provadia%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJT1T7MMe7pUARj2QWLeLAuo8&location_bb=QizRyEHbnfBCLJxtQdtxqg%3D%3D",
         qrCode: svTeodorQR,
         description: {
           en: "Description in English",
