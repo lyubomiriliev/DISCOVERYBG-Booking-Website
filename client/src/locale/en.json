@@ -38,6 +38,10 @@
     "activity": "Activity",
     "duration": "Duration",
 
+    "obshtiUsloviq": "General conditions",
+    "poveritelnost": "Privacy Policy",
+    "vruzka": "Contact us",
+
     "siteDetails": {
         "placeDescription": "Description",
         "access": "Accessibility",

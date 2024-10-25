@@ -1,7 +1,13 @@
 import React from 'react'
 import { discoveryToShare, MTlogo, siteLogoBlack } from '../assets'
+import { useTranslation } from 'react-i18next'
+
 
 const Footer = () => {
+
+    const {t} = useTranslation();
+
+
     return (
         <div className="w-full flex flex-col justify-between h-80 bg-secondary mt-20 font-outfit">
             <div className="max-w-screen-xl w-full mx-auto justify-start flex flex-col">
@@ -13,21 +19,21 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         className="font-body uppercase text-black text-sm hover:text-primary duration-300 font-medium flex p-2"
                     >
-                    Общи Условия
+                    {t("obshtiUsloviq")}
                     </a>
                     <a
                         href="https://discoverybg.eu/privacy-policy/"
                         rel="noopener noreferrer"
                         className="font-body uppercase text-black text-sm hover:text-primary duration-300 font-medium flex p-2"
                     >
-                    Политика на поверителност
+                    {t("poveritelnost")}
                     </a>
                     <a
                         href="https://discoverybg.eu/%d0%b3%d0%b0%d0%bb%d0%b5%d1%80%d0%b8%d1%8f/"
                         rel="noopener noreferrer"
                         className="font-body uppercase text-black text-sm hover:text-primary duration-300 font-medium flex p-2"
                     >
-                    Връзка с нас
+                    {t("vruzka")}
                     </a>
             </div>
             <div className="flex flex-col items-center mb-2">
