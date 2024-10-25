@@ -202,7 +202,34 @@ const TouristPackages = () => {
                     "twoDayPackages.provadia.day2.details.detail1",
                     "twoDayPackages.provadia.day2.details.detail2",
                     "twoDayPackages.provadia.day2.details.detail3",
-                    "twoDayPackages.provadia.day2.details.detail4",
+                ],
+                lunchDetails: "",
+                timeStamps: ["240", "60", "60"],
+                night: ""
+            },
+            {
+                dayNumber: 1,
+                variant: 2,
+                bgColor: "bg-primary",
+                details: [
+                    "twoDayPackages.provadia.day3.details.detail1",
+                    "twoDayPackages.provadia.day3.details.detail2",
+                    "twoDayPackages.provadia.day3.details.detail3",
+                    "twoDayPackages.provadia.day3.details.detail4",
+                ],
+                lunchDetails: "",
+                timeStamps: ["240", "60", "60", "60"],
+                night: ""
+            },
+            {
+                dayNumber: 2,
+                variant: 2,
+                bgColor: "bg-primary",
+                details: [
+                    "twoDayPackages.provadia.day4.details.detail1",
+                    "twoDayPackages.provadia.day4.details.detail2",
+                    "twoDayPackages.provadia.day4.details.detail3",
+                    "twoDayPackages.provadia.day4.details.detail4",
                 ],
                 lunchDetails: "",
                 timeStamps: ["240", "60", "60", "60"],
@@ -210,125 +237,144 @@ const TouristPackages = () => {
             },
         ],
     };
-    
+
 
     const threeDayPackages = {
-        provadia: [
-            {
-                dayNumber: 1,
-                bgColor: "bg-secondary",
-                details: ["Исторически музей", "Градска художествена галерия и разходка из централната част на града", "Обяд в местно заведение", "Провадия – Солницата", "Крепост „Овеч“"],
-                lunchDetails: "",
-                timeStamps: ["60", "60", "60", "60", "60"],
-                night: "Нощувка",
+  provadia: [
+    {
+      dayNumber: 1,
+      bgColor: "bg-secondary",
+      details: [
+        t("threeDayPackages.provadia.day1.details.detail1"),
+        t("threeDayPackages.provadia.day1.details.detail2"),
+        t("threeDayPackages.provadia.day1.details.detail3"),
+        t("threeDayPackages.provadia.day1.details.detail4"),
+        t("threeDayPackages.provadia.day1.details.detail5"),
+      ],
+      timeStamps: ["60", "60", "60", "60", "60"],
+      night: t("threeDayPackages.provadia.day1.night"),
+    },
+    {
+      dayNumber: 2,
+      bgColor: "bg-secondary",
+      details: [
+        t("threeDayPackages.provadia.day2.details.detail1"),
+        t("threeDayPackages.provadia.day2.details.detail2"),
+        t("threeDayPackages.provadia.day2.details.detail3"),
+        t("threeDayPackages.provadia.day2.details.detail4"),
+        t("threeDayPackages.provadia.day2.details.detail5"),
+      ],
+      timeStamps: ["60", "150", "60", "60", "30"],
+      night: t("threeDayPackages.provadia.day2.night"),
+    },
+    {
+      dayNumber: 3,
+      bgColor: "bg-secondary",
+      details: [
+        t("threeDayPackages.provadia.day3.details.detail1"),
+        t("threeDayPackages.provadia.day3.details.detail2"),
+      ],
+      timeStamps: ["90", "300"],
+    },
+  ],
+  dolniChiflik: [
+    {
+      dayNumber: 1,
+      bgColor: "bg-secondary",
+      details: [
+        t("threeDayPackages.dolniChiflik.day1.details.detail1"),
+        t("threeDayPackages.dolniChiflik.day1.details.detail2"),
+        t("threeDayPackages.dolniChiflik.day1.details.detail3"),
+        t("threeDayPackages.dolniChiflik.day1.details.detail4"),
+        t("threeDayPackages.dolniChiflik.day1.details.detail5"),
+        t("threeDayPackages.dolniChiflik.day1.details.detail6"),
+        t("threeDayPackages.dolniChiflik.day1.details.detail7"),
+      ],
+      timeStamps: ["60", "30", "90", "60", "45", "45", "30"],
+      night: t("threeDayPackages.dolniChiflik.day1.night"),
+    },
+    {
+      dayNumber: 2,
+      bgColor: "bg-secondary",
+      details: [
+        t("threeDayPackages.dolniChiflik.day2.details.detail1"),
+        t("threeDayPackages.dolniChiflik.day2.details.detail2"),
+        t("threeDayPackages.dolniChiflik.day2.details.detail3"),
+        t("threeDayPackages.dolniChiflik.day2.details.detail4"),
+        t("threeDayPackages.dolniChiflik.day2.details.detail5"),
+        t("threeDayPackages.dolniChiflik.day2.details.detail6"),
+        t("threeDayPackages.dolniChiflik.day2.details.detail7"),
+        t("threeDayPackages.dolniChiflik.day2.details.detail8"),
+        t("threeDayPackages.dolniChiflik.day2.details.detail9"),
+      ],
+      timeStamps: ["45", "45", "45", "30", "30", "60", "30", "45", "45"],
+      night: t("threeDayPackages.dolniChiflik.day2.night"),
+    },
+    {
+      dayNumber: 3,
+      bgColor: "bg-secondary",
+      details: [
+        t("threeDayPackages.dolniChiflik.day3.details.detail1"),
+        t("threeDayPackages.dolniChiflik.day3.details.detail2"),
+        t("threeDayPackages.dolniChiflik.day3.details.detail3"),
+        t("threeDayPackages.dolniChiflik.day3.details.detail4"),
+        t("threeDayPackages.dolniChiflik.day3.details.detail5"),
+        t("threeDayPackages.dolniChiflik.day3.details.detail6"),
+        t("threeDayPackages.dolniChiflik.day3.details.detail7"),
+      ],
+      timeStamps: ["40", "40", "40", "60", "40", "40", "120"],
+    },
+  ],
+  dalgopol: [
+    {
+      dayNumber: 1,
+      bgColor: "bg-secondary",
+      tourTitle: t("threeDayPackages.dalgopol.day1.tourTitle"),
+      details: [
+        t("threeDayPackages.dalgopol.day1.details.detail1"),
+        t("threeDayPackages.dalgopol.day1.details.detail2"),
+        t("threeDayPackages.dalgopol.day1.details.detail3"),
+        t("threeDayPackages.dalgopol.day1.details.detail4"),
+        t("threeDayPackages.dalgopol.day1.details.detail5"),
+        t("threeDayPackages.dalgopol.day1.details.detail6"),
+        t("threeDayPackages.dalgopol.day1.details.detail7"),
+        t("threeDayPackages.dalgopol.day1.details.detail8"),
+      ],
+      timeStamps: ["45", "30", "15", "30", "30", "60", "60", "60"],
+      night: t("threeDayPackages.dalgopol.day1.night"),
+    },
+    {
+      dayNumber: 2,
+      bgColor: "bg-secondary",
+      tourTitle: t("threeDayPackages.dalgopol.day2.tourTitle"),
+      details: [
+        t("threeDayPackages.dalgopol.day2.details.detail1"),
+        t("threeDayPackages.dalgopol.day2.details.detail2"),
+        t("threeDayPackages.dalgopol.day2.details.detail3"),
+        t("threeDayPackages.dalgopol.day2.details.detail4"),
+        t("threeDayPackages.dalgopol.day2.details.detail5"),
+        t("threeDayPackages.dalgopol.day2.details.detail6"),
+      ],
+      timeStamps: ["90", "90", "90", "60", "90", "120"],
+      night: t("threeDayPackages.dalgopol.day2.night"),
+    },
+    {
+      dayNumber: 3,
+      bgColor: "bg-secondary",
+      tourTitle: t("threeDayPackages.dalgopol.day3.tourTitle"),
+      details: [
+        t("threeDayPackages.dalgopol.day3.details.detail1"),
+        t("threeDayPackages.dalgopol.day3.details.detail2"),
+        t("threeDayPackages.dalgopol.day3.details.detail3"),
+        t("threeDayPackages.dalgopol.day3.details.detail4"),
+      ],
+      timeStamps: ["30", "45", "45", "60"],
+    },
+  ],
+};
 
-            },
-            {
-                dayNumber: 2,
-                bgColor: "bg-secondary",
-                details: ["Етнографска сбирка в Народно читалище „Илия Добрев – 1899“ в с. Манастир", "Скален манастир „Кара пещера“ /пешеходен преход - 2ч. и 30 мин отиване и връщане/", "Обяд в местно заведение за хранене", "Етнографска сбирка в Народно читалище „Васил Левски - 1901“ в с. Добрина", "Вкопаната църква „Свети Теодор“ в село Добрина"],
-                lunchDetails: "",
-                timeStamps: ["60", "150", "60", "60", "30"],
-                night: "Нощувка в къщи за гости от селски тип с. Добрина",
+    
 
-            },
-            {
-                dayNumber: 3,
-                bgColor: "bg-secondary",
-                timeStamps: ["90", "300"],
-                details: ["Пешеходен преход до Венчанско кале“ /до село Венчан", "Пешеходен преход до Природна забележителност „Пробития камък“ /от жп спирка Венчан до жп спирка Равна/"],
-            },
-        ],
-        dolniChiflik: [
-            {
-                dayNumber: 1,
-                bgColor: "bg-secondary",
-                details: [
-                    "Посещение на централната градска част на Долни чифлик и беседа:<br />• Паметник на Георги Трайков<br />• Паметник на Иван Сокачев<br />• Храм „Св.Рождество богородично“<br />• Етнографски музей при НЧ „Изгрев“",
-                    "Късноантична крепост „Голямото кале“, гр. Долни чифлик",
-                    "Обяд комбиниран с участие на туристите в приготвянето на местни гозби, ястия и др.",
-                    "Държавно ловно стопанство „Шерба“, с Горен Чифлик (с еко и опознаварелен туризъм)",
-                    "Ботаническа градина, с Гроздьово", "Крепост Градище, с.Гроздьово", "Римска Крепост „Паниса“, с. Гроздьово"],
-                lunchDetails: "",
-                timeStamps: ["60", "30", "90", "60", "45", "45", "30"],
-                night: "Нощувка",
-
-            },
-            {
-                dayNumber: 2,
-                bgColor: "bg-secondary",
-                details: [
-                    "Храм „Св Архангел Михаил“, с. Венелин", "Църква „Свето възнесение Господне“, с. Пчелник",
-                    "Етнографски комплекс Кривини, с. Кривини", "Средновековен комплекс „Ниазларско герме“ Булаир, с.Солник",
-                    "Водопад „Скока“, с. Солник", "Обяд в местно заведение", "Храм „Възнесение Господне“, с Бърдарево", "Късноантична крепост Бурун градище, с. Голица",
-                    "Посещение на с. Голица:<br />•	Паметна плоча на Вълчан Войвода, с. Голица<br />•	Паметник на петела, център на с. Голица<br />•	Храм „Св. Димитрий Мироточиви“, с. Голица"],
-                lunchDetails: "",
-                timeStamps: ["45", "45", "45", "30", "30", "60", "30", "45", "45"],
-                night: "Нощувка",
-
-            },
-            {
-                dayNumber: 3,
-                bgColor: "bg-secondary",
-                details: ["Скални светилище „Орта кая“, с. Булаир", "Скални светилище, ‚Ярамаз кая“, с. Булаир", "Късноантичен и средновековен отбранителен компплекс Ниазларско герме, с. Булаир", "Обяд", "„Лонгоза“, с.Ново Оряхово, с Старо Оряхово, с Шкорпиловци", "Антична крепост Шкорпиловци, комбинирана с посещение на обекти в с. Шкорпиловци", "КК Шкорпиловци"],
-                lunchDetails: "",
-                timeStamps: ["40", "40", "40", "60", "40", "40", "120"],
-                night: "",
-
-            },
-        ],
-        dalgopol: [
-            {
-                dayNumber: 1,
-                bgColor: "bg-secondary",
-                tourTitle: "Историческо наследство",
-                details: [
-                    "Исторически музей „Дългопол“",
-                    "Храм „Св. Иван Рилски” – гр. Дългопол", "Часовникова кула – Дългопол",
-                    "Средновековен манастир „Св. Атанасий” до с. Аспарухово",
-                    "Възрожденска църква „Св. Петка Параскева” с. Аспарухово",
-                    "Обяд в местен ресторант, заведение за хранене и др.",
-                    "ПЗ Чудните скали",
-                    "Посещение на винарна, др. забавления",
-                ],
-                lunchDetails: "",
-                timeStamps: ["45", "30", "15", "30", "30", "60", "60", "60"],
-                night: "Нощувка",
-
-            },
-            {
-                dayNumber: 2,
-                bgColor: "bg-secondary",
-                tourTitle: "Еко туризъм / Еко поход",
-                details: [
-                    "Защитена местност „Водениците“",
-                    "ПЗ „Куза скока”",
-                    "Крепост „Овчага“ (Града)",
-                    "Обяд",
-                    "Скален манастир с. Рояк",
-                    "Гребане/скални катерене/колоездене",
-                ],
-                lunchDetails: "",
-                timeStamps: ["90", "90", "90", "60", "90", "120"],
-                night: "Нощувка",
-
-            },
-            {
-                dayNumber: 3,
-                bgColor: "bg-secondary",
-                tourTitle: "Развлечения: почивка, плажуване",
-                details: [
-                    "Посещение на грънчарско ателие – единственото запазено в региона",
-                    "Посещение на етнографски музей - читалище „Добри Недев – 1894 г.” с. Аспарухово",
-                    "Посещение на възрожденска църква „Св. Петка Параскева“, с. Аспарухово",
-                    "Исторически музей Дългопол"
-                ],
-                timeStamps: ["30", "45", "45", "60"],
-                night: "",
-            },
-        ],
-
-    }
 
     const [selectedStation, setSelectedStation] = useState('')
     const [firstClick, setFirstClick] = useState(false);

@@ -29,7 +29,7 @@ const TouristPackageDays = ({ dayNumber, variant, bgColor, details, tourTitle, l
                 {t(detail)}
               </div>
               <div className="font-body text-sm mb-4 text-right">
-                {timeStamps[index]} мин.
+              {timeStamps[index]} {t("min")}
               </div>
             </React.Fragment>
           ))}

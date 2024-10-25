@@ -16,6 +16,10 @@ import {
   etnografski1,
   etnografski2,
   etnografskiMuzeiQR,
+  germe1,
+  germe2,
+  germe3,
+  germe4,
   golca1,
   golqmotoKaleQR,
   hemski1,
@@ -570,9 +574,9 @@ export const touristSites = {
       {
         id: "place1",
         name: {
-          en: "Ancient fortress of Shkorpilovtsi, Shkorpilovtsi village",
+          en: "The Ancient Fortress in Shorpilovtsi village",
           bg: "Антична крепост Шкорпиловци, с. Шкорпиловци",
-          pl: "Исторически музей, гр. Дългопол",
+          pl: "Starożytna twierdza we wsi Shorpilovtsi",
         },
         displayPhoto: antichna1,
         photos: [{ antichna1, antichna2 }],
@@ -587,17 +591,17 @@ export const touristSites = {
           "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: shkorpilovciQR,
         description: {
-          en: "Description in English",
+          en: "The fortress was built in the southern part of a hill, which is protected by Fundakliyska river to the west and south, and by the Black Sea to the east. The terrain was marshy to the west and south. It was most accessible from the north along the ridge of the hill. The fortification has a rectangular shape, the long side facing the north-south direction. It is assumed that it was built at the end of the 3rd century , the beginning of the 4th century. Before it, there was a settlement on the site from the 2nd and the beginning of the 3rd century. The approximate dimensions of the site are: 100 m to the north and south and 70 m to the east and west. The fortress wall was built of stone joined with white mortar and crushed ceramics. Its width is 2.5 m. Forged nails were found in-situ. Research suggests that the fortress buildings were destroyed by fire. From this period, a stone street pavement facing Northwest-Southeast has been partially preserved. It was laid directly on the gray ash layer. The pavement is made of stones of different sizes. The last inhabitants of the Shkorpilovtsi Fortress were from the end of the 5th and the beginning of the 6th century. Druing that time the buildings were of a lighter construction, made of clay plastered fence and covered with tiles. It is unknown whether the fortress walls functioned during this period. The end of life during this period was violent, marked by an intense fire. Life here ended at the end of the 6th and the beginning of the 7th century.",
           bg: "Крепостта е изградена в южната част на възвишение от запад и юг затворено от река Фъндаклийска, а от изток- от Черно море. От запад и юг теренът е бил блатист. Най- достъпна е била от север по билото на възвишението. Укреплението е с правоъгълна форма, разположена с дългата страна в посока север- юг. Предполага се, че е построено в края на III в или началото на IV в. Преди него на мястото е имало селище от II и началото на III в. Приблизителните размери на обекта са 100 m в посока север- юг и 70 m в посока изток- запад. Крепостната стена е изградена от ломен камък, споен с бял хоросан, съдържащ едро натрошена строителна керамика. Широчината ѝ е 2.5 м. Намерени са ковани пирони. Изследванията предполагат, че сградите на крепостта са унищожени от пожар. От този строителен период частично е съхранена каменна, улична настилка с посока северозапад- югоизток. Положена е направо върху сивия пепеляв пласт от първото обитаване на терена. Настилката е изградена от различни по големина камъни. Третият и последен етап на обитаване на Крепост Шкорпиловци е от края на V и началото на VI в. Тогава сградите са с по- лека конструкция, от измазан с глина плет и покрити с керемиди. Не се знае дали през този период крепостните стени са функционирали. Краят на живота през този период е насилствен, белязан от интензивен пожар. Животът тук е приключил в края на VI и началото на VII в.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "The ancient and late ancient fortress of Shkorpilovtsi is located 1.46 km east of the center of the village of Shkorpilovtsi. The site is accessible and within walking distance from the village of Shkropilovtsi",
+          en: "The Ancient Fortress in Shkorpilovts village is located 1.46 to the East from the center of the village. The site is accessible and within walking distance from the village of Shkropilovtsi.",
           bg: "Антична и късноантична крепост Шкорпиловци се намира на 1.46 km източно от центъра на село Шкорпиловци. Обектът е достъпен и е на пешеходно разстояние от с. Шкропиловци",
           pl: "",
         },
         summerWorkTime: {
-          en: "The fortress has free access.",
+          en: "Free access",
           bg: "Крепостта е със свободен достъп.",
           pl: "",
         },
@@ -633,12 +637,12 @@ export const touristSites = {
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The Late Antique Fortress “Burun Gradishte” is located 5.5 km Southeast from the center of Golitsa village. There are no signposts to the site, bu the area is particularly suitable for eco tourism. It is accessible mainly from the Northeast.",
           bg: "Късноантична крепост Бурун Градище се намира в едноименната местност, на 5.5 km югоизточно от центъра на село Голица. До обекта няма указателни табели, но местността е особено подходяща за екотуризъм. Достъпен е основно от северозапад.",
           pl: "",
         },
         summerWorkTime: {
-          en: "The site has free access.",
+          en: "Free access",
           bg: "Обектът е със свободен достъп.",
           pl: "",
         },
@@ -654,7 +658,7 @@ export const touristSites = {
       {
         id: "place3",
         name: {
-          en: "Late antique and medieval fortress complex Hemskite Porti/Germeto",
+          en: "The Late Antique Fortress Complex Hemski gateways in Golitsa village",
           bg: "Късноантичен и средновековен крепостен комплекс Хемските порти/Гермето",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -671,17 +675,17 @@ export const touristSites = {
           "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: hemskiPortiQR,
         description: {
-          en: "Description in English",
+          en: "It is an impressive complex of three fortresses connected by a wall. It is oriented to the North and South. The fortress escription is known thanks to the work of the brothers arearchologists, biologists and artists Herman and Karel Shkorpil, who did extensive research in this part of the country at the beginning of the last century. The total length of the complex is about 2.3 km. The northern, first fortress of the Hem gates is located on the 'Perchenlika' peak, which rises as a tomb facing East and West. It rises up to 30 m above the Gulish ridge. The first fortress has an oblong, almost rectangular shape. The southern and longest wall is divided into three sections joined at an angle. There were round towers at the four main corners, and the entrance was at the western fortress wall. From the fortification there is excellent visibility in all directions. It was the main observation post of the complex. From it there is a visual connection with the fortresses built on the neighboring mountain peaks. Three periods of occupation have been identified. The first period refers to the 4th century. It precedes the construction of the second fortress. The second period is related to the construction and initial operation of the site. The discovered coins lead to the conclusion that the construction of the central, second fortress and the entire Hem gates complex took place in the first half of the 5th century, most likely in the early years of the reign of Theodosius II (408-450). The remains of the northern staircase with a width of 1.6 m were discovered.",
           bg: "Обектът представлява внушителен, укрепителен комплекс от три крепости, свързани с преградна стена. Ориентиран е в посока север- юг. Описанието му е известно благодарение на братята арехолози, биолози и творци Херман и Карел Шкорпил, които правят задълбочени изследвания в тази част на страната в началото на миналия век. Общата дължина на комплекса е около 2.3 km. Северната, първа крепост на Хемските порти е разположена върху връх „Перченлика“, която се издига във вид на продълговата могила в посока изток- запад. Тя стърчи с около 30 m над Гулишкия гребен. Първата крепост има продълговата, почти правоъгълна форма. Южната и най- дълга стена е разделена на три отсечки съединени под ъгъл. В четирите основни ъгъла е имало кръгли кули, а входът е бил на западната крепостна стена. От укреплението има отлична видимост във всички посоки. Тя е била главен наблюдателен пункт на комплекса. От нея има визуална връзка с крепостите, построени на съседните планински върхове. Установени са три периода на обитаване. Първият период се отнася към ІV в. Той предхожда изграждането на втора крепост. Вторият период е свързан с изграждането и първоначалното функциониране на обекта. Откритите монети позволяват да се заключи, че изграждането на централната, втора крепост и на целия комплекс Хемските порти е станало през първата половина на V век, най- вероятно в началните години на управлението на Теодосий ІІ (408-450). Разкрити са останките от северното стълбище с ширина 1.6 m.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The Late Antique Fortress Complext Hemski Gateways is located 5.42 km to the West from Golitsa village along the road to Bulair village",
           bg: "Късноантичен и средновековен крепостен комплекс Хемските порти/Гермето се намира на 5.42 km западно от центъра на село Голица, по шосето за село Булаир.",
           pl: "",
         },
         summerWorkTime: {
-          en: "The site has free access.",
+          en: "Free access.",
           bg: "Обектът е със свободен достъп.",
           pl: "",
         },
@@ -697,13 +701,13 @@ export const touristSites = {
       {
         id: "place4",
         name: {
-          en: "Niazlarsko Germe complex, Bulair village",
+          en: "The Late Antique and Middle Age Complex in Bulair village",
           bg: "Комплекс Ниазларско герме, с. Булаир",
           pl: "Исторически музей, гр. Дългопол",
         },
         displayPhoto: muzeiDulgopol1,
         photos: [
-          { muzeiDulgopol1, muzeiDulgopol2, muzeiDulgopol3, muzeiDulgopol4 },
+          { germe1, germe2, germe3, germe4 },
         ],
         googleMapsLink: "https://maps.app.goo.gl/jCJRnTPxgLyhkAiMA",
         googleMaps:
@@ -716,17 +720,17 @@ export const touristSites = {
           "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: niazlarskoGermeQR,
         description: {
-          en: "Description in English",
+          en: "The Late Antique and Middle Age Complex in Bulair villlage is the westernmost part of the complete, defensive system, built during the two historical periods in the Easten low part of Balkan Mountain. According to the arcaeologist Karel Shkorpil, the complex contained an old Bulgarian rampart, a late antique stone wall, seven towers, three of which were independent from each other, and a fortress. Another fortress and two more barrier structures (stone walls or ramparts) were discovered near the complex, which are located on the western side of the Eleshnica River. The total length of the complex is 1.1 km, starting from the west and east and ending with a fortress.",
           bg: "Ниазларско герме е най- западната част на цялостната, отбранителна система, изградена през двата исторически периода в най- източната, ниска част на Стара планина, която прегражда три старопланински прохода. Според Карел Шкорпил комплексът съдържа един старобългарски вал, една късноантична, каменна стена, седем кули, три от които самостоятелни и една крепост. Към комплекса е открита още една крепост и още две преградни съоръжения (каменни стени или валове), които се намират от западната част на река Елешница. Общата дължина на комплекса е 1.1 km, като от запад и изток започва и завършва с крепост.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "There are no signposts to the site and thus it is hard to be accessed.",
           bg: "Липсват указателни табели до обекта и това го прави трудно достъпен.",
           pl: "",
         },
         summerWorkTime: {
-          en: "The site has free access.",
+          en: "The access to the site is free.",
           bg: "Обектът е със свободен достъп.",
           pl: "",
         },
@@ -742,7 +746,7 @@ export const touristSites = {
       {
         id: "place5",
         name: {
-          en: "Orta Kaya rock sanctuary, Bulair village",
+          en: "The Rock Sanctuary Orta Kaya in Bulair village",
           bg: "Скално светилище „Орта кая“, с. Булаир",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -759,17 +763,17 @@ export const touristSites = {
           "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: ortaKaqQR,
         description: {
-          en: "Description in English",
+          en: "The Roack Sanctuary dated back to the Late Antiquity, when most of the barrier fortifications were built by the conquerors. A rock platform has been cut in its highest part, The pinnacle was reused as a defensive facility and was incorporated into the partition wall. Researchers suggest that the site is from the Late Iron Age period.",
           bg: "Скално светилище „Орта кая“ е от късната античност, когато са построени голяма част от укрепителните съоръжения за преграда от завоевателите. В най-високата му част е изсечена скална площадка. Върха е преизползван като отбранително съоръжение и е включен към преградната стена Ниазларско герме. Изследователи предполагат, че обектът е от периода на късната желязна епоха",
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The peak has steep and sheer slopes and is accessible only from the east.",
           bg: "Върхът е със стръмни и отвесни склонове и е достъпен единствено от изток.",
           pl: "",
         },
         summerWorkTime: {
-          en: "The site has free access and is particularly suitable for lovers of hiking routes, nature walks, etc.",
+          en: "The object is of free access and is particularly suitable for hikers and adventurers.",
           bg: "Обектът е със свободен достъп и е особено подходящ за любителите на пешеходни маршрути, разходки сред природата и др.",
           pl: "",
         },
@@ -785,7 +789,7 @@ export const touristSites = {
       {
         id: "place6",
         name: {
-          en: "'Yaramaz kaya' sanctuary, Bulair village",
+          en: "The Rock Sanctuary Yaramaz Kaya in Bulair village",
           bg: "Светилище „Ярамаз кая“, с. Булаир",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -802,17 +806,17 @@ export const touristSites = {
           "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: qrmazKaqQR,
         description: {
-          en: "Description in English",
+          en: "Yaramaz Kaya is a mysterious rock formation in the low parts of Eastern Balkan Mountain. It is believed to be from the Late Iron Age. There are separate dimples and features on a large rock area. The name is of Turkish origin and means 'The Unnecessary Rock', which contradicts his peculiar and extraordinary charisma. The nearest settlement from which it can be reached is Bulair village where animal husbandry and agriculture are assigning branches.",
           bg: "Ярамаз кая е загадъчно скално образувание в ниските дялове на Източна Стара планина. Предполага се, че е от късната желязна епоха. На голяма площ по скалите се намират отделни шарапани, ямички и други исзичания. В превод от турски означава „Непотребната скала“, което противоречи на особената му и необикновена харизма. Най-близкото населено място, от което може да се стигне до него, е малкото село Булаир, в което основният поминък на населението е животновъдство и земеделие.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The site is located 4,1 km to the West from Bulair village. The object can be reached on foot as it is necessary first to cross the river towards the forest. The route becomes well accessible to the westernmost part where it is relatively easy to climb. In one kilometer, take the right deviation and reach the foot of the rock formation. Passing through a shallow saddle, you will reach the highest part of the hill surrounding the unique Yaramaz Kaya. Its height is 413 m with a great and extensive view of the mountainous landscape of the area.",
           bg: "Обектът се намира на 4,1 км западно от с.Булаир. До обекта се стига пеш, като е необходимо първо да се пресече реката в посока напред към гората. Трасето става добре проходимо и продължава към най-западната част на Непотребната скала, където тя е сравнително лесна за изкачване. След около километър се поема по дясното отклонение и се достига до подножието на скалното образувание. Преминавайки през една плитка седловина, се сетига до най-високата част на хълма, обгърнал неповторимата Ярамаз кая. Той е с височина от 413 м, а от него се открива една страхотна и обширна гледка към планинският ландшафт на района.",
           pl: "",
         },
         summerWorkTime: {
-          en: "The site has free access.",
+          en: "The access to the site is free",
           bg: "Обектът е със свободен достъп.",
           pl: "",
         },
@@ -828,7 +832,7 @@ export const touristSites = {
       {
         id: "place7",
         name: {
-          en: "Temple 'St. Archangel Michael', Venelin village",
+          en: "The St. Archangel Michael Orthodox Church in Venelin village",
           bg: "Храм „Св. Архангел Михаил“, с. Венелин",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -845,17 +849,17 @@ export const touristSites = {
           "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: arhangelMihailQR,
         description: {
-          en: "Description in English",
+          en: "The first information about Venelin village dated back to the 16th century. It was once called Saradar, which translates as 'yellow millet'. After 1830, several families from the villages of Erkech and Golitsa settled here, and later settlers from Gabrovsko and Dryanovsko regions came. By 1876, the village had 70-75 houses inhabited by Bulgarian and Turkish families. The Bulgarian population decided to collect funds for the construction of an Orthodox church, driven by the idea of preserving their way of life, culture and faith. In 1869, the temple was built and named after St. Archangel Michael. The most funds were donated by grandfather Huben Dimitrov, who, according to the first settlers, had a shop in Saradar and gave half of the rent to the temple. Initially trainings were held on queitly for the Bulgarian children. After winning the right to build a temple before the Turkish authorities, local craftsmen built also a room for educational purposes. Historical references show that the teacher Dimitar took classed here after the opening of the school at the church. In 1783 the teacher was Nikola Ivanov and after 1874 it was Stefan Tenev from Shipka village in Kazanlak region. There are inscripts preserved in the church, such as: 'Summer of May 23rd 1875, teacher from the village of Shipka - Stefan Tenev'.",
           bg: "Първите сведения за село Венелин са от XVI в. Някога то носи името Сарадър, което в превод означава „жълто просо“. След 1830 г. тук се заселват няколко семейства от селата Еркеч и Голица, а по-късно идват преселници от Габровско и Дряновско. Към 1876 г. селото наброява 70-75 къщи, от които 35-40 населени с български семейства и още толкова турски. Българското население решава да се съберат средства за построяването на православен храм, водени от идеята да съхранят своя бит, култура и вяра. През 1869 год. храмът е построен и наречен с името на Св. Архангел Михаил. Най много средства са дарени от дядо Хубен Димитров, който по сведения на първите заселници имал дюкян в Сарадър и половината от наемите давал на храма. След като си извоювали правото пред турските власти, да построят храм, където първоначално се водели тихомълком учебни занимания за желаещите българчета, местни майстори построили след време и стая с учебна цел. Исторически справки показват, че непосредствено след откриването на училището към църквата, преподава даскал Димитър. През 1783 год. учител е Никола Иванов, а след 1874 год. – Стефан Тенев от село Шипка, Казанлъшко. В храма са запазени и до днес „Цветослов” с приписка: „Лето мая 23-ий 1875 година, даскал-учител от село Шипка – Стефан Тенев”.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "The temple is located in the village of Venelin, which is 8 km north of the municipal center Dolni Chiflik. The temple is open for visits.",
+          en: "The temple is in Venelin village, eight km to the North from the town of Dolni chiflik.",
           bg: "Храмът се намира в с. Венелин, което е на 8 км на север от общинския център Долни Чифлик. Храмът е достъпен за посещения.",
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "Every day from 8:00 till 17:00",
           bg: "Всеки ден от 8:00 до 17:00ч.",
           pl: "",
         },
@@ -871,7 +875,7 @@ export const touristSites = {
       {
         id: "place8",
         name: {
-          en: "Orlov stone waterfall, Goren Chiflik village",
+          en: "The Eagle Stone Waterfall in Goren Chiflik village",
           bg: "Водопад Орлов камък, с. Горен Чифлик",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -888,17 +892,17 @@ export const touristSites = {
           "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: orlovKamukQR,
         description: {
-          en: "Description in English",
+          en: "The Eagle Stone Waterfall consists of two rapids. The upper one is 5-6 meters and the lower one is about 3 meters. They are located on the Armera River. The river is usually calm, but during the spring and autumn during the high water periods and heavy rains, it becomes turbulent.",
           bg: "Водопад „Орлов камък“ се състои от два прага. Горният е 5-6 метра, а долния е около 3 метра. Намират се на река Армера. Река Армера обикновено е спокойна, но през пролетния и есенния сезон, водите й стават бурни, по време на пълноводието й и вследствие на проливни дъждове.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "The waterfall is hidden in the forest areas near the village of Goren Chiflik. The waterfall can be reached on foot, after driving from Goren Chiflik to where the asphalt road allows.",
+          en: "The Waterfall is hidden in the forest near Goren Chiflik village. You can reach the waterfall on foot from Goren chiflik village. ",
           bg: "Водопадът е закътан в горските местности близо до с. Горен Чифлик. До водопада се стига пеш, след автомобилен преход от Горен Чифлик до където асфалтовия път позволява.",
           pl: "",
         },
         summerWorkTime: {
-          en: "The site has free access.",
+          en: "The access to the site is free",
           bg: "Обектът е със свободен достъп.",
           pl: "",
         },
@@ -914,7 +918,7 @@ export const touristSites = {
       {
         id: "place9",
         name: {
-          en: "Skoka waterfall, Solnik village",
+          en: "The Jump Waterfall in Solnik village",
           bg: "Водопад Скока, с. Солник",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -931,17 +935,17 @@ export const touristSites = {
           "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: skokaQR,
         description: {
-          en: "Description in English",
+          en: "Solnik is one of the villages near Dolni Chiflik, which is popular with its spring with salt water. That is why the village is called Solnik (salty place). The Jump Waterfall is a picturesque site, hidden in the forests near the village. It is called “The Sweet Pearl of Solnik” because of its extremely pure water and untouched by human activities.",
           bg: "Солник е едно от селата около Долни Чифлик, което е известно със съществуването на извор със солена вода. Поради това селото носи името си. Водопад Скока е изключително причудливо място, закътано в горите около с. Солник. Наричат го „Сладкият бисер на Солник“, поради изключително чистата вода и все още непокътнатото от човешка дейност място.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "Skoka waterfall is located in a sheltered wooded area near the village of Solnik. The place can be reached by two roads - through Dolni Chiflik and through the village of Krivini. Also, on the main street in Solnik coming from Dolni Chiflik you can turn left and follow the wooden arrow 'Waterfall'",
+          en: "The Jump Waterfall is in a hidden forest near Solnik village. Solnik vollage can be reached by two roads - through Dolni Chiflik and through Krivini village. On the main street in Solnik, coming from Dolni Chiflik, you can turn left and follow the wooden arrow 'The Waterfall'",
           bg: "Водопад Скока се намира в закътана гориста местност близо до с.Солник. До мястото се стига по два пътя - през Долни Чифлик и през с. Кривини. Освен това, на главната улица в Солник, идваща от Долни Чифлик може да се завие наляво и се следва дървена стрелка „Водопада“.",
           pl: "",
         },
         summerWorkTime: {
-          en: "Skoka waterfall has free access.",
+          en: "The access to the waterfall is free",
           bg: "Водопад Скока е със свободен достъп.",
           pl: "",
         },
@@ -957,7 +961,7 @@ export const touristSites = {
       {
         id: "place10",
         name: {
-          en: "Ethnographic Museum at 'Izgrev'",
+          en: "The Ethnographic Museum at the Community Center “Izgrev” in Dolni chiflik",
           bg: "Етнографски музей при НЧ „Изгрев“,",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -972,18 +976,18 @@ export const touristSites = {
           "https://www.airbnb.com/s/Dolni-chiflik--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dolni%20chiflik%2C%20Varna&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click&price_filter_num_nights=5&place_id=ChIJh2A65HA0pEARlRQfetTEuYk&location_bb=QixLuUHfNf9CK32EQds7iw%3D%3D",
         qrCode: etnografskiMuzeiQR,
         description: {
-          en: "Description in English",
+          en: "The Ethnographic Museum is housed in the building of the 'Izgrev - 1919' Municipal Center in Dolni Chiflik. It is located on an area of 128 sq.m. and is arranged in two separate halls. The Museum was founded in 1984 by Yordanka Bekyarova, a Math teacher. The museum preserves, presents and promotes cultural values related to the traditions of the city and the region. The exhibits are over 1,750 donated by over 300 donors, grouped under several themes: Tillage; Animal Husbandry; Local Crafts; Home Furnishings and Housing; Clothing and Ornaments; Home Crafts; Folk spiritual culture, customs and folklore. The ethnographic museum presents the life and culture of the settlements arounds as well as from Haskovo (South), Trun (Southwest) Gabrovo (middle country) at the end of the 19th and the beginning of the 20th century.",
           bg: "Етнографският музей се помещава в сградата на НЧ „Изгрев – 1919“, гр. Долни чифлик. Разположен е на площ от 128 кв.м. и е уреден в две отделни зали. Основан е през 1984г. от Йорданка Бекярова – учител по математика. Музеят съхранява, представя и популяризира културни ценности, свързани с традициите на града и региона. Тук се съхраняват над 1750 експонати, дарени от над 300 дарители, групирани в няколко теми: „Обработване на земята“, „Животновъдство“, „Занаяти“, „Домашна уредба и жилище“, „Облекло и накити“, „Домашни занаяти“, „Народна духовна култура, обичаи и фолклор“. Етнографският музей представя народния бит и култура от от края на XIX и началото на XXв., както от близките населени места, така и от Хасковско, Трънско, Габровско и др.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "The museum is located in the center of the town of Dolni Chiflik. The site is easily accessible in the center of Dolni Chiflik.",
+          en: "The Museum is located in the center of Dolni chiflik town. The access to the museum is easy as it is in the center of the town.",
           bg: "Музеят се намира в центъра на гр. Долни чифлик. Обектът е с лесен достъп в центъра на гр. Долни чифлик.",
           pl: "",
         },
         summerWorkTime: {
-          en: "Weekdays: Monday - Friday: 8:00 - 17:00",
-          bg: "Делнични дни: понеделник – петък: 8:00 – 17:00",
+          en: "Monday – Friday: 8:00 – 17:00h.",
+          bg: "Делнични дни: понеделник – петък: 8:00 – 17:00ч.",
           pl: "",
         },
         winterWorkTime: {
