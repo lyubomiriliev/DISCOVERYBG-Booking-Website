@@ -102,6 +102,8 @@ import {
   pametnik4,
   pametnik5,
   pametnik6,
+  patrev1,
+  patrev2,
   praistoricheskiQR,
   qrmaz1,
   qrmaz2,
@@ -148,7 +150,7 @@ export const touristSites = {
       {
         id: "place1",
         name: {
-          en: "Historical Museum",
+          en: "The Historical Museum in Dalgopol",
           bg: "Исторически музей, гр. Дългопол",
           pl: "Исторически музей, гр. Дългопол",
         },
@@ -167,22 +169,22 @@ export const touristSites = {
           "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
         qrCode: istoricheskiMuzeiQR,
         description: {
-          en: "Description in English",
+          en: "The Historical Museum in Dalgopol was established in 1948 as a study collection by Dimitar Ivanov Zlatarski, a primary teacher. In 1975 it was declared as a museum, and in 1985 the present building was built in the center of Dalgopol. There is a huge number of exhibits collected from the territory of the municipality and neighboring municipalities. By the quantity, diverse nature and chronological scope, scientific and artistic value, the collection makes the museum one of the largest and most interesting in the country. The exhibition consists of two main departments - Archaeological and Ethnographic. The archaeological department covers all eras - from the Paleolithic to the Late Middle Ages. The tools, vessels, weapons, cult plastic from the Neolithic, Chalcolithic and Bronze Ages are of exceptional value for all archaeological science. They have been discovered during the study of the single-layer settlements 'Usoe'-1 and 'Usoe'-2 near the village of Asparuhovo, the settlement mounds at the villages of Sava, Tsonevo and Golyamo Delchevo.",
           bg: "Историческият музей в Дългопол е създаден през 1948 г. като училищна сбирка от началния учител Димитър Иванов Златарски. През 1975 г. музеят получава статут, а през 1985г. в центъра на Дългопол е построена настоящата сграда. Тук са събрани огромен брой материали от територията на общината и съседните общини. По своето количество, разнообразен характер и хронологически обхват, по научна и художествена стойност, те правят музея един от големите и интересни в страната. Историческият музей в Дългопол е създаден през 1948 г. като училищна сбирка от началния учител Димитър Иванов Златарски. През 1975 г. музеят получава статут, а през 1985г. в центъра на Дългопол е построена настоящата сграда. Тук са събрани огромен брой материали от територията на общината и съседните общини. По своето количество, разнообразен характер и хронологически обхват, по научна и художествена стойност, те правят музея един от големите и интересни в страната. В археологическия отдел са обхванати всички епохи- от палеолита до Късното средновековие. Изключителна ценност за цялата археологическа наука са оръдията на труда, съдовете, оръжията, култувата пластика от неолита, халколита и бронзовата епохи, открити при проучването на еднослойните селища „Усое”-1 и „Усое„-2 при с. Аспарухово, селищните могили при селата Сава, Цонево и Голямо Делчево.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The Historical Museum is located in the center of Dalgopol.",
           bg: "Историческият музей се намира в центъра на гр. Дългопол.",
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "Monday – Friday: 8:00 - 16:00 Weekend:closed ",
           bg: "От понеделник до петък: 8:00ч - 16:00ч Почивни дни: събота и неделя",
           pl: "",
         },
         winterWorkTime: {
-          en: "",
+          en: "During weekends after 4 p.m. the museum opens on pre-orders",
           bg: "След 16ч, в събота и неделя музеят работи с предварителна заявка.",
           pl: "",
         },
@@ -193,7 +195,7 @@ export const touristSites = {
       {
         id: "place2",
         name: {
-          en: "Locality 'Manastira' village Asparuhovo",
+          en: "The Monastery area near Asparuhovo village",
           bg: "Местност „Манастира“ с. Аспарухово",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -210,17 +212,17 @@ export const touristSites = {
           "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
         qrCode: mestnostManastiraQR,
         description: {
-          en: "Description in English",
+          en: "The name of the area comes from the discovered remains of a medieval monastery. There are several small caves and one larger one in the rock formations. To the South there is a path that goes to the lodge 'The Wonderful Rocks' and passes through another larger cave. At the foot of the cliffs is Tsonevo lake, which is suitable for rowing, fishing, jumping from bridges or refreshing during hot days. The rock phenomenon 'The Wonderful Rocks' is also located in the area. Given the rocky nature of the area, rock climbing is a particularly suitable activity here. There are several climbing routes to the area, as well as to the 'Wonderful rocks' climbing site. For enthusiasts of mountain biking, the area offers a variety of mountain roads with descents and ascents that continue on the south side of the lake. The rocks face south, making them suitable for climbing in spring and autumn, as well as during sunny winter days. The place is very comfortable and the wind rarely blows.",
           bg: "Името на местността идва от откритите останки от средновековен манастир. В скалния масив има няколко малки пещери и една по-голяма. На юг от масива има пътека, която стига до хижа Чудните скали и преминава покрай скална игла друга по-голяма пещера, входът на която се намира на самата пътека. В подножието на скалите се намира яз. Цонево, който е подходящ за гребане, риболов, скокове от мостовете или освежаване през горещите дни. В рaйона се намира и скалният феномен Чудните скали. Предвид релефа на масива и скалния характер, тук особено подходящо занимание е скалното катерене. Обособени са няколко маршрута за катерене към месността, както и към обекта за катерене Чудните скали. За любителите на планинското колоездене, местността предлага разнообразие от планински пътища със спускания и изкачвания, които продължават и от южната страна на язовира. Скалите са с южно изложение, което ги прави подходящи за катерене през пролетта и есента, както и през слънчевите зимни дни. Мястото е много уютно и рядко духа вятър.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The main road to reach the area is through the village of Asparuhovo. From the main road from the towns of Provadia to Aitos, which leads to the Aitos pass, about 500 m before the pass to Asparuhovo village, a narrow asphalt road branches off to the right, which continues 1.5 km. After reaching a drainage another 1.5 km of road is passing by. In about 20 meters one should take the right path and in about 200 m a large meadow is reached. From there, the rock massif can be reached by paths through the forest in about 30 minutes.",
           bg: "Основният път за достигане до местността е през село Аспарухово. От главния път от Провадия за Айтос, който води към Айтоския проход, на около 500 м. преди разклона за с. Аспарухово, вдясно се отделя тесен асфалтов път, по който се продължава около 1,5 км. Стига се до един каптаж, след който асфалтът свършва и се продължава по черен път още около 1,5 км. В един момент, черният път прави рязко изкачване за около 20-ина метра, след което се разклонява на две. Тръгва се по десния път. След около 200 м. се стига до голяма поляна. Оттам до скалния масив се стига по пътеки през гората за около 30 минути.",
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "The access to the site is free",
           bg: "Обектът е със свободен достъп.",
           pl: "",
         },
@@ -236,7 +238,7 @@ export const touristSites = {
       {
         id: "place3",
         name: {
-          en: "Natural Landmark 'The Wonderful Rocks'",
+          en: "The Natural Phenomenon “The Wonderful Rocks”",
           bg: "Природна Забележителност „Чудните скали“",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -253,18 +255,18 @@ export const touristSites = {
           "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
         qrCode: chudniSkaliQR,
         description: {
-          en: "Description in English",
+          en: "The flora and fauna in the area are remarkable. Many birds and rare predatory species nest in the rocks, which attract ornithologists. There are various types of fish in the lake, which attracts many fishermen. The most popular are redfish, whitefish, spur, perch, sturgeon, white catfish, etc. The area is rocky and there are interesting rock holes and caves inhabited by various animals and birds. The cliffs provide great places suitable for rock climbing. In the past there was also a stone quarry. Now a rock climbing wall called 'The Old Quarry' has been formed in this place, ten minutes' walk from the Wonder Rocks. It has an arched shape with an interesting ceiling. The area is characterized by an extremely interesting tectonic structure, which presents the formed limestone formations. ",
           bg: "Флората и фауната в района на местността са забележителни. В скалите гнездят много птици, и редки хищни видове, които привличат орнитолозите. В язовира има различни видове риба, което привлича много риболовци. Най- популярни са червеноперка, бяла риба, шпора, костур, щирка, бял сом и др. Местността е скалиста и затова съществуват интересни скални дупки и пещери, които обитават различни животни и птици. Скалите осигуряват чудесни места, подходящи за скално катерене. В миналото е имало и каменна кариера. Сега на това място, на десет минути пеш от Чудните скали е оформена стена за скално катерене, наречена „Старата кариера“. Има дъговидна форма с интересен таван. Районът се характеризира с изключително интересна тектонска структура, която представя оформилите се варовикови образования.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
-          bg: "„Чудните скали“ са достъпни от главния път свързващ Северна и Южна България",
+          en: "The access to the site is free",
+          bg: "Обектът е със свободен достъп.",
           pl: "",
         },
         summerWorkTime: {
           en: "",
-          bg: "Обектът е със свободен достъп.",
+          bg: "",
           pl: "",
         },
         winterWorkTime: {
@@ -279,7 +281,7 @@ export const touristSites = {
       {
         id: "place4",
         name: {
-          en: "Medieval rock monastery in the village of Royak",
+          en: "The Medieval Rock Monastery Royak",
           bg: "Средновековен скален манастир с. Рояк",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -296,17 +298,17 @@ export const touristSites = {
           "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
         qrCode: roqkQR,
         description: {
-          en: "Description in English",
+          en: "According to the researchers, the rock settlement originally served as a Thracian sanctuary dating back to the 3rd - 5th centuries. Later in the Middle Ages it became a Christian monastery. All over the meadow there are 'scattered' rock pieces of different shapes, and some of them with traces of human activity - they look very much like the ruins of an ancient fortress. On the cliffs there are rock niches typical of the ancient Thracian culture, which is suggested that Christian hermits used such more ancient cult places as an object of worship. In the walls of two detached rooms facing east and south are carved numerous rock niches, once closed with stone or wooden lids. The name that bears the locality is 'Genevis' - Genoese and is also of interest. ",
           bg: "Според изследователите, скалната обител първоначално е изпълнявала ролята на тракийско светилище, датиращо от III - V в. По-късно през Средновековието се превръща в християнска монашеска обител. По цялата поляна има “разпиляни” скални късове с различна форма, като на някои от тях има следи от човешка дейност – много приличат на руини от древна крепост. По скалите има типични за древната тракийска култура скални ниши, което предполага, че християнските отшелници използват такива по-древни култови места като обект на поклонение. В стените на две засводени помещения, гледащи на изток и на юг, са издълбани многобройни скални ниши с неизвестно предназначение, затваряни някога с каменни или дървени капаци. Името, което носи местността е 'Дженевиз' – Генуезка и също предизвиква интерес.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The complex is difficult to access due to the cells scattered at different levels along the steep L-shaped rock ridge with a height of 30 meters in places. But it is very impressive. The starting point is the village of Royak, at its western end. It continues along a road that climbs and passes through a large agricultural area. Even here we can enjoy pleasant emotions – at the distance the eastern parts of Stara Planina (Balkan Mountain) proudly rise and Kodja Kaya, the highest peak in the region.",
           bg: "Комплексът е трудно достъпен поради непристъпността на килиите ,пръснати на различни нива по отвесния Г-образен скален венец с височина на места може би 30 - тина метра. Но е много впечатляващ. Изходната точка е с. Рояк, в западния му край. Продължава се по удобен черен път, който се изкачва и преминава през голям селскостопански блок. Още тук можем да се насладим на приятни емоции – в далечината гордо се извисяват източните дялове на Стара планина и най-високият връх в района Коджа Кая.",
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "The access to the rock monastery is free",
           bg: "Скалният манастир е със свободен достъп",
           pl: "",
         },
@@ -322,7 +324,7 @@ export const touristSites = {
       {
         id: "place5",
         name: {
-          en: "Medieval fortress 'Ovchaga'",
+          en: "The Medieval Fortress Ovchaga",
           bg: "Средновековна крепост „Овчага“",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -339,17 +341,17 @@ export const touristSites = {
           "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
         qrCode: ovchagaQR,
         description: {
-          en: "Description in English",
+          en: "Ovchaga is a fortress that dates back to the 13th century. It has an irregular shape and occupies an area of 20 decares. It is protected by a strong, fortified wall of broken stones, joined with white mortar. The walls of massive buildings can be seen in the fortified territory. Many fragments of building and household ceramics and graffiti vessels from the 5th-6th and 12th – 14th centuries were found here. The fortress was first mentioned by the Byzantine chronicler Manuel Phil, who said that Ovchaga was a fortress that served in 1277-1279 .about the battles of King Ivailo against the Byzantine general Michael Hlava. Therefore, it is assumed that the name is called under the name of King Ivailo. In 1388, Ali Pasha's troops passed through the pass connecting Northern and Southern Bulgaria. According to legends among the local Turks, a great battle took place in the Orehovo area, in which many invaders fell, and since then the place has been called 'djaneri', i.e. place of dead souls. In 1409, during a rebellion in Northern Bulgaria, the Bulgarians captured the fortress of Ovchaga, but Sultan Bayezid's son Musa conquered it again and demolished it in 1412 (Musa is known in folk songs as Musa Kesedzhia). The territory around the fortress is rich in history, rare species of animals and fauna and remarkable landscapes. The picturesque areas, the Wonderful rocks, Velcha, Lepino buche, Razkrenitsa and Goroloma are natural phenomena that have endowed the mountain area with unique beauty. Built around an ancient Roman fortress in the distant 8th century, the village and the lands around it hide the remains of important prehistoric cultures of Thracians, Romans and Byzantines. In 1636, the Polish traveler Oświęcim noted: 'A village half way from Enikoi (today Dalgopol). From there begins the road through the Balkans to Constantinople. One road is very steep, and the other goes along the river Ichera (today's Luda Kamchia)'. Since Middle Ages, the village has been known as Ovchaga, then the people there were both guards of the pass and shepherds. With the arrival of the Ottomans in these lands, the guards are called 'Dervenjii' and the village - 'Chenge'. Later, in the middle of the 19th century, the village was submerged by the waters of the Luda Kamchia river. People have to leave their homes, taking all the stones from their church up high where the water did not reach. ",
           bg: "Овчага е крепост, която датира от XIII в. Има неправилна форма и заема площ от около 20 дка. Защитена е от здрава, укрепена стена от ломени камъни, споени с бял хоросан. В укрепената територия се виждат стените на масивни сгради. Тук са намерени множество фрагменти от строителна и битова керамика и съдове от графити от V-VI и XII-XIV в. Крепостта се споменава за първи път от византийския хронист Мануил Фил, който казва, че Овчага е крепост, служила през 1277-1279 г. за битките на цар Ивайло срещу византийския военачалник Михаил Глава. Затова се предполага, че името се нарича под името цар Ивайло. През 1388 година през прохода, свързващ Северна и Южна България минават войските на Али паша. Според предания сред местните турци в местността Орехово е станала голяма битка, в която паднали много нашественици, и оттогава мястото е наричано “джанери”, т.е. място на мъртви души. През 1409 г. при едно въстание в Северна България българите превземат крепостта Овчага, но синът на султан Баязид Муса я завладява отново и я събаря през 1412 г. (Муса е известен в народните песни като Муса Кеседжия). Територията около крепостта е богата на история, редки видове животни и фауна и забележителни пейзажи. Живописните местности Чудните скали, Велча, Лепино буче, Разкреница и Горолома са природни феномени, дарили планинската територия с уникална красота. Възникнало около древна римска крепост през далечния VIII в., селото и земите около него крият останки от значими праисторически култури на траки, римляни и византийци. През 1636 г. полският пътешественик Освиенцим отбелязва: „Село на половината път от Еникьой (днес Дългопол). Оттам започва пътят през Балкана за Цариград. Единият път е много стръмен, а другият минава покрай река Ичера (днешна Луда Камчия), От Средновековието селото е известно с името Овчага, тогава хората там са били както пазачи на прохода, така и овчари. С идването на османците по тези земи, пазачите се наричат 'Дервенджии', а селото – 'Ченге'. По-късно, в средата на XIX в. Селото е потопено от водите на река Луда Камчия. Налага се хората да напуснат домовете си, като изнасят всички камъни от църквата си високо, където водата не стига.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The fortress is to the South West from Asparuhovo. It is hard to be reached due to the  altitude and lack of signposts. But at the top there is an extraordinary 360  panoramic view. ",
           bg: "Крепостта се намира югоизточно от с. Аспарухово. Овчага е трудно достъпна поради надморската височина и липса на указателни табели. Но от върха се откроява изключителна гледка във всички посоки. ",
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "The access to the fortress is free.",
           bg: "Достъпът до крепостта е свободен.",
           pl: "",
         },
@@ -365,7 +367,7 @@ export const touristSites = {
       {
         id: "place6",
         name: {
-          en: "Waterfall 'Kuza Skoka'",
+          en: "The Waterfall “Kuza Skoka”",
           bg: "Водопад „Куза Скока“",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -382,17 +384,17 @@ export const touristSites = {
           "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
         qrCode: kuzaSkokaQR,
         description: {
-          en: "Description in English",
+          en: "The waterfall is impressive in its size and beauty and attracts many tourists and adventure seekers. The water descends from 10 m and forms a small pond. The nature around it fascinates with its beauty. It is a seasonal waterfall fed by snowmelt and torrential rains. The best time for visiting it is in late winter or early spring.",
           bg: "Водопадът е впечатляващ с размерите и красотата си и привлича много туристи и хора обичащи приключения. Водата се спуска от 10 м и образува малко езерце. Природата около него очарова с красотата си. Това е сезонен водопад, който се подхранва от топенето на снеговете и поройните дъждове. В края на зимата или началото на пролетта той е най-подходящ за посещения и разходки.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The Waterfall “Kuza Skoka” is located in the village of Lopushna. The waterfall is difficult to reach. The route to it passes through several interesting sites. In the beginning the way passes through a local fountain with ice-cold water. Further up, a shallow and calm stream is crossed. Arriving at the agricultural lands of the village, a picturesque view stands out. The village of Polyatsite is seen at a distance and the Goliamata Arkovna Mount. The route goes through a steep path that descends to the narrow gorge. There, still in the distance, the whispering melody of the graceful waterfall can be heard.",
           bg: "Водопад „Куза Скока“ се намира в землището на село Лопушна. Водопадът е труднодостъпен. Маршрутът до него минава през няколко интересни места. В самото начало се преминава край местна овчарска чешма с ледено студена вода. По-нагоре по маршрута се прекосява плитък и спокоен поток. Стигайки до земеделските земи на селото, се откроява живописна гледка. В далечината се вижда с. Поляците, а недалеч се извисява връх Голямата Арковна. Маршрутът преминава през стръмна пътечка, която се спуска към тесния пролом. Там, още отдалече, се чува шепнещата мелодия на грациозния водоскок.",
           pl: "",
         },
         summerWorkTime: {
-          en: "",
+          en: "The access to the site is free",
           bg: "Водопадът е със свободен достъп за посещения",
           pl: "",
         },
@@ -408,7 +410,7 @@ export const touristSites = {
       {
         id: "place7",
         name: {
-          en: "Revival Church 'St. Petka Paraskeva'",
+          en: "The Rennaisace Church “St. Petka Paraskeva” in Asparuhovo village",
           bg: "Възрожденска църква „Св. Петка Параскева“",
           pl: "Miejsce 1 w Dalgopol",
         },
@@ -425,12 +427,12 @@ export const touristSites = {
           "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
         qrCode: curkvaPetkaQR,
         description: {
-          en: "Description in English",
+          en: "The temple was built in 1857 by craftsmen from Ohrid. The village of Asparuhovo is one of the oldest and most picturesque villages in Varna Region, located at the foot of Balkan Mountain, on the banks of the Tsonevo lake. Established in the 7th - 19th centuries under the name Ovchaga and withstood the Ottoman invasion with a new name - Chenge (battle), the inhabitants of the village were guards for centuries at the pass at Luda Kamchiya, for which they were exempted from taxes. The village received its last name - Asparhovo in 1934, when the famous archaeologist Karel Shkorpil passed through it and likened the local inhabitants to Asparhovo Bulgarians. 35 years later - during the construction of Tsonevo lake, most of the houses were flooded, and the village was moved to a higher place. The church should remain at the bottom of the lake, but people moved it stone by stone. Before construction of the lake itself, the church was moved to its current location. Around it, an architectural-ethnographic complex stands out, through which Asparuhovo keeps alive the old Bulgarian crafts - weaving and pottery, and its unique folklore traditions and customs.",
           bg: "„Св. Параскева Петка” в село Аспарухово, която построена през 1857 година от майстори от Охрид. Село Аспарухово е едно от най-старите и живописни села във Варненска област, разположено в подножието на Стара планина, на брега на язовир Цонево. Създадено още през VII - XIX в. с името Овчага и устояло на османското нашествие вече с ново име – Ченге (битка), жителите на селото в продължение на векове са били пазачи на прохода при Луда Камчия, заради което били освободени от данъци. Последното си име – Аспархово, селото получава през 1934 г., когато през него минава известният археолог Карел Шкорпил, който оприличил местните жители на аспаруховите българи. 35 години по-късно - при строежа на язовир Цонево, повечето от къщите са заляти от водата, а селото било преместено на по-високо място. На дъното на язовира трябвало до остане и местната църква 'Света Петка', но хората я изнесли камък по камък. Преди изграждането на язовира църквата е преместена на днешното си място. Край нея бил обособен и архитектурно-етнографски комплекс, чрез който Аспарухово пази живи старите български занаяти – тъкачество и грънчарство, и уникалните си фолклорни традиции и обичаи.",
           pl: "Opis po polsku",
         },
         access: {
-          en: "",
+          en: "The temple is accessible.",
           bg: "Църквата е действаща и достъпна.",
           pl: "",
         },
@@ -448,120 +450,48 @@ export const touristSites = {
           gps: "42.980233, 27.323524",
         },
       },
-      // {
-      //   id: "place8",
-      //   name: {
-      //     en: "Place 1 in Dalgopol",
-      //     bg: "Археологически паметник",
-      //     pl: "Miejsce 1 w Dalgopol",
-      //   },
-      //   photos: [
-      //     { pametnik1, pametnik2, pametnik3, pametnik4, pametnik5, pametnik6 },
-      //   ],
-      //   googleMapsLink: "https://maps.google.com/?q=Place1Dalgopol",
-      //   bookingLink: "https://www.booking.com/Place1Dalgopol",
-      //   restaurantsLink:
-      //     "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
-      //   description: {
-      //     en: "Description in English",
-      //     bg: "Счита се, че тук се е намирал най-старият солодобивен център в Европа. Според проучвания на обекта се предполага, че градът е бил обитаван от около 350 души между 4700 и 4200 г. пр.н.е. - около 1500 години преди гръцката цивилизация. Именно затова Солната мина (Солницата) е обявена за най-стария праисторически град в Европа. Жителите използват кипяща вода от местен извор за създаване на солени тухли, които след това търгуват и използват за консервиране на месо. Това означава, че солта е била изключително ценен ресурс през тези времена. Солницата се разраства около извори с повишено съдържание на сол. Чрез нагряване в керамични съдове водата се изпарява и останалата сол се събира. Останките от откритите съдове показват еволюцията в технологията и съответстват на нарастващия добив на сол. Голяма част от проучените жилищни сгради в селището са двуетажни. Счита се, че селището е оградено със защитена стена с дебелина до 3 метра. От останките е видно, че силно земетресение е разрушило града. През епохата на енеолита солта е ценност, която е добре търгувана, видно в златарите в Солт Лейк, които също са едни от най-старите в Европа. Развитието на Солницата предшества и обуславя разцвета на една култура, по-късно показана и от открития Варненския некропол. Около селото се издигат огромни стени от каменни блокове, непознати до тогава като укрепителна система. Други интересни и странни находки са гробове на убити и 'разчленени тела' мъже и един троен гроб на възрастен мъж с две деца. Предполага се, че съществува неизследван до момента център за производство на керамика. Възникването и развитието на комплекса са пряко свързани с голямото и единствено находище на каменна сол в Източните Балкани. На площ от 300 дка археолозите изравят тонове керамични съдове, в които се вари вода от местните солени извори и се добива сол. За момента местоположението на този център за мащабно производство на керамични съдове остава загадка. Освен това, учените твърдят, че по онова време тогава не се използват грънчарски колела, но са открити останки от съдове с диаметър и височина около 70 см. ",
-      //     pl: "Opis po polsku",
-      //   },
-      //   access: {
-      //     en: "",
-      //     bg: "До обекта се стига с транспорт.",
-      //     pl: "",
-      //   },
-      //   summerWorkTime: {
-      //     en: "",
-      //     bg: "Водопадът е със свободен достъп за посещения",
-      //     pl: "",
-      //   },
-      //   winterWorkTime: {
-      //     en: "",
-      //     bg: "",
-      //     pl: "",
-      //   },
-      //   coordinates: {
-      //     gps: "43.128417, 27.472528",
-      //   },
-      // },
-      // {
-      //   id: "place9",
-      //   name: {
-      //     en: "Place 1 in Dalgopol",
-      //     bg: "Археологически паметник",
-      //     pl: "Miejsce 1 w Dalgopol",
-      //   },
-      //   photos: [
-      //     { pametnik1, pametnik2, pametnik3, pametnik4, pametnik5, pametnik6 },
-      //   ],
-      //   googleMapsLink: "https://maps.google.com/?q=Place1Dalgopol",
-      //   bookingLink: "https://www.booking.com/Place1Dalgopol",
-      //   restaurantsLink:
-      //     "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
-      //   description: {
-      //     en: "Description in English",
-      //     bg: "Счита се, че тук се е намирал най-старият солодобивен център в Европа. Според проучвания на обекта се предполага, че градът е бил обитаван от около 350 души между 4700 и 4200 г. пр.н.е. - около 1500 години преди гръцката цивилизация. Именно затова Солната мина (Солницата) е обявена за най-стария праисторически град в Европа. Жителите използват кипяща вода от местен извор за създаване на солени тухли, които след това търгуват и използват за консервиране на месо. Това означава, че солта е била изключително ценен ресурс през тези времена. Солницата се разраства около извори с повишено съдържание на сол. Чрез нагряване в керамични съдове водата се изпарява и останалата сол се събира. Останките от откритите съдове показват еволюцията в технологията и съответстват на нарастващия добив на сол. Голяма част от проучените жилищни сгради в селището са двуетажни. Счита се, че селището е оградено със защитена стена с дебелина до 3 метра. От останките е видно, че силно земетресение е разрушило града. През епохата на енеолита солта е ценност, която е добре търгувана, видно в златарите в Солт Лейк, които също са едни от най-старите в Европа. Развитието на Солницата предшества и обуславя разцвета на една култура, по-късно показана и от открития Варненския некропол. Около селото се издигат огромни стени от каменни блокове, непознати до тогава като укрепителна система. Други интересни и странни находки са гробове на убити и 'разчленени тела' мъже и един троен гроб на възрастен мъж с две деца. Предполага се, че съществува неизследван до момента център за производство на керамика. Възникването и развитието на комплекса са пряко свързани с голямото и единствено находище на каменна сол в Източните Балкани. На площ от 300 дка археолозите изравят тонове керамични съдове, в които се вари вода от местните солени извори и се добива сол. За момента местоположението на този център за мащабно производство на керамични съдове остава загадка. Освен това, учените твърдят, че по онова време тогава не се използват грънчарски колела, но са открити останки от съдове с диаметър и височина около 70 см. ",
-      //     pl: "Opis po polsku",
-      //   },
-      //   access: {
-      //     en: "",
-      //     bg: "До обекта се стига с транспорт.",
-      //     pl: "",
-      //   },
-      //   summerWorkTime: {
-      //     en: "",
-      //     bg: "Водопадът е със свободен достъп за посещения",
-      //     pl: "",
-      //   },
-      //   winterWorkTime: {
-      //     en: "",
-      //     bg: "",
-      //     pl: "",
-      //   },
-      //   coordinates: {
-      //     gps: "43.128417, 27.472528",
-      //   },
-      // },
-      // {
-      //   id: "place10",
-      //   name: {
-      //     en: "Place 1 in Dalgopol",
-      //     bg: "Археологически паметник",
-      //     pl: "Miejsce 1 w Dalgopol",
-      //   },
-      //   photos: [
-      //     { pametnik1, pametnik2, pametnik3, pametnik4, pametnik5, pametnik6 },
-      //   ],
-      //   googleMapsLink: "https://maps.google.com/?q=Place1Dalgopol",
-      //   bookingLink: "https://www.booking.com/Place1Dalgopol",
-      //   restaurantsLink:
-      //     "https://www.tripadvisor.com/RestaurantsNear-Place1Dalgopol",
-      //   description: {
-      //     en: "Description in English",
-      //     bg: "Счита се, че тук се е намирал най-старият солодобивен център в Европа. Според проучвания на обекта се предполага, че градът е бил обитаван от около 350 души между 4700 и 4200 г. пр.н.е. - около 1500 години преди гръцката цивилизация. Именно затова Солната мина (Солницата) е обявена за най-стария праисторически град в Европа. Жителите използват кипяща вода от местен извор за създаване на солени тухли, които след това търгуват и използват за консервиране на месо. Това означава, че солта е била изключително ценен ресурс през тези времена. Солницата се разраства около извори с повишено съдържание на сол. Чрез нагряване в керамични съдове водата се изпарява и останалата сол се събира. Останките от откритите съдове показват еволюцията в технологията и съответстват на нарастващия добив на сол. Голяма част от проучените жилищни сгради в селището са двуетажни. Счита се, че селището е оградено със защитена стена с дебелина до 3 метра. От останките е видно, че силно земетресение е разрушило града. През епохата на енеолита солта е ценност, която е добре търгувана, видно в златарите в Солт Лейк, които също са едни от най-старите в Европа. Развитието на Солницата предшества и обуславя разцвета на една култура, по-късно показана и от открития Варненския некропол. Около селото се издигат огромни стени от каменни блокове, непознати до тогава като укрепителна система. Други интересни и странни находки са гробове на убити и 'разчленени тела' мъже и един троен гроб на възрастен мъж с две деца. Предполага се, че съществува неизследван до момента център за производство на керамика. Възникването и развитието на комплекса са пряко свързани с голямото и единствено находище на каменна сол в Източните Балкани. На площ от 300 дка археолозите изравят тонове керамични съдове, в които се вари вода от местните солени извори и се добива сол. За момента местоположението на този център за мащабно производство на керамични съдове остава загадка. Освен това, учените твърдят, че по онова време тогава не се използват грънчарски колела, но са открити останки от съдове с диаметър и височина около 70 см. ",
-      //     pl: "Opis po polsku",
-      //   },
-      //   access: {
-      //     en: "",
-      //     bg: "До обекта се стига с транспорт.",
-      //     pl: "",
-      //   },
-      //   summerWorkTime: {
-      //     en: "",
-      //     bg: "Водопадът е със свободен достъп за посещения",
-      //     pl: "",
-      //   },
-      //   winterWorkTime: {
-      //     en: "",
-      //     bg: "",
-      //     pl: "",
-      //   },
-      //   coordinates: {
-      //     gps: "43.128417, 27.472528",
-      //   },
-      // },
+      {
+        id: "place8",
+        name: {
+          en: "The Monument of Hristo Patrev",
+          bg: "Възпоменателен паметник на войводата Христо Патрев",
+          pl: "Miejsce 1 w Dalgopol",
+        },
+        displayPhoto: patrev2,
+        photos: [{ patrev1, patrev2 }],
+        googleMaps:
+          "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2912.340394798253!2d26.865997876533164!3d43.11837498685677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5f0ce63594567%3A0xe4b6054b7f5caac6!2z0JLRitC30YDQvtC20LTQtdC90YHQutCwINGG0YrRgNC60LLQsCAi0KHQsi4g0J_QsNGA0LDRgdC60LXQstCwIiAo0J_QtdGC0LrQsCk!5e0!3m2!1sen!2sbg!4v1726770025346!5m2!1sen!2sbg",
+        bookingLink:
+          "https://www.booking.com/searchresults.html?ss=D%C5%ADlgopol&ssne=D%C5%ADlgopol&ssne_untouched=D%C5%ADlgopol&efdco=1&label=gen173nr-1FCAEoggI46AdIM1gEaBeIAQGYATG4ARfIAQzYAQHoAQH4AQKIAgGoAgO4AqLPqLYGwAIB0gIkZjgxYTc4NzgtMWU5YS00MjliLWFhYmEtNTFjNmM3YzNkZWFk2AIF4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-833629&dest_type=city&checkin=2024-09-06&checkout=2024-09-07&ltfd=5%3A1%3A10-2024_9-2024_11-2024%3A1%3A&group_adults=2&no_rooms=2&group_children=0",
+        airbnbLink:
+          "https://www.airbnb.com/s/Dalgopol--Varna--Bulgaria/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2024-10-01&monthly_length=3&monthly_end_date=2025-01-01&price_filter_input_type=0&channel=EXPLORE&query=Dalgopol%2C%20Varna&place_id=ChIJC5rkrd_EpUARQFy_aRKgAAQ&location_bb=Qiw%2F4UHa7ppCLC2bQdqCAw%3D%3D&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click",
+        restaurantsLink:
+          "https://www.tripadvisor.com/Tourism-g3748643-Dalgopol_Varna_Province-Vacations.html",
+        qrCode: curkvaPetkaQR,
+        description: {
+          en: "Hristo Nikolov Patrev (1845 – 1876) was born in the village of Shipka, Kazanlak region. He was the voivode of 120 troops from Tryavna and Gabrovo during the rebellion in April 1876. After heavy fighting on May 22, the squad, surrounded by troops, is dispersed. Along the ridge of the Balkans, Hristo Patrev and two other soldiers reached the village of Asparuhovo. Here, around June 10, in the Trunliva Stoka area, the soldiers were surrounded and captured. The voivode was shot on the spot, the other two were taken to prison in the town of Sliven. The headland of Hristo Patrev is the Thorny Goods area and is located 4 km northeast of the village of Asparuhovo. It has been declared a historical place of national importance. In 1966, a commemorative monument, a stone-architectural composition with architect Kamen Goranov, was erected at this place.",
+          bg: "Христо Николов Патрев (1845 – 1876 г.) от с. Шипка, Казанлъшко е войвода на 120 четници от Трявна и Габровско по време на Априлското въстание. След тежки сражения на 22 май четата, обградена от войска и башибозук, се разпръсква. По билото на Балкана, Христо Патрев и още двама четници стигат до с. Аспарухово. Тук около 10 юни в местността Трънливата стока четниците са обградени и заловени. Войводата е застрелян на място, другите двама четници са откарани в затвора в гр. Сливен. Лобното място на Христо Патрев – местността Трънливата стока – намираща се на 4 км. североизточно от с. Аспарухово е обявено за историческо място от национално значение. През 1966 г. на това място е издигнат възпоменателен паметник, каменно-архитектурна композиция с архитект Камен Горанов. ",
+          pl: "Opis po polsku",
+        },
+        access: {
+          en: "The monument is located 4 km Northeast from Asparuhovo village. The area is signed and is accessible.",
+          bg: "Паметникът се намира на 4 км от с. Аспарухово. Местността е маркирана и достъпна.",
+          pl: "",
+        },
+        summerWorkTime: {
+          en: "The access to the site is free.",
+          bg: "Свободен достъп за посещения.",
+          pl: "",
+        },
+        winterWorkTime: {
+          en: "",
+          bg: "",
+          pl: "",
+        },
+        coordinates: {
+          gps: "43.128417, 27.472528",
+        },
+      },
     ],
   },
   dolniChiflik: {
@@ -706,9 +636,7 @@ export const touristSites = {
           pl: "Исторически музей, гр. Дългопол",
         },
         displayPhoto: muzeiDulgopol1,
-        photos: [
-          { germe1, germe2, germe3, germe4 },
-        ],
+        photos: [{ germe1, germe2, germe3, germe4 }],
         googleMapsLink: "https://maps.app.goo.gl/jCJRnTPxgLyhkAiMA",
         googleMaps:
           "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24771.93601042578!2d27.404261935883405!3d42.90029066675006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a5d3afd90abc61%3A0x8a3d868ce10c7eb2!2z0JrRitGB0L3QvtCw0L3RgtC40YfQtdC9INC4INGB0YDQtdC00L3QvtCy0LXQutC-0LLQtdC9INC-0YLQsdGA0LDQvdC40YLQtdC70LXQvSDQutC-0LzQv9C70LXQutGBICLQndC40LDQt9C70LDRgNGB0LrQviDQs9C10YDQvNC1Ig!5e0!3m2!1sen!2sbg!4v1726768756039!5m2!1sen!2sbg",

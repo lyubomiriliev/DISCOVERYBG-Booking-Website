@@ -114,10 +114,10 @@ import teodor3 from "../assets/teodor3.jpg";
 import teodor4 from "../assets/teodor4.jpg";
 import teodor5 from "../assets/teodor5.jpg";
 import teodor6 from "../assets/teodor6.jpg";
-import germe1 from "../assets/germe1.jpg"
-import germe2 from "../assets/germe2.jpg"
-import germe3 from "../assets/germe3.jpg"
-import germe4 from "../assets/germe4.jpg"
+import germe1 from "../assets/germe1.jpg";
+import germe2 from "../assets/germe2.jpg";
+import germe3 from "../assets/germe3.jpg";
+import germe4 from "../assets/germe4.jpg";
 
 // QR CODES
 import arhangelMihailQR from "../assets/qrCodes/arhangelMihailQR.png";
@@ -149,6 +149,8 @@ import svTeodorQR from "../assets/qrCodes/svTeodorQR.png";
 import dalgopolPackages from "../assets/dalgopolPackages.jpg";
 import dolniChiflikPackages from "../assets/dolniChiflikPacakges.jpg";
 import provadiqPackages from "../assets/provadiqPackages.jpg";
+import patrev1 from "../assets/patrev1.png";
+import patrev2 from "../assets/patrev2.png";
 
 import partnersLogos from "../assets/logos.png";
 import discoveryToShare from "../assets/discoveryToShare.png";
@@ -321,4 +323,6 @@ export {
   germe2,
   germe3,
   germe4,
+  patrev1,
+  patrev2,
 };
