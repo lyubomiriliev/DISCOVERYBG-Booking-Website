@@ -1,28 +1,341 @@
 {
-    "header": {
-        "home": "początek",
-        "touristSites": "Miejsca turystyczne",
-        "booking" : "Ratować",
-        "packages": "Pakiety turystyczne"
-
-    },
-    "homeTitle": "ODKRYJ PRZESZŁOŚĆ, PRZEŻYJ TERAŹNIEJSZOŚĆ",
-    "homeSubTitle": "w Dyłgopolu, Prowadii i Dolnym Czifliku",
-    "homeDescription": "home description",
+  "header": {
+    "home": "Strona główna",
     "touristSites": "Miejsca turystyczne",
-    "dalgopol": "Długonogi",
-    "dolniChiflik": "Dolna Zagroda",
-    "provadia": "Provadia",
-    "seeMore": "Zobacz więcej...",
-    "description": "Opis",
-    "location": "Miejsce",
-    "googleMaps": "Mapy Google",
-    "booking": "Rezerwacja",
-    "restaurants": "restauracje",
-    "airbnb": "Airbnb",
-    "siteDetails": {
-        "placeDescription": "Opis",
-        "access": "Dostępność",
-        "workTime": "Czas pracy"
+    "partners": "Partnerzy",
+    "packages": "Pakiety turystyczne"
+  },
+  "partners": "Partnerzy",
+  "partnersDesc": "Projekt 'ODKRYJ PRZESZŁOŚĆ, DOŚWIADCZ TERAŹNIEJSZOŚCI w Dulgopolu, Provadii i Dolnym Chifliku: Zintegrowany model marketingowy promujący usługi turystyczne w oddalonych gminach nad Morzem Czarnym'",
+  "partnersText": "Ministerstwo Turystyki 'Program finansowania działań marketingowych usług turystycznych w gminach nadmorskich w Republice Bułgarii'",
+  "homeTitle": "ODKRYJ PRZESZŁOŚĆ, DOŚWIADCZ TERAŹNIEJSZOŚCI",
+  "homeSubTitle": "w Dalgopolu, Provadii i Dolnym Chifliku",
+  "homeDescription": "Indywidualnie, z rodziną i przyjaciółmi lub zorganizowaną grupą, odkryjesz tutaj przeszłość i doświadczysz teraźniejszości w trzech wspaniałych gminach Dulgopol - Dolny Chiflik - Provadia, z licznymi pięknymi krajobrazami i imponującą przeszłością.",
+  "homeDescription2": "ZEJDŹ Z UTARTEGO SZLAKU!",
+  "homeDescription3": "Kilka kilometrów od głównych dróg w regionie znajdziesz mało znaną Bułgarię. Dotkniesz jej bogatej historii, poznasz tradycyjną bułgarską gościnność, autentyczną kuchnię narodową i zobaczysz, że piękno tkwi w nieskażonej naturze!",
+  "touristSites": "Miejsca turystyczne",
+  "touristPackages": "Pakiety turystyczne",
+  "dalgopol": "Dyłgopolu",
+  "dolniChiflik": "Dolny Cziflik",
+  "provadia": "Prowadia",
+  "seeMore": "Zobacz więcej...",
+  "description": "Opis",
+  "location": "Lokalizacja",
+  "googleMaps": "Google Maps",
+  "restaurants": "Restauracje",
+  "airbnb": "Airbnb",
+  "variant": "Wariant",
+  "day": "Dzień",
+  "packagesDesc": "Pakiety turystyczne stanowią połączenie różnych form turystyki, w tym kulturowo-poznawczej, ekoturystyki, wina, gastronomii, sportu, morza oraz turystyki emocjonalnej. Dlatego są one definiowane jako zintegrowane.",
+  "oneDay": "Pakiety jednodniowe",
+  "twoDay": "Pakiety dwudniowe",
+  "threeDay": "Pakiety trzydniowe",
+  "oneDayDesc": "W pakietach dwudniowych można łączyć obiekty wymienione w pakietach jednodniowych z dodatkowymi atrakcjami i zwiedzaniem:",
+  "twoDayDesc": "Pakiety dwudniowe mogą obejmować wizytę w obiektach z tras jednodniowych, wraz z następującymi atrakcjami:",
+  "threeDayDesc": "Pakiety trzydniowe mogą obejmować wizytę w obiektach z tras jednodniowych i dwudniowych, wraz z następującymi atrakcjami:",
+  "min": "min",
+  "activity": "Aktywność",
+  "duration": "Czas trwania",
+
+  "obshtiUsloviq": "Ogólne warunki",
+  "poveritelnost": "Polityka prywatności",
+  "vruzka": "Skontaktuj się z nami",
+
+  "siteDetails": {
+    "placeDescription": "Opis",
+    "access": "Dostępność",
+    "workTime": "Godziny pracy"
+  },
+  "packageVariants": {
+    "dalgopol": {
+      "variant1": {
+        "title": "Historia, sposób życia, zwyczaje",
+        "detail1": "Muzeum Historyczne w Dyłgopolu (Dalgopol)",
+        "detail2": "Wieża zegarowa",
+        "detail3": "Lokalne izby winiarskie i degustacje wina we wsi Debelec (Debelets)",
+        "detail4": "Warsztaty garncarskie we wsi Asparuchowo (Asparuhovo)",
+        "detail5": "Obiad w miejscowej restauracji, placówce gastronomicznej itp.",
+        "detail6": "Pomnik przyrody Cudowne Skały (Chudnite Skali)"
+      },
+      "variant2": {
+        "title": "Historia, przyroda i rozrywka",
+        "detail1": "Muzeum Historyczne w Dyłgopolu (Dalgopol) ",
+        "detail2": "Wieża zegarowa",
+        "detail3": "Świątynia św. Iwana Rilskiego w Dyłgopolu (Dalgopol)",
+        "detail4": "Obiad w miejscowej restauracji, placówce gastronomicznej itp.",
+        "detail5": "Turystyka wędkarska na zalewach Conewo (Tsonevo) i Ticza (Ticha)",
+        "detail6": "Wycieczka ekologiczna do sanktuariów skalnych, klasztorów"
+      }
+    },
+    "dolniChiflik": {
+      "variant1": {
+        "title": "Turystyka kulturowa",
+        "detail1": "Muzeum Etnograficzne przy Miejskim Ośrodku Kultury „Izgrew”, Dolni Cziflik (Dolni Chiflik). Prelekcja.",
+        "detail2": "Pomnik Georgi Trajkowa (Traykov), Dolni Cziflik (Dolni Chiflik)",
+        "detail3": "Pomnik Iwana Sokaczewa (Ivan Sokachev), Dolni Cziflik (Dolni Chiflik)",
+        "detail4": "Świątynia Narodzenia Najświętszej Marii Panny, Dolni Czifik (Dolni Chiflik)",
+        "detail5": "Źródło Płonącej Wody – Botevo, Dolni Cziflik (Dolni Chiflik)",
+        "detail6": "Czas wolny. Spacer",
+        "detail7": "Obiad w miejscowej restauracji, placówce gastronomicznej itp",
+        "detail8": "Starożytna twierdza Szkorpiłowcy (Shkorpilovtsi), wieś Szkorpiłowcy (Shkorpilovtsi)",
+        "detail9": "Promenada nadmorska w kurorcie Szkorpiłowcy (Shkorpilovtsi). Plaża. Spacer"
+      },
+      "variant2": {
+        "title": "Połączenie turystyki kulturalnej i morskiej",
+        "detail1": "Muzeum Etnograficzne przy MOK „Izgrew”, Dolni Cziflik (Dolni Chiflik). Prelekcja.",
+        "detail2": "Zwiedzanie centralnej części miasta Dolni Cziflik (Dolni Chiflik)",
+        "detail3": "Kompleks Etnograficzny Kriwini (Krivini), wieś Kriwini (Krivini)",
+        "detail4": "Obiad w miejscowej restauracji, placówce gastronomicznej",
+        "detail5": "Starożytna twierdza Szkorpiłowcy (Shkorpilovtsi), wieś Szkorpiłowcy (Shkorpilovtsi) – na życzenie.",
+        "detail6": "Plaża w połączeniu z atrakcjami morskimi"
+      },
+      "variant3": {
+        "title": "Turystyka ekologiczna i poznawcza",
+        "detail1": "Ogród Botaniczny, wieś Grozdjowo (Grozdyovo) ",
+        "detail2": "Państwowe Gospodarstwo Łowieckie „Szerba” (Sherba), Goren Cziflik (Goren Cziflik)",
+        "detail3": "Obiad w miejscowej restauracji, placówce gastronomicznej itp",
+        "detail4": "Późnoantyczna twierdza Goljamoto Kale (Golyamoto Kale), Dolni Cziflik (Dolni Chiflik)",
+        "detail5": "Pomnik Georgi Trajkowa (Traykov), Dolni Cziflik (Dolni Chiflik)",
+        "detail6": "Pomnik Iwana Sokaczewa (Ivan Sokachev), Dolni Cziflik (Dolni Chiflik)",
+        "detail7": "Świątynia Narodzenia Najświętszej Marii Panny, Dolni Czifik (Dolni Chiflik)"
+      }
+    },
+    "provadia": {
+      "variant1": {
+        "title": "Wycieczka piesza po mieście Prowadia (Provadia)",
+        "detail1": "Muzeum Historyczne",
+        "detail2": "Miejska Galeria Sztuki",
+        "detail3": "Wieża zegarowa",
+        "detail4": "Obiad",
+        "detail5": "Twierdza Owecz (Ovech)"
+      },
+      "variant2": {
+        "title": "Piesza wycieczka",
+        "detail1": "Twierdza Owecz (Ovech)",
+        "detail2": "Skalny klasztor Szaszkanite (Shashkanite) ",
+        "detail3": "Trackie sanktuarium",
+        "detail4": "Obiad"
+      },
+      "variant3": {
+        "title": "Wycieczka łączona: piesza + autokarowa/własny transport",
+        "detail1": "Muzeum Historyczne w Prowadii (Provadia)",
+        "detail2": "Prowadia-Solnica (Provadia-Solnitsa) ",
+        "detail3": "Obiad",
+        "detail4": "Wodospad Sowa (Sovata) - wycieczka piesza ok.30 min. z centrum wsi Nenowo (Nenovo)"
+      }
+    }
+  },
+
+  "twoDayPackages": {
+    "dalgopol": {
+      "day1": {
+        "tourTitle": "",
+        "details": {
+          "detail1": "Średniowieczny klasztor skalny - wieś Rojak (Royak)",
+          "detail2": "Twierdza Owczaga (Ovchaga)",
+          "detail3": "Obiad w miejscowej restauracji, placówce gastronomicznej itp.",
+          "detail4": "Wodospad Kuza Skoka koło wsi Poljacite (Polyatsite)",
+          "detail5": "Rejon Manastira",
+          "detail6": "Okolice Bedżinata (Bejinata) i Topałowa Wodenica (Topalova vodenitsa)"
+        },
+        "night": "Nocleg. We wsi Asparuchowo (Asparuhovo) powstały liczne pensjonaty, rodzinne obiekty noclegowe, hotele, które oferują doskonałe możliwości do wypoczynku i turystyki. Wieś Debelec (Debelets) oferuje zakwaterowanie w pokojach i domach gościnnych. Rodzinne hotele-restauracje znajdują się również we wsiach Arkowna (Arkovna) i Partizani."
+      },
+      "day2": {
+        "tourTitle": "",
+        "details": {
+          "detail1": "Pływanie łódką po zalewie Conewo (Tsonevo) ",
+          "detail2": "Turystyka wędkarska na zalewach Conewo (Tsonevo) i Ticza (Ticha)",
+          "detail3": "Wspinaczka skałkowa, biegi na orientację",
+          "detail4": "Obiad"
+        },
+        "night": ""
+      }
+    },
+    "dolniChiflik": {
+      "day1": {
+        "tourTitle": "Dolni Cziflik (Dolni Chiflik) i okolica",
+        "details": {
+          "detail1": "Tor kartingowy, Dolni Cziflik (Dolni Chiflik)",
+          "detail2": "Późnoantyczna twierdza Goljamoto Kale (Goljamoto Kale), Dolni Cziflik (Dolni Chiflik)",
+          "detail3": "Spacer po centrum Dolnego Cziflika (Dolni Chiflik) I zwiedzanie: Pomnik Georgi Trajkowa (Georgi Traykov) Pomnik Iwana Sokaczewa  (Ivan Sokachev) Świątynia Narodzenia Najświętszej Marii Panny Muzeum Etnograficzne przy MOK „Izgrew”",
+          "detail4": "Obiad w miejscowej restauracji placówce gastronomicznej",
+          "detail5": "Cerkiew Wniebowstąpienia Pańskiego, wieś Pczełnik (Pchelnik)",
+          "detail6": "Twierdza Tracka Erak, wieś Grozdjowo (Grozdyovo)",
+          "detail7": "Państwowe Gospodarstwo Łowieckie „Szerba” (Sherba), Goren Cziflik (Goren Cziflik)",
+          "detail8": "Wodospad Orłow Kamyk (Orlov Kamak), wieś Goren Cziflik (Goren Chiflik)",
+          "detail9": "Źródło Płonącej Wody – Botevo, Dolni Cziflik (Dolni Chiflik)"
+        },
+        "night": "Nocleg"
+      },
+      "day2": {
+        "tourTitle": "Małe wioski wokół Dolnego Cziflika (Dolni Chiflik)",
+        "details": {
+          "detail1": "Późnoantyczna twierdza Burun Gradiszte (Burun Gradishte), wieś Golica",
+          "detail2": "Centrum wsi Golica: Tablica pamiątkowa Wyłczana Wojewody Pomnik Koguta Świątynia św. Dymitra Mirotoczywego",
+          "detail3": "Późnoantyczny i średniowieczny kompleks forteczny Hemskite Porti/Germeto, wieś Golica",
+          "detail4": "Średniowieczny kompleks Niazlarsko Germe - Bulair, wieś Solnik",
+          "detail5": "Wodospad Skoka, wieś Solnik",
+          "detail6": "Obiad",
+          "detail7": "Longoza – dziewicze lasy koło wsi Novo Oryahovo, Staro Oryahovo i Szkorpiłowcy (Shkorpilovtsi) ",
+          "detail8": "Plaża w kurorcie Szkorpiłowcy (Shkorpilovtsi)"
+        },
+        "night": ""
+      }
+    },
+    "provadia": {
+      "day1": {
+        "tourTitle": "Wycieczka piesza",
+        "variant": 1,
+        "details": {
+          "detail1": "Muzeum Historyczne w mieście Prowadia (Provadia)",
+          "detail2": "Prowadia-Solnica (Provadia-Solnitsa)",
+          "detail3": "Obiad w miejscowej restauracji, placówce gastronomicznej",
+          "detail4": "Twierdza Owecz (Ovech)"
+        },
+        "night": "Overnight stay"
+      },
+      "day2": {
+        "tourTitle": "",
+        "variant": 1,
+        "details": {
+          "detail1": "Wycieczka piesza: wieś Petrow Doł (Petrov Dol) – klasztory skalne Gradiszte (Gradishte) i Św. Jerzego (sveti Georgi) – wieś Petrow Doł (Petrov Dol)",
+          "detail2": "Obiad w miejscowej restauracji, placówce gastronomicznej",
+          "detail3": "Muzeum Historyczne w Prowadii (Provadia)",
+          "detail4": "Twierdza Owecz (Ovech)"
+        },
+        "night": ""
+      },
+      "day3": {
+        "tourTitle": "",
+        "variant": 2,
+        "details": {
+          "detail1": "Wystawa etnograficzna w Ośrodku Kultury „Ilia Dobrev – 1899”, wieś Manastir",
+          "detail2": "Wycieczka piesza: Klasztor skalny Jaskinia Kara (Kara Peshtera) i powrót ",
+          "detail3": "Lunch in a local restaurant",
+          "detail4": "Wystawa etnograficzna w Ośrodku Kultury „Vasil Levski – 1901”, wieś Dobrina",
+          "detail5": "Cerkiew św. Teodora – wieś Dobrina "
+        },
+        "night": "Nocleg"
+      },
+      "day4": {
+        "tourTitle": "",
+        "variant": 2,
+        "details": {
+          "detail1": "Twierdza Owecz (Ovech)",
+          "detail2": "Muzeum Historyczne w Prowadii (Provadia)",
+          "detail3": "Obiad w miejscowej restauracji, placówce gastronomicznej",
+          "detail4": "Prowadia-Solnica (Provadia-Solnitsa)",
+          "detail5": "Izba winiarska – wieś Błyskowo (Blaskovo)"
+        },
+        "night": ""
+      }
+    }
+  },
+
+  "threeDayPackages": {
+    "provadia": {
+      "day1": {
+        "details": {
+          "detail1": "Muzeum Historyczne",
+          "detail2": "Miejska Galeria Sztuki i spacer po centralnej części miasta",
+          "detail3": "Miejska Galeria Sztuki i spacer po centralnej części miasta",
+          "detail4": "Prowadia-Solnica (Provadia-Solnitsa)",
+          "detail5": "Twierdza Owecz (Ovech) "
+        },
+        "night": "Nocleg"
+      },
+      "day2": {
+        "details": {
+          "detail1": "Wystawa etnograficzna w Ośrodku Kultury „Ilia Dobrev – 1899”, wieś Manastir",
+          "detail2": "Klasztor skalny Kara Pesztera (Kara Peshtera), czas przejścia w dwie strony ok. 2 godz. 30 min",
+          "detail3": "biad w miejscowej restauracji, placówce gastronomicznej",
+          "detail4": "Wystawa etnograficzna w Ośrodku Kultury „Vasil Levski – 1901”, wieś Dobrina",
+          "detail5": "Cerkiew św. Teodora we wsi Dobrina "
+        },
+        "night": "Nocleg w pokojach gościnnych, wiejskich domach gościnnych - wieś Dobrina"
+      },
+      "day3": {
+        "details": {
+          "detail1": "Wycieczka piesza do Wenczanskiego Kale (Venchansko Kale) / koło wsi Wenczan (Venchan)",
+          "detail2": "Wycieczka piesza do pomnika przyrody Probiti Kamyk (Probiti Kamak) /od stacji kolejowej Wenczan (Venchan) do stacji kolejowej Rawna (Ravna) "
+        }
+      }
+    },
+    "dolniChiflik": {
+      "day1": {
+        "details": {
+          "detail1": "Zwiedzanie centralnej części miasta Dolni Cziflik (Dolni Chiflik): Pomnik GeorgiTrajkowa  (Georgi Traykov) Pomnik Iwana Sokaczewa (Ivan Sokachev) Świątynia Narodzenia Najświętszej Marii Panny Muzeum Etnograficzne przy Ośrodku Kultury „Izgrew”. Prelekcja.",
+          "detail2": "Późnoantyczna twierdza Goljamoto Kale (Golyamoto Kale), Dolni Cziflik (Dolni Chiflik)",
+          "detail3": "Obiad połączony z udziałem turystów w przygotowaniu lokalnych potraw, dań itp.",
+          "detail4": "Państwowe Gospodarstwo Łowieckie „Szerba” (Sherba), Goren Cziflik (Goren Cziflik) - turystyka ekologiczna i poznawcza",
+          "detail5": "Ogród Botaniczny, wieś Grozdjowo (Grozdyovo) ",
+          "detail6": "Twierdza Gradiszte (Gradishte), wieś Grozdjowo (Grozdyovo)",
+          "detail7": "Rzymska Twierdza Panisa, wieś Grozdjowo (Grozdyovo)  "
+        },
+        "night": "Nocleg"
+      },
+      "day2": {
+        "details": {
+          "detail1": "Świątynia św. Michała Archanioła, wieś Wenelin (Venelin)",
+          "detail2": "Cerkiew Wniebowstąpienia Pańskiego, wieś Pczełnik (Pchelnik)",
+          "detail3": "Kompleks Etnograficzny Kriwini (Krivini), wieś Kriwini (Krivini)",
+          "detail4": "Średniowieczny kompleks Niazlarsko Germe – Bulair, wieś Solnik",
+          "detail5": "Wodospad Skoka , wieś Solnik",
+          "detail6": "Obiad w miejscowej restauracji, placówce gastronomicznej",
+          "detail7": "Świątynia Wniebowstąpienia Pańskiego, wieś Bardarevo",
+          "detail8": "Późnoantyczna twierdza Burun Gradiszte (Burun Gradishte), wieś Golica",
+          "detail9": "Zwiedzanie wsi Golica: Tablica pamiątkowa Wyłczana Wojewody Pomnik Koguta Świątynia św. Dymitra Miroczitiwi"
+        },
+        "night": "Nocleg"
+      },
+      "day3": {
+        "details": {
+          "detail1": "Sanktuarium skalne Orta Kaja (Orta Kaya), wieś Bulair",
+          "detail2": "Sanktuarium skalne Jaramaz Kaja (Yaramaz kaya), wieś Bulair",
+          "detail3": "Późnoantyczny i średniowieczny zespół obronny Niazlarsko Germe, wieś Bulair",
+          "detail4": "Obiad",
+          "detail5": "Longoza – dziewicze lasy koło wsi Novo Oryahovo, Staro Oryahovo i Szkorpiłowcy (Shkorpilovtsi)",
+          "detail6": "Starożytna twierdza Szkorpiłowcy (Shkorpilovtsi) połączona ze zwiedzaniem wsi Szkorpiłowcy (Shkorpilovtsi)",
+          "detail7": "Kurort Szkorpiłowcy (Shkorpilovtsi)"
+        }
+      }
+    },
+    "dalgopol": {
+      "day1": {
+        "tourTitle": "Dziedzictwo historyczne",
+        "details": {
+          "detail1": "Muzeum Historyczne w Dyłgopolu (Dalgopol)",
+          "detail2": "Świątynia św. Iwana Rilskiego – Dyłgopol (Dalgopol)",
+          "detail3": "Wieża zegarowa -–Dyłgopol (Dalgopol)",
+          "detail4": "Średniowieczny klasztor św. Atanazego koło wsi Asparuchowo (Asparuhovo)",
+          "detail5": "Renesansowa cerkiew św. Petki Paraskewy – wieś Asparuchowo (Asparuhovo)",
+          "detail6": "Obiad w miejscowej restauracji, placówce gastronomicznej itp.",
+          "detail7": "Pomnik przyrody Cudowne Skały (Chudnite Skali)",
+          "detail8": "Wizyta w izbie winiarskiej i inne rozrywki"
+        },
+        "night": "Nocleg"
+      },
+      "day2": {
+        "tourTitle": "Turystyka ekologiczna / Wędrówka ekologiczna",
+        "details": {
+          "detail1": "Obszar chroniony Wodenicite (Vodenitsite)",
+          "detail2": "Pomnik przyrody Kuza Skoka",
+          "detail3": "Twierdza Owczaga (Ovchaga)",
+          "detail4": "Obiad",
+          "detail5": "Skalny klasztor -wieś Rojak (Royak)",
+          "detail6": "Pływanie łódką/wspinaczka skałkowa/jazda na rowerze"
+        },
+        "night": "Nocleg"
+      },
+      "day3": {
+        "tourTitle": "Rozrywka: wędkarstwo, wypoczynek, plażowanie",
+        "details": {
+          "detail1": "Wizyta w pracowni garncarskiej – jedynej zachowanej w regionie",
+          "detail2": "Zwiedzanie wystawy etnograficznej w miejscowym ośrodku kultury „Dobri Nedev – 1894” - wieś Asparuchowo (Asparuhowo)",
+          "detail3": "Wizyta w renesansowej cerkwi św. Petki Paraskewy - wieś Asparuchowo (Asparuhovo)",
+          "detail4": "Muzeum Historyczne w Dyłgopolu (Dalgopol) "
+        }
+      }
     }
   }
+}
