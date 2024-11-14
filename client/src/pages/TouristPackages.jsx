@@ -404,13 +404,13 @@ const TouristPackages = () => {
     return (
         <div className="w-full flex flex-col mt-28 md:mt-48 px-4 md:px-0 ">
             <div className="w-full md:w-2/3 flex flex-col md:flex-row mx-auto justify-center gap-10 md:gap-20 items-center ">
-                <h1 className="font-body text-3xl md:text-5xl uppercase font-bold text-secondary text-center md:text-left md:hidden">{t('touristPackages')}</h1>
-                <div className="w-2/3 md:hidden">
+                <h1 className="font-body text-4xl md:text-5xl uppercase font-bold text-secondary text-center md:text-left md:hidden">{t('touristPackages')}</h1>
+                <div className="w-[80%] md:hidden">
                     <img className="w-full" src={touristPackagesHero} alt="Hero Image" />
                 </div>
-                <div className="w-full text-center md:text-left md:w-1/3">
+                <div className="w-[80%] md:text-left md:w-1/3">
                     <h1 className="font-body text-3xl md:text-5xl uppercase font-bold text-secondary hidden md:block text-center md:text-left">{t('touristPackages')}</h1>
-                    <p className="font-body text-sm md:mt-5">{t("packagesDesc")}</p>
+                    <p className="font-body text-justify text-sm md:mt-5">{t("packagesDesc")}</p>
 
                 </div>
                 <div className="w-1/3 hidden md:block">
@@ -428,7 +428,7 @@ const TouristPackages = () => {
                             <img
                                 src={site.logo}
                                 alt="SiteLogo"
-                                className={`object-cover w-full h-full my-4 hover:opacity-70 cursor-pointer transition-all duration-500 ${selectedStation === site.key ? "w-80" : selectedStation ? "w-40 opacity-50" : "w-80"}`}
+                                className={`object-cover rounded-md w-full h-full my-4 hover:opacity-70 cursor-pointer transition-all duration-500 ${selectedStation === site.key ? "w-80" : selectedStation ? "w-40 opacity-50" : "w-80"}`}
                             />
                             <h2 className={`absolute bottom-5 left-0 right-0 text-center font-heading uppercase font-bold text-white transition-all duration-500 ${selectedStation === site.key ? 'text-3xl' : 'text-xl'}`}>
                                 {t(site.key)}

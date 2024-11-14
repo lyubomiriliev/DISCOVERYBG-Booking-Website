@@ -74,7 +74,7 @@ const SiteDetails = () => {
                 <div className="flex flex-nowrap space-x-4 md:space-x-10">
                     {photos.map((photo, index) => (
                         <div key={index} className="w-72 flex-shrink-0 cursor-pointer" onClick={() => handleOpenGallery(index)}>
-                            <img src={photo} alt={`Photo ${index + 1}`} className="w-full h-48 object-cover md:hover:scale-110 duration-300 ease-out" />
+                            <img src={photo} alt={`Photo ${index + 1}`} className="w-full h-48 rounded-md object-cover md:hover:scale-110 duration-300 ease-out" />
                         </div>
                     ))}
                 </div>
@@ -88,21 +88,21 @@ const SiteDetails = () => {
                 <div className="w-[1px] h-6 bg-black mt-1"></div>
                 <a href={placeData.airbnbLink} target="_blank" rel="noopener noreferrer" className="font-body text-sm md:text-base uppercase font-light">Airbnb</a>
             </div>
-            <div className="w-full md:w-2/4 flex flex-col px-10 md:px-0 mt-16">
+            <div className="w-full md:w-2/4 flex flex-col px-6 md:px-0 mt-16">
                 <div className="flex items-center">
                     <LuClipboardList className="w-8 h-8 mr-2 text-primary" />
                     <h3 className="text-3xl font-body uppercase font-bold text-primary">{t('siteDetails.placeDescription')}</h3>
                 </div>
                 <p className="font-body text-sm md:text-base text-left mt-5">{placeData.description[i18n.language]}</p>
             </div>
-            <div className="w-full md:w-2/4 flex flex-col px-10 md:px-0 mt-16">
+            <div className="w-full md:w-2/4 flex flex-col px-6 md:px-0 mt-16">
                 <div className="flex items-center">
                     <TbArrowGuide className="w-8 h-8 mr-2 font-bold text-primary" />
                     <h3 className="text-3xl font-body uppercase font-bold text-primary">{t('siteDetails.access')}</h3>
                 </div>
                 <p className="font-body text-sm md:text-base text-left mt-5">{placeData.access[i18n.language]}</p>
             </div>
-            <div className="w-full md:w-2/4  flex flex-col px-10 md:px-0 mt-16">
+            <div className="w-full md:w-2/4  flex flex-col px-6 md:px-0 mt-16">
                 <div className="flex items-center">
                     <IoMdTime className="w-8 h-8 mr-2 font-bold text-primary" />
                     <h3 className="text-3xl font-body uppercase font-bold text-primary">{t('siteDetails.workTime')}</h3>

@@ -19,12 +19,12 @@ const TouristSites = () => {
 
         <div className="w-full flex flex-col justify-center items-center -mt-6 md:mt-48 ">
             <h1 className="font-body text-primary text-2xl md:text-3xl font-bold uppercase mb-5">{t('touristSites')}</h1>
-            <div className='flex flex-col md:flex-row w-2/3 justify-center mb-5'>
+            <div className='flex flex-col md:flex-row w-full lg:w-2/3 justify-center mb-5'>
                 {sitesWithLogos.map((site) => (
                     <Link key={site.key} to={`/location/${site.key}`}>
-                        <div className='flex flex-col md:space-x-20 items-center relative'>
+                        <div className='w-full flex flex-col md:space-x-20 items-center relative px-4 lg:px-0'>
                             <h2 className="font-heading uppercase font-bold text-2xl absolute md:right-3 mx-auto bottom-5 text-white drop-shadow-lg z-10">{touristSites[site.key].name[i18n.language]}</h2>
-                            <img src={site.logo} alt={`${touristSites[site.key].name[i18n.language]} Logo`} className="w-80 object-fit my-4 hover:opacity-70" />
+                            <img src={site.logo} alt={`${touristSites[site.key].name[i18n.language]} Logo`} className="w-full lg:w-80 object-fit my-4 hover:opacity-70 rounded-md" />
                         </div>
                     </Link>
                 ))}
