@@ -70,8 +70,8 @@ const SiteDetails = () => {
         <div className="w-full flex flex-col mt-28 md:mt-44 items-center relative">
             <Breadcrumbs />
             <h1 className="font-body text-center text-2xl md:text-3xl uppercase font-bold">{placeData.name[i18n.language]}</h1>
-            <div className="flex w-full md:max-w-screen-xl mt-10 overflow-x-auto hide-scrollbar md:overflow-x-clip px-5 md:px-0">
-                <div className="flex flex-nowrap space-x-4 md:space-x-10">
+            <div className="flex w-full md:max-w-screen-xl justify-center items-center mt-10 overflow-x-auto hide-scrollbar md:overflow-x-clip px-5 md:px-0">
+                <div className="flex flex-nowrap space-x-4 md:space-x-5">
                     {photos.map((photo, index) => (
                         <div key={index} className="w-72 flex-shrink-0 cursor-pointer" onClick={() => handleOpenGallery(index)}>
                             <img src={photo} alt={`Photo ${index + 1}`} className="w-full h-48 rounded-md object-cover md:hover:scale-110 duration-300 ease-out" />

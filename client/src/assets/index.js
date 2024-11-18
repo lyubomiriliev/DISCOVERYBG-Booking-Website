@@ -61,6 +61,8 @@ import roqk5 from "../assets/roqk5.jpg";
 import vodopad1 from "../assets/vodopad1.jpg";
 import vodopad2 from "../assets/vodopad2.jpg";
 import curkvaDulgopol1 from "../assets/curkvaDulgopol1.jpg";
+import curkvaDulgopol2 from "../assets/curkvaDulgopol2.jpg";
+import curkvaDulgopol3 from "../assets/curkvaDulgopol3.jpg";
 import antichna1 from "../assets/antichna1.jpg";
 import antichna2 from "../assets/antichna2.jpg";
 import golca1 from "../assets/golca1.jpg";
@@ -79,6 +81,7 @@ import qrmaz4 from "../assets/qrmaz4.jpg";
 import hram1 from "../assets/hram1.jpg";
 import hram2 from "../assets/hram2.jpg";
 import hram3 from "../assets/hram3.jpg";
+import hram4 from "../assets/hram4.jpg";
 import orlov1 from "../assets/orlov1.jpg";
 import orlov2 from "../assets/orlov2.jpg";
 import orlov3 from "../assets/orlov3.jpg";
@@ -238,6 +241,8 @@ export {
   vodopad1,
   vodopad2,
   curkvaDulgopol1,
+  curkvaDulgopol2,
+  curkvaDulgopol3,
   antichna1,
   antichna2,
   golca1,
@@ -256,6 +261,7 @@ export {
   hram1,
   hram2,
   hram3,
+  hram4,
   orlov1,
   orlov2,
   orlov3,
