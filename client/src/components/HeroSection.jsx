@@ -14,9 +14,9 @@ const HeroSection = () => {
           {t("homeSubTitle")}
         </h3>
       </div>
-      <div className="w-full h-56 lg:h-[600px] mt-10 relative flex justify-center items-center select-none">
+      <div className="w-full h-56 lg:h-[600px] relative flex justify-center items-center select-none">
         <img
-          className="w-3/4 md:w-[42%] lg:w-2/5 object-cover absolute -bottom-14 lg:-bottom-16"
+          className="w-3/4 md:w-[42%] lg:w-[45%] object-cover absolute -bottom-14 lg:-bottom-16"
           src={heroImg}
           alt="TouristsImage"
         />
